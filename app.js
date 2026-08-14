@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     maxStreak: 0,              // High score for consecutive correct answers
     examHistory: [],           // Array of exam results: { date, count, duration, correct, score }
     currentTheme: 'dark',      // 'dark' or 'light'
+    studyPosition: { set: 'all', index: 0 }, // Last question viewed in Study mode
   };
 
   // Load state from localStorage if exists
@@ -33,11 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
         state.maxStreak = parsed.maxStreak || 0;
         state.examHistory = parsed.examHistory || [];
         state.currentTheme = parsed.currentTheme || 'dark';
+        state.studyPosition = parsed.studyPosition || { set: 'all', index: 0 };
       } catch (e) {
         console.error('Failed to parse saved state, initializing fresh state', e);
       }
     }
-    
+
     // Ensure basic structure exists
     if (!state.userProgress.all) state.userProgress.all = [];
     for (let i = 1; i <= 6; i++) {
@@ -54,9 +56,41 @@ document.addEventListener('DOMContentLoaded', () => {
       streak: state.streak,
       maxStreak: state.maxStreak,
       examHistory: state.examHistory,
-      currentTheme: state.currentTheme
+      currentTheme: state.currentTheme,
+      studyPosition: state.studyPosition
     }));
     updateBadges();
+  }
+
+  // ==========================================
+  // EXAM SESSION PERSISTENCE (separate key: has its own timer lifecycle)
+  // ==========================================
+  const EXAM_SESSION_KEY = 'mln111_exam_session';
+
+  function saveExamSession() {
+    if (!examState.examQuestions.length) return;
+    localStorage.setItem(EXAM_SESSION_KEY, JSON.stringify({
+      examQuestions: examState.examQuestions,
+      userAnswers: examState.userAnswers,
+      flagged: examState.flagged,
+      currentIndex: examState.currentIndex,
+      timeLeft: examState.timeLeft,
+      totalTime: examState.totalTime,
+      savedAt: Date.now()
+    }));
+  }
+
+  function clearExamSession() {
+    localStorage.removeItem(EXAM_SESSION_KEY);
+  }
+
+  function loadExamSession() {
+    try {
+      const raw = localStorage.getItem(EXAM_SESSION_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) {
+      return null;
+    }
   }
 
   // ==========================================
@@ -461,9 +495,15 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   function initStudy() {
+    // Restore last viewed set/question from saved state
+    studyState.currentSet = state.studyPosition.set;
+    studyState.currentIndex = state.studyPosition.index;
+    UI.studySetSelect.value = studyState.currentSet;
+
     UI.studySetSelect.addEventListener('change', (e) => {
       studyState.currentSet = e.target.value;
-      reloadStudySet();
+      reloadStudySet(true);
+      persistStudyPosition();
     });
 
     UI.btnModeQuiz.addEventListener('click', () => {
@@ -491,11 +531,19 @@ document.addEventListener('DOMContentLoaded', () => {
     UI.btnStudyShowAnswer.addEventListener('click', revealStudyAnswer);
   }
 
-  function reloadStudySet() {
+  // Persist the current study set/question so a page reload resumes here
+  function persistStudyPosition() {
+    state.studyPosition = { set: studyState.currentSet, index: studyState.currentIndex };
+    saveState();
+  }
+
+  function reloadStudySet(resetIndex = false) {
     studyState.questions = getQuestionsForSet(studyState.currentSet);
-    studyState.currentIndex = 0;
+    if (resetIndex || studyState.currentIndex < 0 || studyState.currentIndex >= studyState.questions.length) {
+      studyState.currentIndex = 0;
+    }
     studyState.answersRevealed = false;
-    
+
     if (studyState.questions.length === 0) {
       UI.studyQuestionBox.innerHTML = `
         <div class="card text-center py-5">
@@ -536,7 +584,8 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast(`Đã xóa tiến trình của ${setName.toUpperCase()}!`, 'success');
     }
     saveState();
-    reloadStudySet();
+    reloadStudySet(true);
+    persistStudyPosition();
   }
 
   function renderStudyQuestion() {
@@ -751,6 +800,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (studyState.currentIndex > 0) {
       studyState.currentIndex--;
       renderStudyQuestion();
+      persistStudyPosition();
     }
   }
 
@@ -758,6 +808,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (studyState.currentIndex < studyState.questions.length - 1) {
       studyState.currentIndex++;
       renderStudyQuestion();
+      persistStudyPosition();
     } else {
       showToast('Bạn đã hoàn thành câu hỏi cuối cùng của bộ này!', 'success');
     }
@@ -832,6 +883,41 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast(`Đã thêm ${added} câu hỏi làm sai vào Hộp câu sai!`, 'success');
       switchSection('review-section');
     });
+
+    // Resume an in-progress exam if the page was reloaded mid-exam
+    resumeExamSessionIfAny();
+  }
+
+  function resumeExamSessionIfAny() {
+    const saved = loadExamSession();
+    if (!saved || !saved.examQuestions || !saved.examQuestions.length) return;
+
+    const elapsedSecs = Math.floor((Date.now() - (saved.savedAt || Date.now())) / 1000);
+    const remaining = Math.max(0, (saved.timeLeft || 0) - elapsedSecs);
+
+    examState.examQuestions = saved.examQuestions;
+    examState.userAnswers = saved.userAnswers || {};
+    examState.flagged = saved.flagged || [];
+    examState.currentIndex = Math.min(Math.max(saved.currentIndex || 0, 0), examState.examQuestions.length - 1);
+    examState.totalTime = saved.totalTime || 0;
+    examState.timeLeft = remaining;
+
+    UI.examSetupContainer.style.display = 'none';
+    UI.examActiveContainer.style.display = 'grid';
+    UI.examResultContainer.style.display = 'none';
+
+    UI.examTotalCount.textContent = examState.examQuestions.length;
+
+    renderExamGrid();
+    renderExamQuestion();
+
+    if (remaining > 0) {
+      startTimer();
+      showToast('Đã khôi phục bài thi đang làm dở!', 'info');
+    } else {
+      showToast('Hết giờ làm bài trong lúc bạn vắng mặt! Hệ thống tự động nộp đề.', 'warning');
+      finishExam();
+    }
   }
 
   function startExamFlow() {
@@ -864,6 +950,7 @@ document.addEventListener('DOMContentLoaded', () => {
     renderExamGrid();
     renderExamQuestion();
     startTimer();
+    saveExamSession();
   }
 
   function renderExamGrid() {
@@ -873,10 +960,11 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.className = 'grid-btn';
       btn.textContent = idx + 1;
       btn.id = `exam-grid-btn-${idx}`;
-      
+
       btn.addEventListener('click', () => {
         examState.currentIndex = idx;
         renderExamQuestion();
+        saveExamSession();
       });
       UI.examGridContainer.appendChild(btn);
     });
@@ -966,12 +1054,13 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', () => {
           const letter = btn.getAttribute('data-letter');
           examState.userAnswers[examState.currentIndex] = letter;
-          
+
           // Visual selection toggle
           optBtns.forEach(b => b.classList.remove('correct'));
           btn.classList.add('correct');
-          
+
           updateExamGridStyles();
+          saveExamSession();
         });
       });
     } else {
@@ -979,6 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
       input.addEventListener('input', (e) => {
         examState.userAnswers[examState.currentIndex] = e.target.value;
         updateExamGridStyles();
+        saveExamSession();
       });
     }
 
@@ -990,6 +1080,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (examState.currentIndex > 0) {
       examState.currentIndex--;
       renderExamQuestion();
+      saveExamSession();
     }
   }
 
@@ -997,6 +1088,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (examState.currentIndex < examState.examQuestions.length - 1) {
       examState.currentIndex++;
       renderExamQuestion();
+      saveExamSession();
     }
   }
 
@@ -1008,17 +1100,19 @@ document.addEventListener('DOMContentLoaded', () => {
       examState.flagged.push(examState.currentIndex);
     }
     renderExamQuestion(); // updates button UI
+    saveExamSession();
   }
 
   // Timer Functions
   function startTimer() {
     if (examState.timerInterval) clearInterval(examState.timerInterval);
-    
+
     updateTimerUI();
-    
+
     examState.timerInterval = setInterval(() => {
       examState.timeLeft--;
       updateTimerUI();
+      if (examState.timeLeft % 10 === 0) saveExamSession();
 
       if (examState.timeLeft <= 0) {
         clearInterval(examState.timerInterval);
@@ -1050,7 +1144,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function finishExam() {
     clearInterval(examState.timerInterval);
-    
+    clearExamSession();
+
     // Evaluate answers
     let correct = 0;
     let incorrect = 0;
