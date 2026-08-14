@@ -225,6 +225,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (theme === 'light') {
       document.body.setAttribute('data-theme', 'light');
       UI.themeToggle.innerHTML = '<i class="fa-solid fa-sun text-warning"></i>';
+    } else if (theme === 'pink') {
+      document.body.setAttribute('data-theme', 'pink');
+      UI.themeToggle.innerHTML = '<i class="fa-solid fa-heart" style="color:#f472b6"></i>';
     } else {
       document.body.removeAttribute('data-theme');
       UI.themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
@@ -232,8 +235,10 @@ document.addEventListener('DOMContentLoaded', () => {
     state.currentTheme = theme;
   }
 
+  const THEME_CYCLE = ['dark', 'light', 'pink'];
   UI.themeToggle.addEventListener('click', () => {
-    const nextTheme = state.currentTheme === 'dark' ? 'light' : 'dark';
+    const currentIndex = THEME_CYCLE.indexOf(state.currentTheme);
+    const nextTheme = THEME_CYCLE[(currentIndex + 1) % THEME_CYCLE.length];
     applyTheme(nextTheme);
     saveState();
   });
