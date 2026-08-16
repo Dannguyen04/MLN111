@@ -196,6 +196,41 @@
             </div>
           </div>
 
+          <!-- Daily Quiz & Achievements Row -->
+          <div class="dashboard-layouts">
+            <!-- Daily Quiz Card -->
+            <div class="card daily-quiz-card">
+              <h3 class="card-title"><i class="fa-solid fa-calendar-day"></i> Ôn tập hôm nay</h3>
+              <div class="daily-quiz-body">
+                <div class="daily-quiz-info">
+                  <p id="daily-quiz-status-text">Sẵn sàng cho 10 câu hỏi hôm nay!</p>
+                  <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="daily-quiz-progress-bar" style="width: 0%"></div>
+                  </div>
+                  <span class="daily-quiz-progress-count" id="daily-quiz-progress-count">0/10 câu</span>
+                </div>
+                <div class="daily-quiz-streak">
+                  <i class="fa-solid fa-fire text-error"></i>
+                  <div>
+                    <strong id="daily-quiz-streak-count">0</strong>
+                    <span>ngày liên tục</span>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-full" id="btn-start-daily-quiz">
+                <i class="fa-solid fa-play"></i> Bắt đầu ôn tập hôm nay
+              </button>
+            </div>
+
+            <!-- Achievements Card -->
+            <div class="card achievements-card">
+              <h3 class="card-title"><i class="fa-solid fa-trophy"></i> Huy hiệu thành tích</h3>
+              <div class="achievements-grid" id="achievements-container">
+                <!-- Will be populated dynamically by JS -->
+              </div>
+            </div>
+          </div>
+
           <!-- Recent Exams Card -->
           <div class="card recent-exams-card">
             <h3 class="card-title"><i class="fa-solid fa-clock-rotate-left"></i> Lịch sử thi thử gần đây</h3>
@@ -242,6 +277,7 @@
               <div class="toggle-buttons">
                 <button class="toggle-btn active" id="btn-mode-quiz" title="Trắc nghiệm ẩn đáp án">Trắc nghiệm</button>
                 <button class="toggle-btn" id="btn-mode-flashcard" title="Xem ngay đáp án & giải thích">Xem trước đáp án</button>
+                <button class="toggle-btn" id="btn-mode-recall" title="Tự nhớ trước khi lật thẻ xem đáp án">Ghi nhớ chủ động</button>
               </div>
             </div>
 
@@ -250,6 +286,35 @@
                 <i class="fa-solid fa-trash-can"></i> Xóa tiến trình bộ này
               </button>
             </div>
+          </div>
+
+          <div class="section-controls card">
+            <div class="control-group">
+              <label for="study-chunksize-select"><i class="fa-solid fa-layer-group"></i> Học theo chặng nhỏ:</label>
+              <select id="study-chunksize-select" class="form-select">
+                <option value="0">Tất cả một lần</option>
+                <option value="10">10 câu/chặng</option>
+                <option value="20">20 câu/chặng</option>
+                <option value="50">50 câu/chặng</option>
+              </select>
+            </div>
+            <div class="control-group">
+              <label class="checkbox-label">
+                <input type="checkbox" id="study-prioritize-weak">
+                <span>Ưu tiên câu chưa thuộc</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Chunk Pager (shown when chunking is enabled) -->
+          <div class="chunk-pager" id="study-chunk-pager" style="display: none;">
+            <button class="btn btn-outline btn-sm" id="btn-chunk-prev">
+              <i class="fa-solid fa-angles-left"></i> Chặng trước
+            </button>
+            <span id="study-chunk-label">Chặng 1/1</span>
+            <button class="btn btn-outline btn-sm" id="btn-chunk-next">
+              Chặng sau <i class="fa-solid fa-angles-right"></i>
+            </button>
           </div>
 
           <!-- Study Navigation Info -->

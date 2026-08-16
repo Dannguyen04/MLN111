@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
     examHistory: [],           // Array of exam results: { date, count, duration, correct, score }
     currentTheme: 'dark',      // 'dark' or 'light'
     studyPosition: { set: 'all', index: 0 }, // Last question viewed in Study mode
+    dailyQuiz: { date: null, ids: [], completed: [] }, // Today's daily practice set
+    dailyStreak: 0,             // Consecutive days the daily quiz was completed
+    lastDailyStreakDate: null,  // Date string of the last day counted toward the streak
+    achievements: [],           // Array of unlocked achievement ids
   };
 
   // Load state from localStorage if exists
@@ -35,6 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         state.examHistory = parsed.examHistory || [];
         state.currentTheme = parsed.currentTheme || 'dark';
         state.studyPosition = parsed.studyPosition || { set: 'all', index: 0 };
+        state.dailyQuiz = parsed.dailyQuiz || { date: null, ids: [], completed: [] };
+        state.dailyStreak = parsed.dailyStreak || 0;
+        state.lastDailyStreakDate = parsed.lastDailyStreakDate || null;
+        state.achievements = parsed.achievements || [];
       } catch (e) {
         console.error('Failed to parse saved state, initializing fresh state', e);
       }
@@ -47,8 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Save current state to localStorage
-  function saveState() {
+  // Persist state to localStorage without triggering achievement checks (avoids recursion)
+  function persistState() {
     localStorage.setItem('mln111_state', JSON.stringify({
       userProgress: state.userProgress,
       starredQuestions: state.starredQuestions,
@@ -57,8 +65,18 @@ document.addEventListener('DOMContentLoaded', () => {
       maxStreak: state.maxStreak,
       examHistory: state.examHistory,
       currentTheme: state.currentTheme,
-      studyPosition: state.studyPosition
+      studyPosition: state.studyPosition,
+      dailyQuiz: state.dailyQuiz,
+      dailyStreak: state.dailyStreak,
+      lastDailyStreakDate: state.lastDailyStreakDate,
+      achievements: state.achievements
     }));
+  }
+
+  // Save current state to localStorage
+  function saveState() {
+    persistState();
+    checkAchievements();
     updateBadges();
   }
 
@@ -129,11 +147,28 @@ document.addEventListener('DOMContentLoaded', () => {
     quickExam40: document.getElementById('quick-exam-40'),
     quickReviewErrors: document.getElementById('quick-review-errors'),
 
+    // Daily Quiz UI
+    dailyQuizStatusText: document.getElementById('daily-quiz-status-text'),
+    dailyQuizProgressBar: document.getElementById('daily-quiz-progress-bar'),
+    dailyQuizProgressCount: document.getElementById('daily-quiz-progress-count'),
+    dailyQuizStreakCount: document.getElementById('daily-quiz-streak-count'),
+    btnStartDailyQuiz: document.getElementById('btn-start-daily-quiz'),
+
+    // Achievements UI
+    achievementsContainer: document.getElementById('achievements-container'),
+
     // Study UI
     studySetSelect: document.getElementById('study-set-select'),
     btnModeQuiz: document.getElementById('btn-mode-quiz'),
     btnModeFlashcard: document.getElementById('btn-mode-flashcard'),
+    btnModeRecall: document.getElementById('btn-mode-recall'),
     btnStudyResetProgress: document.getElementById('btn-study-reset-progress'),
+    studyChunksizeSelect: document.getElementById('study-chunksize-select'),
+    studyPrioritizeWeak: document.getElementById('study-prioritize-weak'),
+    studyChunkPager: document.getElementById('study-chunk-pager'),
+    studyChunkLabel: document.getElementById('study-chunk-label'),
+    btnChunkPrev: document.getElementById('btn-chunk-prev'),
+    btnChunkNext: document.getElementById('btn-chunk-next'),
     studyProgressFill: document.getElementById('study-progress-fill'),
     studyCurrentIndex: document.getElementById('study-current-index'),
     studyProgressPctTxt: document.getElementById('study-progress-pct-txt'),
@@ -201,12 +236,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const response = await fetch('questions.json');
       state.questions = await response.json();
       console.log(`Loaded ${state.questions.length} questions successfully.`);
-      
+
+      ensureDailyQuiz();
       initDashboard();
       initStudy();
       initExam();
       initReview();
       initSearch();
+      checkAchievements();
       updateBadges();
       
       showToast('Tải cơ sở dữ liệu học tập thành công!', 'success');
@@ -334,6 +371,16 @@ document.addEventListener('DOMContentLoaded', () => {
     return state.userProgress.all ? state.userProgress.all.length : 0;
   }
 
+  // Set 1-6 ID range mapping (shared by set filtering & achievement checks)
+  const SET_LIMITS = {
+    'set-1': { start: 1, end: 100 },
+    'set-2': { start: 101, end: 200 },
+    'set-3': { start: 201, end: 300 },
+    'set-4': { start: 301, end: 400 },
+    'set-5': { start: 401, end: 500 },
+    'set-6': { start: 501, end: 547 }
+  };
+
   // Helper to check if a question is in the study set
   function getQuestionsForSet(setName) {
     if (!state.questions.length) return [];
@@ -341,22 +388,160 @@ document.addEventListener('DOMContentLoaded', () => {
     if (setName === 'starred') {
       return state.questions.filter(q => state.starredQuestions.includes(q.id));
     }
-    
-    // Set 1-6 mapping
-    const limits = {
-      'set-1': { start: 1, end: 100 },
-      'set-2': { start: 101, end: 200 },
-      'set-3': { start: 201, end: 300 },
-      'set-4': { start: 301, end: 400 },
-      'set-5': { start: 401, end: 500 },
-      'set-6': { start: 501, end: 547 }
-    };
-    
-    const limit = limits[setName];
+    if (setName === 'daily') {
+      return state.dailyQuiz.ids
+        .map(id => state.questions.find(q => q.id === id))
+        .filter(Boolean);
+    }
+
+    const limit = SET_LIMITS[setName];
     if (limit) {
       return state.questions.slice(limit.start - 1, limit.end);
     }
     return [];
+  }
+
+  // ==========================================
+  // 3.5 DAILY QUIZ MODULE LOGIC
+  // ==========================================
+
+  function getDateStrOffset(offsetDays) {
+    const d = new Date();
+    d.setDate(d.getDate() + offsetDays);
+    return `${d.getFullYear()}-${(d.getMonth() + 1).toString().padStart(2, '0')}-${d.getDate().toString().padStart(2, '0')}`;
+  }
+
+  function getTodayStr() {
+    return getDateStrOffset(0);
+  }
+
+  // Picks 10 questions for today: wrong answers first, then unlearned, then a few learned ones
+  function generateDailyQuizIds() {
+    const shuffle = arr => [...arr].sort(() => 0.5 - Math.random());
+    const learnedSet = new Set(state.userProgress.all);
+    const incorrectSet = new Set(state.incorrectQuestions);
+
+    const weak = state.questions.filter(q => incorrectSet.has(q.id)).map(q => q.id);
+    const unlearned = state.questions.filter(q => !learnedSet.has(q.id) && !incorrectSet.has(q.id)).map(q => q.id);
+    const learned = state.questions.filter(q => learnedSet.has(q.id) && !incorrectSet.has(q.id)).map(q => q.id);
+
+    const combined = [...shuffle(weak), ...shuffle(unlearned), ...shuffle(learned)];
+    return combined.slice(0, 10);
+  }
+
+  // Regenerates today's daily quiz set if it hasn't been created yet
+  function ensureDailyQuiz() {
+    const today = getTodayStr();
+    if (!state.dailyQuiz || state.dailyQuiz.date !== today) {
+      state.dailyQuiz = { date: today, ids: generateDailyQuizIds(), completed: [] };
+      saveState();
+    }
+  }
+
+  // Marks a question as "practiced today" if it belongs to the daily set
+  function registerDailyProgress(qId) {
+    if (!state.dailyQuiz || !state.dailyQuiz.ids.includes(qId)) return;
+    if (!state.dailyQuiz.completed.includes(qId)) {
+      state.dailyQuiz.completed.push(qId);
+      if (state.dailyQuiz.completed.length >= state.dailyQuiz.ids.length) {
+        finalizeDailyStreak();
+      }
+    }
+  }
+
+  function finalizeDailyStreak() {
+    const today = getTodayStr();
+    if (state.lastDailyStreakDate === today) return; // already counted today
+
+    const yesterday = getDateStrOffset(-1);
+    state.dailyStreak = (state.lastDailyStreakDate === yesterday) ? state.dailyStreak + 1 : 1;
+    state.lastDailyStreakDate = today;
+    showToast(`Hoàn thành ôn tập hôm nay! Chuỗi ngày liên tục: ${state.dailyStreak}`, 'success');
+  }
+
+  function renderDailyQuizCard() {
+    if (!UI.dailyQuizProgressBar) return;
+    const total = state.dailyQuiz.ids.length || 10;
+    const done = state.dailyQuiz.completed.length;
+    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+
+    UI.dailyQuizProgressBar.style.width = `${pct}%`;
+    UI.dailyQuizProgressCount.textContent = `${done}/${total} câu`;
+    UI.dailyQuizStreakCount.textContent = state.dailyStreak;
+
+    if (done >= total) {
+      UI.dailyQuizStatusText.textContent = 'Bạn đã hoàn thành ôn tập hôm nay. Hẹn gặp lại ngày mai!';
+      UI.btnStartDailyQuiz.innerHTML = '<i class="fa-solid fa-rotate"></i> Ôn lại bộ hôm nay';
+    } else if (done > 0) {
+      UI.dailyQuizStatusText.textContent = 'Đang dở! Tiếp tục hoàn thành bộ câu hỏi hôm nay.';
+      UI.btnStartDailyQuiz.innerHTML = '<i class="fa-solid fa-play"></i> Tiếp tục ôn tập';
+    } else {
+      UI.dailyQuizStatusText.textContent = 'Sẵn sàng cho 10 câu hỏi hôm nay!';
+      UI.btnStartDailyQuiz.innerHTML = '<i class="fa-solid fa-play"></i> Bắt đầu ôn tập hôm nay';
+    }
+  }
+
+  // ==========================================
+  // 3.6 ACHIEVEMENTS (BADGES) MODULE LOGIC
+  // ==========================================
+
+  const ACHIEVEMENT_DEFS = [
+    { id: 'first_steps', icon: 'fa-shoe-prints', title: 'Những bước đầu tiên', desc: 'Học thuộc 10 câu hỏi', check: () => getOverallLearnedCount() >= 10 },
+    { id: 'century', icon: 'fa-star-half-stroke', title: 'Cột mốc trăm câu', desc: 'Học thuộc 100 câu hỏi', check: () => getOverallLearnedCount() >= 100 },
+    { id: 'halfway', icon: 'fa-flag-checkered', title: 'Nửa chặng đường', desc: 'Học thuộc 250 câu hỏi', check: () => getOverallLearnedCount() >= 250 },
+    { id: 'master', icon: 'fa-crown', title: 'Bậc thầy MLN111', desc: 'Học thuộc toàn bộ 547 câu hỏi', check: () => getOverallLearnedCount() >= 547 },
+    { id: 'sharp_shooter', icon: 'fa-bullseye', title: 'Xạ thủ chính xác', desc: 'Trả lời đúng liên tiếp 10 câu', check: () => state.maxStreak >= 10 },
+    { id: 'unstoppable', icon: 'fa-bolt', title: 'Không thể ngăn cản', desc: 'Trả lời đúng liên tiếp 20 câu', check: () => state.maxStreak >= 20 },
+    { id: 'exam_ace', icon: 'fa-medal', title: 'Thi thử xuất sắc', desc: 'Đạt từ 90% trở lên trong 1 bài thi thử', check: () => state.examHistory.some(h => h.score >= 90) },
+    { id: 'daily_streak_7', icon: 'fa-fire', title: 'Kiên trì 7 ngày', desc: 'Ôn tập hằng ngày liên tục 7 ngày', check: () => state.dailyStreak >= 7 },
+  ];
+  // Per-set completion achievements (Bộ 1-6)
+  Object.keys(SET_LIMITS).forEach((setId, i) => {
+    const limit = SET_LIMITS[setId];
+    const count = limit.end - limit.start + 1;
+    ACHIEVEMENT_DEFS.push({
+      id: `${setId}_master`,
+      icon: 'fa-layer-group',
+      title: `Hoàn thành Bộ ${i + 1}`,
+      desc: `Học thuộc 100% câu hỏi trong Bộ ${i + 1}`,
+      check: () => (state.userProgress[setId] || []).length >= count
+    });
+  });
+
+  // Compares current progress against all achievement definitions and unlocks new ones
+  function checkAchievements() {
+    if (!state.questions.length) return;
+    let unlockedNew = false;
+    ACHIEVEMENT_DEFS.forEach(def => {
+      if (!state.achievements.includes(def.id) && def.check()) {
+        state.achievements.push(def.id);
+        showToast(`Mở khóa huy hiệu: ${def.title}!`, 'success');
+        unlockedNew = true;
+      }
+    });
+    if (unlockedNew) {
+      persistState();
+      renderAchievements();
+    }
+  }
+
+  function renderAchievements() {
+    if (!UI.achievementsContainer) return;
+    UI.achievementsContainer.innerHTML = '';
+    ACHIEVEMENT_DEFS.forEach(def => {
+      const unlocked = state.achievements.includes(def.id);
+      const item = document.createElement('div');
+      item.className = `achievement-item ${unlocked ? 'unlocked' : 'locked'}`;
+      item.title = def.desc;
+      item.innerHTML = `
+        <div class="achievement-icon"><i class="fa-solid ${unlocked ? def.icon : 'fa-lock'}"></i></div>
+        <div class="achievement-info">
+          <h6>${def.title}</h6>
+          <p>${def.desc}</p>
+        </div>
+      `;
+      UI.achievementsContainer.appendChild(item);
+    });
   }
 
   // ==========================================
@@ -365,7 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function initDashboard() {
     renderDashboard();
-    
+
     // Quick action bindings
     UI.quickStudyAll.addEventListener('click', () => {
       UI.studySetSelect.value = 'all';
@@ -379,9 +564,26 @@ document.addEventListener('DOMContentLoaded', () => {
     UI.quickReviewErrors.addEventListener('click', () => {
       switchSection('review-section');
     });
+
+    UI.btnStartDailyQuiz.addEventListener('click', () => {
+      ensureDailyQuiz();
+      goToDailyQuiz();
+    });
+  }
+
+  // Switches the Study screen into today's daily quiz set
+  function goToDailyQuiz() {
+    ensureStudySetOption('daily', 'Ôn tập hôm nay (Daily)');
+    UI.studySetSelect.value = 'daily';
+    studyState.currentSet = 'daily';
+    reloadStudySet(true);
+    persistStudyPosition();
+    switchSection('study-section');
   }
 
   function renderDashboard() {
+    renderDailyQuizCard();
+    renderAchievements();
     const totalQ = 547;
     const learned = getOverallLearnedCount();
     const learnedPct = Math.round((learned / totalQ) * 100);
@@ -493,16 +695,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let studyState = {
     currentSet: 'all',
-    questions: [],
+    questions: [],           // Questions in the currently visible chunk
+    fullSetQuestions: [],    // All questions in the current set (before chunk slicing)
     currentIndex: 0,
-    showMode: 'quiz', // 'quiz' (hide answer) or 'flashcard' (reveal details immediately)
-    answersRevealed: false
+    chunkSize: 0,             // 0 = no chunking (study whole set at once)
+    chunkIndex: 0,
+    prioritizeWeak: false,    // Show not-yet-learned questions first
+    showMode: 'quiz', // 'quiz' (hide answer), 'flashcard' (reveal immediately), or 'recall' (active recall flip)
+    answersRevealed: false,
+    recallFlipped: false      // Whether the current card has been flipped in Active Recall mode
   };
+
+  // Dynamically injects a hidden-by-default <option> into the set selector (used for 'daily')
+  function ensureStudySetOption(value, label) {
+    if (!UI.studySetSelect.querySelector(`option[value="${value}"]`)) {
+      const opt = document.createElement('option');
+      opt.value = value;
+      opt.textContent = label;
+      UI.studySetSelect.insertBefore(opt, UI.studySetSelect.firstChild);
+    }
+  }
 
   function initStudy() {
     // Restore last viewed set/question from saved state
     studyState.currentSet = state.studyPosition.set;
     studyState.currentIndex = state.studyPosition.index;
+    if (studyState.currentSet === 'daily') {
+      ensureStudySetOption('daily', 'Ôn tập hôm nay (Daily)');
+    }
     UI.studySetSelect.value = studyState.currentSet;
 
     UI.studySetSelect.addEventListener('change', (e) => {
@@ -511,19 +731,9 @@ document.addEventListener('DOMContentLoaded', () => {
       persistStudyPosition();
     });
 
-    UI.btnModeQuiz.addEventListener('click', () => {
-      studyState.showMode = 'quiz';
-      UI.btnModeQuiz.classList.add('active');
-      UI.btnModeFlashcard.classList.remove('active');
-      renderStudyQuestion();
-    });
-
-    UI.btnModeFlashcard.addEventListener('click', () => {
-      studyState.showMode = 'flashcard';
-      UI.btnModeFlashcard.classList.add('active');
-      UI.btnModeQuiz.classList.remove('active');
-      renderStudyQuestion();
-    });
+    UI.btnModeQuiz.addEventListener('click', () => setStudyMode('quiz'));
+    UI.btnModeFlashcard.addEventListener('click', () => setStudyMode('flashcard'));
+    UI.btnModeRecall.addEventListener('click', () => setStudyMode('recall'));
 
     UI.btnStudyResetProgress.addEventListener('click', () => {
       if (confirm(`Bạn có chắc chắn muốn xóa tiến trình học tập của bộ [${UI.studySetSelect.options[UI.studySetSelect.selectedIndex].text}] không?`)) {
@@ -531,9 +741,43 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    UI.studyChunksizeSelect.addEventListener('change', (e) => {
+      studyState.chunkSize = parseInt(e.target.value);
+      studyState.chunkIndex = 0;
+      reloadStudySet(true);
+    });
+
+    UI.studyPrioritizeWeak.addEventListener('change', (e) => {
+      studyState.prioritizeWeak = e.target.checked;
+      studyState.chunkIndex = 0;
+      reloadStudySet(true);
+    });
+
+    UI.btnChunkPrev.addEventListener('click', () => {
+      studyState.chunkIndex--;
+      reloadStudySet(true, true);
+    });
+
+    UI.btnChunkNext.addEventListener('click', () => {
+      studyState.chunkIndex++;
+      reloadStudySet(true, true);
+    });
+
     UI.btnStudyPrev.addEventListener('click', studyPrevQuestion);
     UI.btnStudyNext.addEventListener('click', studyNextQuestion);
     UI.btnStudyShowAnswer.addEventListener('click', revealStudyAnswer);
+  }
+
+  function setStudyMode(mode) {
+    studyState.showMode = mode;
+    studyState.recallFlipped = false;
+    UI.btnModeQuiz.classList.toggle('active', mode === 'quiz');
+    UI.btnModeFlashcard.classList.toggle('active', mode === 'flashcard');
+    UI.btnModeRecall.classList.toggle('active', mode === 'recall');
+    UI.btnStudyShowAnswer.innerHTML = mode === 'recall'
+      ? '<i class="fa-solid fa-rotate"></i> Lật thẻ xem đáp án (Space)'
+      : '<i class="fa-solid fa-eye"></i> Hiện đáp án (Space)';
+    renderStudyQuestion();
   }
 
   // Persist the current study set/question so a page reload resumes here
@@ -542,12 +786,37 @@ document.addEventListener('DOMContentLoaded', () => {
     saveState();
   }
 
-  function reloadStudySet(resetIndex = false) {
-    studyState.questions = getQuestionsForSet(studyState.currentSet);
+  function reloadStudySet(resetIndex = false, preserveChunk = false) {
+    let ordered = getQuestionsForSet(studyState.currentSet);
+
+    // Prioritize not-yet-learned questions so weak spots surface first
+    if (studyState.prioritizeWeak && studyState.currentSet !== 'daily') {
+      const learnedSet = new Set(state.userProgress.all);
+      const notLearned = ordered.filter(q => !learnedSet.has(q.id));
+      const learned = ordered.filter(q => learnedSet.has(q.id));
+      ordered = [...notLearned, ...learned];
+    }
+    studyState.fullSetQuestions = ordered;
+
+    // Split into smaller chunks to reduce cognitive load (skip for the small daily set)
+    if (studyState.chunkSize > 0 && studyState.currentSet !== 'daily' && ordered.length > 0) {
+      const totalChunks = Math.max(1, Math.ceil(ordered.length / studyState.chunkSize));
+      if (resetIndex && !preserveChunk) studyState.chunkIndex = 0;
+      studyState.chunkIndex = Math.min(Math.max(studyState.chunkIndex, 0), totalChunks - 1);
+      const start = studyState.chunkIndex * studyState.chunkSize;
+      studyState.questions = ordered.slice(start, start + studyState.chunkSize);
+      renderChunkPager(totalChunks, start, ordered.length);
+    } else {
+      studyState.chunkIndex = 0;
+      studyState.questions = ordered;
+      hideChunkPager();
+    }
+
     if (resetIndex || studyState.currentIndex < 0 || studyState.currentIndex >= studyState.questions.length) {
       studyState.currentIndex = 0;
     }
     studyState.answersRevealed = false;
+    studyState.recallFlipped = false;
 
     if (studyState.questions.length === 0) {
       UI.studyQuestionBox.innerHTML = `
@@ -566,6 +835,22 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       renderStudyQuestion();
     }
+  }
+
+  function renderChunkPager(totalChunks, start, totalLen) {
+    if (totalChunks <= 1) {
+      hideChunkPager();
+      return;
+    }
+    const end = Math.min(start + studyState.chunkSize, totalLen);
+    UI.studyChunkPager.style.display = 'flex';
+    UI.studyChunkLabel.textContent = `Chặng ${studyState.chunkIndex + 1}/${totalChunks} (câu ${start + 1}-${end} trong bộ)`;
+    UI.btnChunkPrev.disabled = studyState.chunkIndex === 0;
+    UI.btnChunkNext.disabled = studyState.chunkIndex >= totalChunks - 1;
+  }
+
+  function hideChunkPager() {
+    UI.studyChunkPager.style.display = 'none';
   }
 
   function resetStudyProgress(setName) {
@@ -614,9 +899,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render box
     const isStarred = state.starredQuestions.includes(q.id);
     const hasOptions = Object.keys(q.options).length > 0;
-    
+    const isRecallHidden = studyState.showMode === 'recall' && !studyState.recallFlipped;
+
     let optionsHtml = '';
-    if (hasOptions) {
+    if (isRecallHidden) {
+      // Active recall: hide the answer entirely until the user flips the card
+      optionsHtml = `
+        <div class="recall-hidden-hint">
+          <i class="fa-solid fa-brain"></i>
+          <p>Cố gắng nhớ đáp án đúng trong đầu, sau đó bấm "Lật thẻ" để kiểm tra.</p>
+        </div>
+      `;
+    } else if (hasOptions) {
       optionsHtml = `<div class="options-list">`;
       Object.keys(q.options).forEach(letter => {
         optionsHtml += `
@@ -637,6 +931,15 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
     }
 
+    const recallGradeHtml = (studyState.showMode === 'recall' && studyState.recallFlipped) ? `
+      <div class="recall-grade-actions">
+        <button class="btn btn-outline-error" id="btn-recall-forgot"><i class="fa-solid fa-xmark"></i> Tôi chưa nhớ</button>
+        <button class="btn btn-recall-good" id="btn-recall-remembered"><i class="fa-solid fa-check"></i> Tôi đã nhớ</button>
+      </div>
+    ` : '';
+
+    const shouldShowExplanation = studyState.showMode === 'recall' ? studyState.recallFlipped : studyState.answersRevealed;
+
     UI.studyQuestionBox.innerHTML = `
       <div class="question-card-wrapper" id="study-card-wrapper">
         <div class="question-card">
@@ -653,10 +956,11 @@ document.addEventListener('DOMContentLoaded', () => {
             <h4>${q.question}</h4>
           </div>
           ${optionsHtml}
-          
-          <div class="explanation-card" id="study-explanation-box" style="display: ${studyState.answersRevealed ? 'block' : 'none'};">
+
+          <div class="explanation-card" id="study-explanation-box" style="display: ${shouldShowExplanation ? 'block' : 'none'};">
             <h5><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: ${q.answer}</h5>
-            ${q.note ? `<p><strong>Ghi chú:</strong> ${q.note}</p>` : ''}
+            ${buildExplanationExtras(q)}
+            ${recallGradeHtml}
           </div>
         </div>
       </div>
@@ -668,15 +972,21 @@ document.addEventListener('DOMContentLoaded', () => {
       toggleStarred(q.id, starBtn);
     });
 
-    if (hasOptions) {
+    if (isRecallHidden) {
+      // No answer interaction yet; wait for the user to flip the card
+    } else if (hasOptions) {
       const optBtns = UI.studyQuestionBox.querySelectorAll('.option-btn');
       optBtns.forEach(btn => {
         const letter = btn.getAttribute('data-letter');
-        
-        // In flashcard mode, highlight correct answer immediately
-        if (studyState.showMode === 'flashcard' && q.answer.includes(letter)) {
+
+        // In flashcard mode (or a flipped recall card), highlight the correct answer immediately
+        const shouldHighlightCorrect = (studyState.showMode === 'flashcard' || (studyState.showMode === 'recall' && studyState.recallFlipped)) && q.answer.includes(letter);
+        if (shouldHighlightCorrect) {
           btn.classList.add('correct');
         }
+
+        // In recall mode, options are read-only display; grading happens via the dedicated buttons
+        if (studyState.showMode === 'recall') return;
 
         btn.addEventListener('click', () => {
           if (studyState.answersRevealed && studyState.showMode === 'quiz') return; // Answered already
@@ -687,8 +997,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // Q176 checks
       const inputField = document.getElementById('study-short-answer-input');
       const checkBtn = document.getElementById('btn-study-check-short');
-      
-      if (studyState.showMode === 'flashcard') {
+
+      if (studyState.showMode === 'flashcard' || studyState.showMode === 'recall') {
         inputField.value = q.answer;
         inputField.disabled = true;
         checkBtn.disabled = true;
@@ -697,7 +1007,7 @@ document.addEventListener('DOMContentLoaded', () => {
       checkBtn.addEventListener('click', () => {
         const userVal = inputField.value.trim().toLowerCase();
         const correctVal = q.answer.trim().toLowerCase();
-        
+
         if (userVal === correctVal || correctVal.includes(userVal) && userVal.length > 2) {
           inputField.style.borderColor = 'var(--success)';
           inputField.style.boxShadow = '0 0 0 3px var(--success-glow)';
@@ -711,11 +1021,34 @@ document.addEventListener('DOMContentLoaded', () => {
           markQuestionIncorrect(q.id);
           state.streak = 0;
         }
-        
+
         revealStudyAnswer();
         saveState();
       });
     }
+
+    if (studyState.showMode === 'recall' && studyState.recallFlipped) {
+      const btnForgot = document.getElementById('btn-recall-forgot');
+      const btnRemembered = document.getElementById('btn-recall-remembered');
+      if (btnForgot) btnForgot.addEventListener('click', () => gradeRecall(q, false));
+      if (btnRemembered) btnRemembered.addEventListener('click', () => gradeRecall(q, true));
+    }
+  }
+
+  // Self-assessment for Active Recall mode: records the outcome, then advances
+  function gradeRecall(question, remembered) {
+    if (remembered) {
+      markQuestionCorrect(question.id);
+      state.streak++;
+      if (state.streak > state.maxStreak) state.maxStreak = state.streak;
+      showToast('Tuyệt vời! Đã ghi nhớ.', 'success');
+    } else {
+      markQuestionIncorrect(question.id);
+      state.streak = 0;
+      showToast('Không sao, câu này đã được thêm vào Hộp ôn tập.', 'warning');
+    }
+    saveState();
+    studyNextQuestion();
   }
 
   function toggleStarred(qId, btnElement) {
@@ -734,10 +1067,36 @@ document.addEventListener('DOMContentLoaded', () => {
     saveState();
   }
 
+  // Renders the optional keyword tag + short explanation + legacy note for a question
+  function buildExplanationExtras(q) {
+    let html = '';
+    if (q.keywords) {
+      html += `<div class="keyword-tag"><i class="fa-solid fa-tag"></i> ${q.keywords}</div>`;
+    }
+    if (q.explanation) {
+      html += `<p class="explanation-text">${q.explanation}</p>`;
+    }
+    if (q.note) {
+      html += `<p><strong>Ghi chú:</strong> ${q.note}</p>`;
+    }
+    return html;
+  }
+
+  // Inserts a clear "you picked X (wrong)" line right after the heading of an explanation box
+  function addWrongAnswerNote(expBox, question, selectedLetter) {
+    if (!expBox) return;
+    const heading = expBox.querySelector('h5');
+    if (!heading) return;
+    const note = document.createElement('p');
+    note.className = 'wrong-answer-note';
+    note.innerHTML = `<i class="fa-solid fa-circle-xmark text-error"></i> Bạn đã chọn: <strong>${selectedLetter}. ${question.options[selectedLetter]}</strong> — chưa chính xác.`;
+    heading.insertAdjacentElement('afterend', note);
+  }
+
   function handleStudyAnswerSelection(question, selectedLetter, clickedBtn, allBtns) {
     studyState.answersRevealed = true;
     const isCorrect = question.answer.includes(selectedLetter);
-    
+
     // Highlight correct & incorrect options
     allBtns.forEach(btn => {
       const letter = btn.getAttribute('data-letter');
@@ -745,6 +1104,9 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.classList.add('correct');
       }
     });
+
+    // Show explanation panel
+    const expBox = document.getElementById('study-explanation-box');
 
     if (isCorrect) {
       clickedBtn.classList.add('correct');
@@ -757,16 +1119,16 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast('Sai rồi!', 'error');
       markQuestionIncorrect(question.id);
       state.streak = 0;
+      addWrongAnswerNote(expBox, question, selectedLetter);
     }
 
-    // Show explanation panel
-    const expBox = document.getElementById('study-explanation-box');
     if (expBox) expBox.style.display = 'block';
 
     saveState();
   }
 
   function markQuestionCorrect(qId) {
+    registerDailyProgress(qId);
     // Add to all
     if (!state.userProgress.all.includes(qId)) {
       state.userProgress.all.push(qId);
@@ -786,6 +1148,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function markQuestionIncorrect(qId) {
+    registerDailyProgress(qId);
     if (!state.incorrectQuestions.includes(qId)) {
       state.incorrectQuestions.push(qId);
     }
@@ -804,6 +1167,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function studyPrevQuestion() {
     if (studyState.currentIndex > 0) {
       studyState.currentIndex--;
+      studyState.recallFlipped = false;
       renderStudyQuestion();
       persistStudyPosition();
     }
@@ -812,6 +1176,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function studyNextQuestion() {
     if (studyState.currentIndex < studyState.questions.length - 1) {
       studyState.currentIndex++;
+      studyState.recallFlipped = false;
       renderStudyQuestion();
       persistStudyPosition();
     } else {
@@ -820,22 +1185,29 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function revealStudyAnswer() {
-    if (!studyState.answersRevealed) {
-      studyState.answersRevealed = true;
-      const q = studyState.questions[studyState.currentIndex];
-      
-      // Highlight options
-      const optBtns = UI.studyQuestionBox.querySelectorAll('.option-btn');
-      optBtns.forEach(btn => {
-        const letter = btn.getAttribute('data-letter');
-        if (q.answer.includes(letter)) {
-          btn.classList.add('correct');
-        }
-      });
-      
-      const expBox = document.getElementById('study-explanation-box');
-      if (expBox) expBox.style.display = 'block';
+    if (studyState.showMode === 'recall') {
+      if (studyState.recallFlipped) return;
+      // Options were hidden entirely, so a full re-render is needed to flip the card
+      studyState.recallFlipped = true;
+      renderStudyQuestion();
+      return;
     }
+
+    if (studyState.answersRevealed) return;
+    studyState.answersRevealed = true;
+    const q = studyState.questions[studyState.currentIndex];
+
+    // Highlight options
+    const optBtns = UI.studyQuestionBox.querySelectorAll('.option-btn');
+    optBtns.forEach(btn => {
+      const letter = btn.getAttribute('data-letter');
+      if (q.answer.includes(letter)) {
+        btn.classList.add('correct');
+      }
+    });
+
+    const expBox = document.getElementById('study-explanation-box');
+    if (expBox) expBox.style.display = 'block';
   }
 
   // ==========================================
@@ -1283,7 +1655,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
         <div class="review-item-question">${q.question}</div>
         ${optionsHtml}
-        ${q.note ? `<div class="review-item-explanation"><strong>Giải thích:</strong> ${q.note}</div>` : ''}
+        ${(q.keywords || q.explanation || q.note) ? `<div class="review-item-explanation">${buildExplanationExtras(q)}</div>` : ''}
       `;
       UI.examResultReviewList.appendChild(item);
     });
@@ -1390,7 +1762,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         <div class="explanation-card" id="review-explanation-box" style="display: none;">
           <h5><i class="fa-solid fa-lightbulb"></i> Đáp án đúng: ${q.answer}</h5>
-          ${q.note ? `<p><strong>Ghi chú:</strong> ${q.note}</p>` : ''}
+          ${buildExplanationExtras(q)}
         </div>
       </div>
     `;
@@ -1449,10 +1821,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    const expBox = document.getElementById('review-explanation-box');
+
     if (isCorrect) {
       clickedBtn.classList.add('correct');
       showToast('Chính xác! Đã loại câu này ra khỏi Hộp câu sai.', 'success');
-      
+
       // Remove from incorrect questions list
       const idx = state.incorrectQuestions.indexOf(question.id);
       if (idx > -1) {
@@ -1462,9 +1836,9 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       clickedBtn.classList.add('incorrect');
       showToast('Tiếp tục chưa chính xác!', 'error');
+      addWrongAnswerNote(expBox, question, selectedLetter);
     }
 
-    const expBox = document.getElementById('review-explanation-box');
     if (expBox) expBox.style.display = 'block';
 
     saveState();
@@ -1610,7 +1984,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="search-item-question">${q.question}</div>
           ${optionsHtml}
-          ${q.note ? `<div class="search-item-note"><strong>Giải thích:</strong> ${q.note}</div>` : ''}
+          ${(q.keywords || q.explanation || q.note) ? `<div class="search-item-note">${buildExplanationExtras(q)}</div>` : ''}
         `;
         
         // Star listener
