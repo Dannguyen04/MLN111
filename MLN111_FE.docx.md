@@ -1,8 +1,8 @@
-1. Xanh-ximông là đại biểu của trường phải nào? 
+1. Xanh-ximông là đại biểu của trường phải nào?
 
-A. Chủ nghĩa xã hội không tưởng Pháp   
-B. Chủ nghĩa xã hội không tưởng Đức   
-C. Triết học cổ điển Đức   
+A. Chủ nghĩa xã hội không tưởng Pháp  
+B. Chủ nghĩa xã hội không tưởng Đức  
+C. Triết học cổ điển Đức  
 D. Kinh tế chính trị học Anh
 
 A
@@ -69,11 +69,11 @@ C. Tương đối
 D. Thường xuyên
 
 C  
-*(Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?)*
+_(Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?)_
 
-9. A là một sinh viên có học lực kém, nên gia đình và Thầy/Cô đã khuyên A nên cố gắng nhiều thấy được vấn đề, A đã ra sức học tập để tích lũy kiến thức, trải qua một khoảng thời gian bạn thành một học sinh giỏi mà còn đạt được học bổng do Đại học FPT cung cấp. Căn cứ vào kiến thức ở môn Triết học, Anh/Chị hãy cho biết trường hợp bạn A thuộc 1 trong 3 quy luật nào sau đây 
+9. A là một sinh viên có học lực kém, nên gia đình và Thầy/Cô đã khuyên A nên cố gắng nhiều thấy được vấn đề, A đã ra sức học tập để tích lũy kiến thức, trải qua một khoảng thời gian bạn thành một học sinh giỏi mà còn đạt được học bổng do Đại học FPT cung cấp. Căn cứ vào kiến thức ở môn Triết học, Anh/Chị hãy cho biết trường hợp bạn A thuộc 1 trong 3 quy luật nào sau đây
 
-A. Quy luật từ những sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại   
+A. Quy luật từ những sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại  
 B. Quy luật thống nhất và đấu tranh giữa các mặt đối lập  
 C. Quy luật phủ định của phủ định  
 D. Quy luật phát triển
@@ -100,7 +100,7 @@ D
 
 12. Thuyết có thể biết còn gọi là gì?
 
-A. Thuyết nhận biết   
+A. Thuyết nhận biết  
 B. Thuyết khả tri  
 C. Thuyết khả tri luận  
 D. Thuyết nhận biết luận
@@ -130,7 +130,7 @@ A
 
 A. Hình thức vận động cơ học  
 B. Hình thức vận động vật lý  
-C. Hình thức vận động hoá học   
+C. Hình thức vận động hoá học  
 D. Hình thức vận động xã hội
 
 A
@@ -146,14 +146,14 @@ D
 
 17. Theo quan điểm duy vật lịch sử, sự ra đời của nhà nước là để giải quyết các mâu thuẫn trong xã hội vì:
 
-A. Xã hội có mâu thuẫn thì cần phải có lực lượng đại diện cho xã hội để giải quyết nó   
+A. Xã hội có mâu thuẫn thì cần phải có lực lượng đại diện cho xã hội để giải quyết nó  
 B. Kinh nghiệm thực tế cho thấy đúng như vậy  
 C. Nếu mâu thuẫn có thể giải quyết được thì không cần đến sự ra đời của nhà nước, sự ra đời của nó chỉ chứng tỏ rằng mâu thuẫn đã phát triễn đến chỗ không thể giải quyết được nên cần đến sự ra đời của nhà nước.  
 D. Tất yếu của lịch sử nhân loại
 
 C
 
-18.  Chủ nghĩa duy vật lịch sử cho rằng, ý thức lý luận đạt trình độ cao và mang tính hệ thống tạo thành các:
+18. Chủ nghĩa duy vật lịch sử cho rằng, ý thức lý luận đạt trình độ cao và mang tính hệ thống tạo thành các:
 
 A. Hệ tư tưởng  
 B. Hệ kiến thức  
@@ -166,7 +166,7 @@ A
 
 A. Là quan hệ cơ bản, quyết định tất cả các quan hệ xã hội khác  
 B. Là cơ sở kinh tế của các hiện tượng xã hội  
-C. Thể hiện tính liên tục trong sự phát triển của xã hội loài người   
+C. Thể hiện tính liên tục trong sự phát triển của xã hội loài người  
 D. Tiêu biểu cho bộ mặt xã hội ở mỗi giai đoạn phát triển nhất định
 
 C
@@ -188,7 +188,7 @@ C. Sự chuyển hóa giữa các mặt, các yếu tố bên trong sự vật h
 
 A
 
-22. Điều khẳng định nào sau đây đúng về mối quan hệ giữa lý luận và kinh nghiệm?***(NHUNG HOÀNG)***
+22. Điều khẳng định nào sau đây đúng về mối quan hệ giữa lý luận và kinh nghiệm?
 
 A. Lý luận được hình thành từ kinh nghiệm trên cơ sở kinh nghiệm  
 B. Kinh nghiệm nhiều tự phát dẫn đến sự ra đời của lý luận  
@@ -215,7 +215,7 @@ D. Immanuel Kant
 
 B
 
-25. Quan điểm của chủ nghĩa Mác-Lênin về lãnh tụ là***(NHUNG HOÀNG)***
+25. Quan điểm của chủ nghĩa Mác-Lênin về lãnh tụ là
 
 A. Tất cả các đáp án đều đúng  
 B. Những cá nhân kiệt xuất có sự gắn bó với quần chúng nhân dân  
@@ -325,7 +325,7 @@ D
 
 37. Điền cụm từ thích hợp vào chỗ (..): "Không thể đem lại cho hai khái niệm ... này một định nghĩa cách chỉ rõ rằng trong hai khái niệm đó, cãi nào được coi là có trước".
 
-A. Nhận thức luận   
+A. Nhận thức luận  
 B. Bản thể luận  
 C. Nhất nguyên luận  
 D. Nhị nguyên luận
@@ -378,7 +378,7 @@ B
 
 43. Chức năng, nhiệm vụ của nhà nước xã hội chủ nghĩa biểu hiện tập trung ở việc quản lý xã hộ lĩnh vực bằng.
 
-A. Khoa học   
+A. Khoa học  
 B. Công cụ tiền  
 C. Pháp luật  
 D. Kế hoạch
@@ -486,7 +486,7 @@ D
 
 55. Sự phân chia giai cấp trong xã hội bắt đầu từ hình thái kinh tế \- xã hội nào?
 
-A. Cộng sản nguyên thủy   
+A. Cộng sản nguyên thủy  
 B. Tư bản chủ nghĩa  
 C. Phong kiến  
 D. Chiếm hữu nô lệ
@@ -612,9 +612,9 @@ C
 
 69. Thế nào là phương pháp siêu hình?
 
-A. Xem xét các sự vật trong mối liên hệ tác động qua lại lẫn nhau, nhưng không vận động, không phát triển   
+A. Xem xét các sự vật trong mối liên hệ tác động qua lại lẫn nhau, nhưng không vận động, không phát triển  
 B. Xem xét các sự vật trong trạng thái cô lập, tách rời nhau, và không vận động, không phát triển  
-C. Xem xét các sự vật trong mối liên hệ tác động qua lại lẫn nhau, và luôn vận động, luôn phát triển   
+C. Xem xét các sự vật trong mối liên hệ tác động qua lại lẫn nhau, và luôn vận động, luôn phát triển  
 D. Xem xét các sự vật trong trạng thái cô lập, tách rời nhau, nhưng luôn vận động, luôn phát triển
 
 B
@@ -690,7 +690,7 @@ C. Quyết tâm thực hiện mục tiêu
 D. Không tính tới điều kiện và khả năng thực tế
 
 C  
-(*Cách hỏi khác:* Đâu không phải là biểu hiện của chủ quan duy ý chí?)
+(_Cách hỏi khác:_ Đâu không phải là biểu hiện của chủ quan duy ý chí?)
 
 78. Triết học ra đời từ đâu?
 
@@ -734,7 +734,7 @@ B. Võ trang
 C. Kinh tế  
 D. Giải phóng  
 A  
-*(Kiểu hỏi khác: Theo quan niệm của chủ nghĩa duy vật lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?)*
+_(Kiểu hỏi khác: Theo quan niệm của chủ nghĩa duy vật lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?)_
 
 83. Quan điểm tiến bộ và cách mạng nhất của chủ nghĩa Mác-Lênin về vấn đề con người là:
 
@@ -831,7 +831,7 @@ A. Triết học, Kinh tế chính trị học và Chủ nghĩa xã hội khoa h
 B. Triết học, Kinh tế chính trị học và Chính trị học  
 C. Triết học, Kinh tế học và Chủ nghĩa xã hội khoa học  
 A  
-(*Cách hỏi khác:* Chủ nghĩa Mác-Lênin có những bộ phần cấu thành nào?)
+(_Cách hỏi khác:_ Chủ nghĩa Mác-Lênin có những bộ phần cấu thành nào?)
 
 94. Hãy chỉ ra sai lầm của các nhà triết học thế kỷ XVII-XVIII trong quan niệm về vật chất (3 đáp án)
 
@@ -868,7 +868,7 @@ C. Suy luận.
 D. Phán đoán.
 
 A  
-(*Câu trả lời khác:* Cảm giác)
+(_Câu trả lời khác:_ Cảm giác)
 
 98. Quan hệ biện chứng giữa "cái riêng" và "cái chung" thì cái chung tồn tại:
 
@@ -889,7 +889,7 @@ E. Lực lượng sản xuất không cần thay đổi, quan hệ sản xuất 
 
 C
 
-100. Triết học duy tâm khách quan và duy tâm chủ quan đều có điểm chung là 
+100. Triết học duy tâm khách quan và duy tâm chủ quan đều có điểm chung là
 
 A. Đề cao lĩnh vực tinh thần của con người  
 B. Đề cao lĩnh vực vật chất và tinh thần của con người  
@@ -897,7 +897,7 @@ C. Đề cao đời sống tâm linh của con người
 
 A
 
-101. Chân lý bao gồm các tính chất sau. (4 đáp án)***(NHUNG HOÀNG)***
+101. Chân lý bao gồm các tính chất sau. (4 đáp án)
 
 A. Tính phong phú, đa dạng  
 B. Tính khách quan  
@@ -912,7 +912,7 @@ BCDE
 A. Có nền khoa học tiên tiến  
 B. Có nhân tố chính trị tiến bộ  
 C. Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc  
-D. Có thể tạo ra năng suất lao động cao hơn	
+D. Có thể tạo ra năng suất lao động cao hơn
 
 D
 
@@ -955,8 +955,8 @@ C
 
 A. Triết học là cơ sở nền tảng của kinh tế chính trị và chủ nghĩa xã hội khoa học  
 B. Kinh tế chính trị học là cơ sở nền tảng của triết học và chủ nghĩa xã hội khoa học  
-C. Chủ nghĩa xã hội khoa học là cơ sở của kinh tế chính trị và triết học  
-    
+C. Chủ nghĩa xã hội khoa học là cơ sở của kinh tế chính trị và triết học
+
 A
 
 108. Theo chủ nghĩa duy vật lịch sử, khái niệm "cách mạng xã hội" dùng để chỉ yếu tố nào?
@@ -1004,13 +1004,13 @@ C. Tồn tại trong mối quan hệ phụ thuộc vào nhau, không cái nào q
 D. Tùy từng điều mà xem xét cái nào quyết định cái nào
 
 B  
-*(Kiểu hỏi khác: Quan điểm nào mang tính duy tâm khi bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?)*
+_(Kiểu hỏi khác: Quan điểm nào mang tính duy tâm khi bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?)_
 
 113. Hình thái ý thức xã hội nào phản ánh bản chất và tính quy luật của thế giới khách quan?
 
 A. Ý thức chính trị  
 B. Ý thức pháp quyền  
-C. Ý thức khoa học   
+C. Ý thức khoa học  
 D. Ý thức đạo đức
 
 C
@@ -1396,7 +1396,7 @@ C. Các vĩ nhân, những cá nhân kiệt xuất
 D. Giai cấp bị trị xã hội
 
 C  
-(*Cách hỏi khác:* Theo quan điểm của chủ nghĩa duy tâm chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng nào?)
+(_Cách hỏi khác:_ Theo quan điểm của chủ nghĩa duy tâm chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng nào?)
 
 157. Chủ nghĩa nào mà sự tồn tại phát triển của nó thường gắn với lợi ích giai cấp và các lực lượng tiến bộ trong lịch sử?
 
@@ -1518,7 +1518,7 @@ C. Một trong những phương thức, động lực phát triển xã hội
 D. Phương thức, động lực cơ bản nhất của sự phát triển xã hội trong điều kiện xã hội có sự phân hóa thành đối kháng giai cấp
 
 D  
-*(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cách mạng xã hội giữa vai trò gi?)*
+_(Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cách mạng xã hội giữa vai trò gi?)_
 
 170. Theo quan điểm của chủ nghĩa duy vật lịch sử, nguồn gốc, động lực cơ bản nhất của mọi quá trình phát triển xã hội là gì?
 
@@ -1637,18 +1637,18 @@ A
 
 183. Mối quan hệ giữa cơ sở hạ tầng và kiến trúc thượng tầng là mối quan hệ:
 
-A. Luôn luôn thống nhất với nhau   
-B. Luôn luôn đối lập nhau   
-C. Thống nhất và đấu tranh giữa hai mặt đối lập   
+A. Luôn luôn thống nhất với nhau  
+B. Luôn luôn đối lập nhau  
+C. Thống nhất và đấu tranh giữa hai mặt đối lập  
 D. Thống nhất là căn bản, còn đấu tranh giữa chúng chỉ là tạm thời
 
 C
 
-184. V.I. Lênin cho rằng: Tính....không thể tách rời tính phổ biến.***(NHUNG HOÀNG)***
+184. V.I. Lênin cho rằng: Tính....không thể tách rời tính phổ biến.
 
-A. Nhân quả   
-B. Tất nhiên   
-C. Đơn nhất   
+A. Nhân quả  
+B. Tất nhiên  
+C. Đơn nhất  
 D. Hiện thực
 
 B
@@ -1987,18 +1987,18 @@ C
 
 221. Yêu cầu của quan niệm toàn diện phải xem xét tất cả các mối liên hệ của sự vât. Yêu cầu này không thực hiện được nhưng vẫn phải đề ra để làm gì?
 
-a) Chống quan điểm siêu hình.   
-b) Chống quan điểm duy tâm.   
-c) Chống quan chủ nghĩa triết chung và thuyết ngụy biện.   
+a) Chống quan điểm siêu hình.  
+b) Chống quan điểm duy tâm.  
+c) Chống quan chủ nghĩa triết chung và thuyết ngụy biện.  
 d) Đề phòng cho chúng ta khỏi phạm sai lầm và sự cứng nhắc.
 
 D
 
 222. Biện chứng chủ quan là gì?
 
-a) Là biện chứng của tư duy tư biện, thuần túy.   
-b) Là biện chứng của ý thức.   
-c) Là biện chứng của thực tiễn xã hội.   
+a) Là biện chứng của tư duy tư biện, thuần túy.  
+b) Là biện chứng của ý thức.  
+c) Là biện chứng của thực tiễn xã hội.  
 d) Là biện chứng của lý luận.
 
 B
@@ -2160,7 +2160,7 @@ D. 1- khách quan, 2- khách quan
 
 C
 
-241. Vật chất với tư cách là phạm trù triết học đã có lịch sử phát triển khoảng bao nhiêu năm***(NHUNG HOÀNG)***
+241. Vật chất với tư cách là phạm trù triết học đã có lịch sử phát triển khoảng bao nhiêu năm
 
 A. 2500 năm  
 B. 3000 năm  
@@ -2169,7 +2169,7 @@ D. 4000 năm
 
 A
 
-242. Khái niệm "bước nhảy"?***(NHUNG HOÀNG)***
+242. Khái niệm "bước nhảy"?
 
 A. Sự đột biến  
 B. Chuyển dần về chất  
@@ -2416,7 +2416,7 @@ C. Các vật chứa đựng, bảo quản
 D. Kết cấu hạ tầng sản xuất
 
 A  
-(*Cách hỏi khác:* Tư liệu lao động gồm có:)
+(_Cách hỏi khác:_ Tư liệu lao động gồm có:)
 
 Quan điểm nào sau đây phản ánh đầy đủ nội dung khái niệm tồn tại xã hội  
 A. Tồn tại xã hội là phạm trù dùng chỉ toàn bộ điều kiện vật chất của xã hội  
@@ -2545,7 +2545,7 @@ C. Cu Ba
 
 B
 
-285. Hai khái niệm triết học cùng với thế giới quan...***(NHUNG HOÀNG)***
+285. Hai khái niệm triết học cùng với thế giới quan...
 
 A. Là trùng nhau vì đều là hệ thống quan điểm chung về thế giới  
 B. Triết học không phải là toàn bộ thế giới quan mà chỉ là hạt nhân lý luận chung nhất của thế giới quan  
@@ -2760,7 +2760,7 @@ b. Platon
 c. Hê ghen
 
 c  
-(*Học hiểu câu hỏi để trả lời câu:* Hạt nhân hợp lý của thế giới quan khoa học là chủ nghĩa nào?  
+(_Học hiểu câu hỏi để trả lời câu:_ Hạt nhân hợp lý của thế giới quan khoa học là chủ nghĩa nào?  
 A. Duy vật  
 B. Mác  
 C. Duy vật biện chúng  
@@ -2816,7 +2816,7 @@ d. Làm gì?
 
 b
 
-316. Nền tảng lý luận của chủ nghĩa Mác-Lênin là***(NHUNG HOÀNG)***
+316. Nền tảng lý luận của chủ nghĩa Mác-Lênin là
 
 a. Triết học  
 b. Kinh tế chính trị học  
@@ -2824,7 +2824,7 @@ c. Chủ nghĩa xã hội khoa học
 
 a
 
-317. Bản chất của triết học duy tâm như thế nào***(NHUNG HOÀNG)***
+317. Bản chất của triết học duy tâm như thế nào
 
 a. Đi ngược lại với khoa học  
 b. Không hoàn toàn phản khoa học  
@@ -2832,7 +2832,7 @@ c. Rất khoa học
 
 b
 
-318. Quan điểm nào sau đây đúng nhất***(NHUNG HOÀNG)***
+318. Quan điểm nào sau đây đúng nhất
 
 a. Phạm trù là những thực thể ý niệm, tồn tại bên ngoài và độc lập với ý thức.  
 b. Phạm trù là những từ trống rỗng, do con người tưởng tượng ra, không biểu hiện một cái gì của hiện thực.  
@@ -2880,10 +2880,10 @@ b. Một kết quả chỉ được tạo ra bởi một nguyên nhân cơ bản
 c. Các phương án trả lời đều sai
 
 a  
-*(Kiểu hỏi khác: Tính chất phong phú, đa dạng trong quan hệ nhân quả thể hiện ở chỗ một kết quả có thể do:*  
-*A. Một nguyên nhân sinh ra*  
-***B. Nhiều nguyên nhân khác nhau sinh ra***  
-*C. Các phương án trà lời đêu sai)*
+_(Kiểu hỏi khác: Tính chất phong phú, đa dạng trong quan hệ nhân quả thể hiện ở chỗ một kết quả có thể do:_  
+_A. Một nguyên nhân sinh ra_  
+**_B. Nhiều nguyên nhân khác nhau sinh ra_**  
+_C. Các phương án trà lời đêu sai)_
 
 324. Theo Ăng-ghen, có thể chia vận động thành:
 
@@ -3007,7 +3007,7 @@ d.Công cụ lao động
 
 d
 
-338. Cách thức của sự phát triển là***(NHUNG HOÀNG)***
+338. Cách thức của sự phát triển là
 
 a. Đấu tranh của các mặt đối lập để giải quyết mâu thuẫn  
 b. Sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại  
@@ -3113,7 +3113,7 @@ D. Vai trò quyết định của tồn tại xã hội đối với ý thức x
 
 A
 
-349. Triết học trở thành "nữ tì" của thần học khi nào?***(NHUNG HOÀNG)***
+349. Triết học trở thành "nữ tì" của thần học khi nào?
 
 A. Khi quyền lực của Nhà thờ, kinh viện bao trùm mọi lĩnh vực đời sống xã hội  
 B. Khi quyền lực của Thánh chủ bao trùm mọi lĩnh vực đời sống xã hội  
@@ -3233,7 +3233,7 @@ C. Đồng nhất vật chất duy vật và thế giới duy tâm
 D. Không có đáp án nào đúng  
 A
 
-362. Ý thức xã hội là phạm trù triết học dùng để chỉ***(NHUNG HOÀNG)***
+362. Ý thức xã hội là phạm trù triết học dùng để chỉ
 
 A. Toàn bộ đời sống tinh thần của xã hội  
 B. Toàn bộ điều kiện vật chất của xã hội  
@@ -3242,7 +3242,7 @@ D. Toàn bộ đời sống nói chung của xã hội
 
 A
 
-363. Theo quan điểm của chủ nghĩa Mác \- Lênin, "Bộ tộc" được định nghĩa là gì?***(NHUNG HOÀNG)***
+363. Theo quan điểm của chủ nghĩa Mác \- Lênin, "Bộ tộc" được định nghĩa là gì?
 
 A. Bộ tộc là hình thức cộng đồng người hình thành khi xã hội có sự phân chia thành giai cấp. Các bộ tộc được hình thành từ sự liên kết của nhiều bộ lạc sống trên một lãnh thổ nhất định  
 B. Những tộc người sống lưu vong  
@@ -3367,11 +3367,11 @@ D. Dân tộc
 
 A
 
-377. Khi một sự vật, một hiện tượng mới được nảy sinh thì yếu tố nào sẽ xuất hiện đầu tiên? ***(NHUNG HOÀNG)***
+377. Khi một sự vật, một hiện tượng mới được nảy sinh thì yếu tố nào sẽ xuất hiện đầu tiên?
 
-A. Cái chung   
-B. Cái riêng   
-C. Cái đơn nhất   
+A. Cái chung  
+B. Cái riêng  
+C. Cái đơn nhất  
 D. Cái phổ biến
 
 C
@@ -3394,11 +3394,11 @@ D. Có nhiều thế giới tinh thần
 
 A
 
-380. Cái ...là cái toàn bộ, phong phú hơn cái... ***(NHUNG HOÀNG)***
+380. Cái ...là cái toàn bộ, phong phú hơn cái...
 
-a) Chung/Riêng.   
-b) Riêng/Chung.   
-c) Chung/Đơn nhất.   
+a) Chung/Riêng.  
+b) Riêng/Chung.  
+c) Chung/Đơn nhất.  
 d) Đơn nhất/Riêng.
 
 b
@@ -3519,7 +3519,7 @@ C. Vật chất quyết định ý thức, ý thức không thể tác động �
 D. Vật chất và ý thức đều có vai trò quyết định
 
 A  
-(*Kiểu hỏi khác:* Đâu là một quan điểm của chủ nghĩa duy vật biện chứng?)
+(_Kiểu hỏi khác:_ Đâu là một quan điểm của chủ nghĩa duy vật biện chứng?)
 
 394. Anh A có tri thức, năng lực, trình độ, kinh nghiệm và kỹ năng lao động. Vậy có thể gọi A là?
 
@@ -3538,15 +3538,15 @@ D. kiến trúc thượng tầng
 
 b
 
-396. Chọn câu trả lời đúng theo quan điểm duy vật lịch sử: Lực lượng cơ bản nhất trong quần chúng nhân dân là: ***(NHUNG HOÀNG)***
+396. Chọn câu trả lời đúng theo quan điểm duy vật lịch sử: Lực lượng cơ bản nhất trong quần chúng nhân dân là:
 
-a. Giai cấp thống trị xã hội.   
-b. Tầng lớp trí thức.   
-c. Người lao động.   
+a. Giai cấp thống trị xã hội.  
+b. Tầng lớp trí thức.  
+c. Người lao động.  
 d. Công nhân và nông dân.
 
 c  
-(*Cách hỏi khác:* Theo quan điểm chủ nghĩa duy vật lịch sử, lực lượng cơ bản nhất trong quần chúng nhân dân là gì?)
+(_Cách hỏi khác:_ Theo quan điểm chủ nghĩa duy vật lịch sử, lực lượng cơ bản nhất trong quần chúng nhân dân là gì?)
 
 397. Chỉ có một thế giới duy nhất là thế giới vật chất là thể hiện tính chất gì của thế giới vật chất?
 
@@ -3869,7 +3869,7 @@ D. Chung nhất
 
 A
 
-432. Hiện thực là phạm trù triết học dùng để chỉ những gì:***(NHUNG HOÀNG)***
+432. Hiện thực là phạm trù triết học dùng để chỉ những gì:
 
 A. Sẽ tồn tại khi có đủ điều kiện  
 B. Đang tồn tại trong thực tế  
@@ -4089,16 +4089,16 @@ B. Hiện tượng
 C. Nội dung  
 D. Hình thức  
 A  
-Vấn đề cơ bản của Triết học là gì? ***(NHUNG HOÀNG)***  
-A. Mối quan hệ giữa tự nhiên và bản thể   
-B. Mối quan hệ giữa tư duy và tồn tại   
-C. Mối quan hệ giữa cái chung và cái riêng   
+Vấn đề cơ bản của Triết học là gì?
+A. Mối quan hệ giữa tự nhiên và bản thể  
+B. Mối quan hệ giữa tư duy và tồn tại  
+C. Mối quan hệ giữa cái chung và cái riêng  
 D. Con người và bản thể  
 B  
-Chủ nghĩa duy vật biện chứng khẳng định rằng, nguyên nhân sinh ra kết quả phải có thêm yếu tố nào ***(NHUNG HOÀNG)***  
-A Tác động   
-B. Điều kiện   
-C. Nguyên cũ   
+Chủ nghĩa duy vật biện chứng khẳng định rằng, nguyên nhân sinh ra kết quả phải có thêm yếu tố nào
+A Tác động  
+B. Điều kiện  
+C. Nguyên cũ  
 D. Y chí  
 B  
 Theo quan điểm của chủ nghĩa duy vật thì những mối liên hệ tên tại ở mọi sự vật, hiện tượng của thế giới là mối liên hệ  
@@ -4218,17 +4218,17 @@ B . Sinh học và xã hội
 C . Phẩm chất đạo đức và nhân cách  
 D . Tâm lý và năng lực nhận thức  
 B  
-Chủ nghĩa duy vật là trường phái triết học cho rằng:   
-A . Bản chất thế giới là vật thể   
-B . Bản chất thế giới là vật chất   
-C . Vật chất là tính thứ hai   
-D . Vật chất tác động đến ý thức   
+Chủ nghĩa duy vật là trường phái triết học cho rằng:  
+A . Bản chất thế giới là vật thể  
+B . Bản chất thế giới là vật chất  
+C . Vật chất là tính thứ hai  
+D . Vật chất tác động đến ý thức  
 E . Bản chất thế giới là vật chất và ý thức  
 B  
-Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?   
-A . Biện chứng   
-B . Tương hỗ   
-C . Phụ thuộc   
+Theo chủ nghĩa duy vật biện chứng, mối quan hệ giữa lực lượng sản xuất và quan hệ sản xuất?  
+A . Biện chứng  
+B . Tương hỗ  
+C . Phụ thuộc  
 D . Quan điểm toàn diện và cụ thể  
 A  
 Ngày nay, trong nền sản xuất xã hội, tỷ trọng lao động trí tuệ có xu hướng như thế nào?  
@@ -4327,10 +4327,10 @@ B. Vật chất là tính thứ nhất, ý thức là tính thứ hai
 C. Vật chất và ý thức song song tồn tại, không cái nào phụ thuộc cái nào  
 D. Ý thức có trước, vật chất có sau; ý thức quyết định vật chất  
 D  
-*(Kiểu hỏi khác: Triết học duy tâm cho rằng:*  
-*A. Vật chất quyết định ý thức*  
-***B. Ý thức quyết định vật chất***  
-*C. Con người quyết định tất cà)*  
+_(Kiểu hỏi khác: Triết học duy tâm cho rằng:_  
+_A. Vật chất quyết định ý thức_  
+**_B. Ý thức quyết định vật chất_**  
+_C. Con người quyết định tất cà)_  
 Bộ phận nào của tư liệu lao động được coi là tiêu chí phản ánh đặc trưng phát triển của một thời đại kinh tế?  
 A. Công cụ lao động  
 B. Kết cấu hạ tầng sản xuất  
@@ -4384,7 +4384,7 @@ A. Cơ sở hạ tầng
 B. Lực lượng sản xuất  
 C. Quan hệ sản xuất  
 A  
-Trong sự tác động trở lại của kiến trúc thượng tầng đến cơ sở hạ tầng, yếu tố nào có tác động lớn nhất?***(NHUNG HOÀNG)***  
+Trong sự tác động trở lại của kiến trúc thượng tầng đến cơ sở hạ tầng, yếu tố nào có tác động lớn nhất?
 A. Nhà nước  
 B. Tôn giáo  
 C. Ý thức chính trị  
@@ -4398,7 +4398,7 @@ B. Hoàn toàn tuân theo quy luật khách quan của xã hội
 C. Hoàn toàn tuân theo quy luật khách quan của tự nhiên và xã hội  
 D. Tuân theo quy luật khách quan nhưng đồng thời chịu sự tác động của các nhân tố khác  
 D  
-Trong quan điểm của phép biện chững duy vật thì với hình thức, nội dung giữ vai trò:***(NHUNG HOÀNG)***  
+Trong quan điểm của phép biện chững duy vật thì với hình thức, nội dung giữ vai trò:
 A. Quyết định  
 B. Phụ thuộc  
 C. Không phụ thuộc  
@@ -4439,13 +4439,13 @@ B. Ba đặc trưng
 C. Bốn đặc trưng  
 D. Năm đặc trưng  
 B  
-Thông thường, trong kiến trúc thượng tầng các nhà nước tư bản hiện nay:***(NHUNG HOÀNG)***  
+Thông thường, trong kiến trúc thượng tầng các nhà nước tư bản hiện nay:
 A. Đều thực hiện chế độ nhất nguyên chính trị  
 B. Không thực hiện chế độ đa nguyên chính trị  
 C. Tùy từng nước mà có thể thực hiện chế độ đa nguyên chính trị hay không  
 D. Thực hiện chế độ đa đảng nhưng nhất nguyên chính trị  
 D  
-Theo quan điểm của phép biện chứng duy vật thì những thay đối về chất của sự vật lại tạo ra những thay đổi gì của sự vật trên các phương diện khác nhau?***(NHUNG HOÀNG)***  
+Theo quan điểm của phép biện chứng duy vật thì những thay đối về chất của sự vật lại tạo ra những thay đổi gì của sự vật trên các phương diện khác nhau?
 A. Biến đổi mới về lượng  
 B. Biến đổi của chất  
 C. Chất mới  
@@ -4486,13 +4486,13 @@ B. Bảo vệ cái cũ, đấu tranh cho cái cũ đồng thời tạo điều k
 C. Phát huy những mặt tích cực của cái cũ, tạo điều kiện cho nó phát triển  
 D. Tạo điều kiện tiền đề cho cái mới phát triển  
 A  
-Điều khẳng định nào sau đây là đúng?***(NHUNG HOÀNG)***  
+Điều khẳng định nào sau đây là đúng?
 A. Thuyết không thế biết không thừa nhận chân lý khách quan.  
 B. Chủ nghĩa duy tâm chủ quan không thừa nhận chân lý khách quan.  
 C. Chủ nghĩa duy tâm khách quan thừa nhận chân lý chủ quan.  
 D. Chủ nghĩa duy vật biện chứng thừa nhận chân lý khách quan.  
 D  
-Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng là toàn bộ những quan hệ sản xuất hợp thành cơ cấu:***(NHUNG HOÀNG)***  
+Theo chủ nghĩa duy vật lịch sử, cơ sở hạ tầng là toàn bộ những quan hệ sản xuất hợp thành cơ cấu:
 A. Của xã hội  
 B. Kỹ thuật xã hội  
 C. Kinh tế của xã hội  
@@ -4504,7 +4504,7 @@ b. Quan điểm chính trị của giai cấp nắm quyền lực nhà nước
 c. Truyền thống văn hóa xã hội  
 d. Ý trí của mọai thành viên trong cộng đồng xã hội  
 A  
-Vì các mối liên hệ có tính đa dạng, phong phú nên trong hoạt động nhận thức và thực tiển khi thực hiện quan điểm toàn diện thì con người phải kết hợp với quan điểm:***(NHUNG HOÀNG)***  
+Vì các mối liên hệ có tính đa dạng, phong phú nên trong hoạt động nhận thức và thực tiển khi thực hiện quan điểm toàn diện thì con người phải kết hợp với quan điểm:
 A. Lịch sử \- cụ thể  
 B. Toàn diện  
 C. Biện chứng  
@@ -4542,13 +4542,13 @@ B. Chỉ có một thế giối duy nhất, thế giới thống nhất ở tín
 C. Thế giới này là do vụ nổ vũ trụ gây ra, tạo ra những hành tinh mang tính vật chất  
 D. A và B  
 B  
-Phép biện chứng nào được coi là khoa học về những quy luật phổ biến của sự vận động và sự phát triên của tự nhiên, xã hội và tư duy con người:***(NHUNG HOÀNG)***  
+Phép biện chứng nào được coi là khoa học về những quy luật phổ biến của sự vận động và sự phát triên của tự nhiên, xã hội và tư duy con người:
 A. Phép biện chứng cổ đại  
 B. Phép biện chứng cổ điển Đức  
 C. Phép biện chứng của chủ nghĩa Mác \- Lênin  
 D. Phép biện chứng của G. W.Ph.Hêghen  
 C  
-Ai là tác giả của Thuyết tương đối tổng quát?***(NHUNG HOÀNG)***  
+Ai là tác giả của Thuyết tương đối tổng quát?
 A. Albert Einstein (A.Anhxtanh)  
 B. Nicolai Copecnic  
 C. Jos. Bruno  
@@ -4585,4 +4585,3 @@ B. Tất nhiên
 C. Vừa tất nhiên vừa ngẫu nhiên  
 D. Không phải tất nhiên và cũng không phải ngẫu nhiên  
 C
-

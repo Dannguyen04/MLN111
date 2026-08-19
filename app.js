@@ -1,14 +1,27 @@
 /**
- * MLN111 STUDY HUB - CORE JS LOGIC
+ * STUDY HUB - CORE JS LOGIC (multi-course: MLN111, MLN122)
  * Powered by HTML5, Vanilla CSS, and Vanilla JS
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  
+
+  // ==========================================
+  // 0. COURSE REGISTRY (multi-subject support)
+  // ==========================================
+
+  const COURSES = [
+    { id: 'mln111', code: 'MLN111', name: 'Triết học Mác - Lênin', file: 'questions.json' },
+    { id: 'mln122', code: 'MLN122', name: 'Kinh tế chính trị Mác - Lênin', file: 'questions_mln122.json' }
+  ];
+  const CURRENT_COURSE_KEY = 'study_hub_current_course';
+  let currentCourse = COURSES[0];
+  let SET_LIMITS = {};       // Rebuilt per course via buildSetLimits() once question count is known
+  let ACHIEVEMENT_DEFS = []; // Rebuilt per course via buildAchievementDefs()
+
   // ==========================================
   // 1. STATE CONFIGURATION & LOCAL STORAGE
   // ==========================================
-  
+
   let state = {
     questions: [],             // All questions loaded from JSON
     userProgress: {},          // Correctly answered questions by set: { "all": [1, 2], "set-1": [1], ... }
@@ -27,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load state from localStorage if exists
   function loadState() {
-    const saved = localStorage.getItem('mln111_state');
+    const saved = localStorage.getItem(`${currentCourse.id}_state`);
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -50,14 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Ensure basic structure exists
     if (!state.userProgress.all) state.userProgress.all = [];
-    for (let i = 1; i <= 6; i++) {
-      if (!state.userProgress[`set-${i}`]) state.userProgress[`set-${i}`] = [];
-    }
+    Object.keys(SET_LIMITS).forEach(setId => {
+      if (!state.userProgress[setId]) state.userProgress[setId] = [];
+    });
   }
 
   // Persist state to localStorage without triggering achievement checks (avoids recursion)
   function persistState() {
-    localStorage.setItem('mln111_state', JSON.stringify({
+    localStorage.setItem(`${currentCourse.id}_state`, JSON.stringify({
       userProgress: state.userProgress,
       starredQuestions: state.starredQuestions,
       incorrectQuestions: state.incorrectQuestions,
@@ -83,11 +96,13 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   // EXAM SESSION PERSISTENCE (separate key: has its own timer lifecycle)
   // ==========================================
-  const EXAM_SESSION_KEY = 'mln111_exam_session';
+  function getExamSessionKey() {
+    return `${currentCourse.id}_exam_session`;
+  }
 
   function saveExamSession() {
     if (!examState.examQuestions.length) return;
-    localStorage.setItem(EXAM_SESSION_KEY, JSON.stringify({
+    localStorage.setItem(getExamSessionKey(), JSON.stringify({
       examQuestions: examState.examQuestions,
       userAnswers: examState.userAnswers,
       flagged: examState.flagged,
@@ -99,12 +114,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function clearExamSession() {
-    localStorage.removeItem(EXAM_SESSION_KEY);
+    localStorage.removeItem(getExamSessionKey());
   }
 
   function loadExamSession() {
     try {
-      const raw = localStorage.getItem(EXAM_SESSION_KEY);
+      const raw = localStorage.getItem(getExamSessionKey());
       return raw ? JSON.parse(raw) : null;
     } catch (e) {
       return null;
@@ -124,7 +139,16 @@ document.addEventListener('DOMContentLoaded', () => {
     sidebarToggle: document.getElementById('sidebar-toggle'),
     sidebar: document.getElementById('app-sidebar'),
     toast: document.getElementById('app-toast'),
-    
+    brandTitle: document.getElementById('brand-title'),
+    courseSwitcher: document.getElementById('course-switcher'),
+
+    // Course-branded text nodes (updated whenever the active course changes)
+    welcomeTitle: document.getElementById('welcome-title'),
+    quickStudyAllTitle: document.getElementById('quick-study-all-title'),
+    examSetupDesc: document.getElementById('exam-setup-desc'),
+    examTipsTotal: document.getElementById('exam-tips-total'),
+    searchTotalCount: document.getElementById('search-total-count'),
+
     // Pilla / Badges
     incorrectBadge: document.getElementById('incorrect-badge'),
     starredCountPill: document.getElementById('starred-count-pill'),
@@ -227,30 +251,92 @@ document.addEventListener('DOMContentLoaded', () => {
     searchResultsList: document.getElementById('search-results-list'),
   };
 
-  // Fetch questions database
+  // App bootstrap: figure out which course was last active, wire up the course
+  // switcher once, then load that course's data.
   async function initApp() {
-    loadState();
-    applyTheme(state.currentTheme);
-    
-    try {
-      const response = await fetch('questions.json');
-      state.questions = await response.json();
-      console.log(`Loaded ${state.questions.length} questions successfully.`);
+    const savedId = localStorage.getItem(CURRENT_COURSE_KEY);
+    currentCourse = COURSES.find(c => c.id === savedId) || COURSES[0];
+    initCourseSwitcher();
+    await loadCourseData();
+  }
 
+  // Wires the sidebar MLN111/MLN122 tabs (attached once; re-runnable calls are no-ops
+  // beyond refreshing the active-tab highlight, done by updateCourseSwitcherUI()).
+  let courseSwitcherBound = false;
+  function initCourseSwitcher() {
+    updateCourseSwitcherUI();
+    if (courseSwitcherBound) return;
+    courseSwitcherBound = true;
+
+    UI.courseSwitcher.querySelectorAll('.toggle-btn').forEach(btn => {
+      btn.addEventListener('click', () => switchCourse(btn.getAttribute('data-course')));
+    });
+  }
+
+  function updateCourseSwitcherUI() {
+    UI.courseSwitcher.querySelectorAll('.toggle-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-course') === currentCourse.id);
+    });
+  }
+
+  // Switches the active course: persists the choice, stops any running exam timer
+  // from the old course, then reloads all data/UI for the new one.
+  async function switchCourse(courseId) {
+    if (courseId === currentCourse.id) return;
+    const next = COURSES.find(c => c.id === courseId);
+    if (!next) return;
+
+    if (examState.timerInterval) clearInterval(examState.timerInterval);
+    currentCourse = next;
+    localStorage.setItem(CURRENT_COURSE_KEY, courseId);
+    updateCourseSwitcherUI();
+
+    await loadCourseData();
+    switchSection('dashboard-section');
+  }
+
+  // Loads the current course's question bank + saved progress and (re)renders every
+  // module. Called once at startup and again every time switchCourse() runs.
+  async function loadCourseData() {
+    try {
+      const response = await fetch(currentCourse.file);
+      state.questions = await response.json();
+      console.log(`Loaded ${state.questions.length} questions for ${currentCourse.code}.`);
+
+      SET_LIMITS = buildSetLimits(state.questions.length);
+      loadState();
+      applyTheme(state.currentTheme);
+      ACHIEVEMENT_DEFS = buildAchievementDefs();
+
+      applyCourseBranding();
       ensureDailyQuiz();
       initDashboard();
       initStudy();
       initExam();
       initReview();
       initSearch();
+      resumeExamSessionIfAny();
       checkAchievements();
       updateBadges();
-      
-      showToast('Tải cơ sở dữ liệu học tập thành công!', 'success');
+
+      showToast(`Tải cơ sở dữ liệu ${currentCourse.code} thành công!`, 'success');
     } catch (e) {
       console.error('Failed to fetch questions database', e);
       showToast('Lỗi tải cơ sở dữ liệu câu hỏi!', 'error');
     }
+  }
+
+  // Updates every text node/UI bit that names the current course (title, sidebar
+  // brand, dashboard copy, exam setup blurb, search total...). Runs on every course load.
+  function applyCourseBranding() {
+    const total = state.questions.length;
+    document.title = `${currentCourse.code} Study Hub - Ôn luyện ${currentCourse.name}`;
+    if (UI.brandTitle) UI.brandTitle.textContent = currentCourse.code;
+    if (UI.welcomeTitle) UI.welcomeTitle.textContent = `Sẵn sàng ôn luyện ${currentCourse.code}?`;
+    if (UI.quickStudyAllTitle) UI.quickStudyAllTitle.textContent = `Học toàn bộ ${total} câu`;
+    if (UI.examSetupDesc) UI.examSetupDesc.textContent = `Đề thi được sinh ra ngẫu nhiên từ toàn bộ kho ${total} câu hỏi để mô phỏng bài thi kết thúc học phần ${currentCourse.code}.`;
+    if (UI.examTipsTotal) UI.examTipsTotal.textContent = `Hệ thống sẽ chọn ngẫu nhiên các câu hỏi từ toàn bộ ${total} câu.`;
+    if (UI.searchTotalCount) UI.searchTotalCount.textContent = total;
   }
 
   // ==========================================
@@ -344,7 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Update overall progress numbers in sidebar & header pills
   function updateBadges() {
-    const totalQ = 547;
+    const totalQ = state.questions.length;
     const learnedCount = getOverallLearnedCount();
     const pct = totalQ > 0 ? Math.round((learnedCount / totalQ) * 100) : 0;
     
@@ -371,15 +457,18 @@ document.addEventListener('DOMContentLoaded', () => {
     return state.userProgress.all ? state.userProgress.all.length : 0;
   }
 
-  // Set 1-6 ID range mapping (shared by set filtering & achievement checks)
-  const SET_LIMITS = {
-    'set-1': { start: 1, end: 100 },
-    'set-2': { start: 101, end: 200 },
-    'set-3': { start: 201, end: 300 },
-    'set-4': { start: 301, end: 400 },
-    'set-5': { start: 401, end: 500 },
-    'set-6': { start: 501, end: 547 }
-  };
+  // Set-N ID range mapping (shared by set filtering & achievement checks), chunked
+  // into groups of 100 questions — regenerated whenever a course's question count changes.
+  function buildSetLimits(total) {
+    const limits = {};
+    let setIndex = 1;
+    for (let start = 1; start <= total; start += 100) {
+      const end = Math.min(start + 99, total);
+      limits[`set-${setIndex}`] = { start, end };
+      setIndex++;
+    }
+    return limits;
+  }
 
   // Helper to check if a question is in the study set
   function getQuestionsForSet(setName) {
@@ -485,28 +574,34 @@ document.addEventListener('DOMContentLoaded', () => {
   // 3.6 ACHIEVEMENTS (BADGES) MODULE LOGIC
   // ==========================================
 
-  const ACHIEVEMENT_DEFS = [
-    { id: 'first_steps', icon: 'fa-shoe-prints', title: 'Những bước đầu tiên', desc: 'Học thuộc 10 câu hỏi', check: () => getOverallLearnedCount() >= 10 },
-    { id: 'century', icon: 'fa-star-half-stroke', title: 'Cột mốc trăm câu', desc: 'Học thuộc 100 câu hỏi', check: () => getOverallLearnedCount() >= 100 },
-    { id: 'halfway', icon: 'fa-flag-checkered', title: 'Nửa chặng đường', desc: 'Học thuộc 250 câu hỏi', check: () => getOverallLearnedCount() >= 250 },
-    { id: 'master', icon: 'fa-crown', title: 'Bậc thầy MLN111', desc: 'Học thuộc toàn bộ 547 câu hỏi', check: () => getOverallLearnedCount() >= 547 },
-    { id: 'sharp_shooter', icon: 'fa-bullseye', title: 'Xạ thủ chính xác', desc: 'Trả lời đúng liên tiếp 10 câu', check: () => state.maxStreak >= 10 },
-    { id: 'unstoppable', icon: 'fa-bolt', title: 'Không thể ngăn cản', desc: 'Trả lời đúng liên tiếp 20 câu', check: () => state.maxStreak >= 20 },
-    { id: 'exam_ace', icon: 'fa-medal', title: 'Thi thử xuất sắc', desc: 'Đạt từ 90% trở lên trong 1 bài thi thử', check: () => state.examHistory.some(h => h.score >= 90) },
-    { id: 'daily_streak_7', icon: 'fa-fire', title: 'Kiên trì 7 ngày', desc: 'Ôn tập hằng ngày liên tục 7 ngày', check: () => state.dailyStreak >= 7 },
-  ];
-  // Per-set completion achievements (Bộ 1-6)
-  Object.keys(SET_LIMITS).forEach((setId, i) => {
-    const limit = SET_LIMITS[setId];
-    const count = limit.end - limit.start + 1;
-    ACHIEVEMENT_DEFS.push({
-      id: `${setId}_master`,
-      icon: 'fa-layer-group',
-      title: `Hoàn thành Bộ ${i + 1}`,
-      desc: `Học thuộc 100% câu hỏi trong Bộ ${i + 1}`,
-      check: () => (state.userProgress[setId] || []).length >= count
+  // Builds the achievement list for the currently loaded course (total count &
+  // per-set thresholds depend on how many questions that course has).
+  function buildAchievementDefs() {
+    const total = state.questions.length;
+    const defs = [
+      { id: 'first_steps', icon: 'fa-shoe-prints', title: 'Những bước đầu tiên', desc: 'Học thuộc 10 câu hỏi', check: () => getOverallLearnedCount() >= 10 },
+      { id: 'century', icon: 'fa-star-half-stroke', title: 'Cột mốc trăm câu', desc: 'Học thuộc 100 câu hỏi', check: () => getOverallLearnedCount() >= 100 },
+      { id: 'halfway', icon: 'fa-flag-checkered', title: 'Nửa chặng đường', desc: 'Học thuộc 250 câu hỏi', check: () => getOverallLearnedCount() >= 250 },
+      { id: 'master', icon: 'fa-crown', title: `Bậc thầy ${currentCourse.code}`, desc: `Học thuộc toàn bộ ${total} câu hỏi`, check: () => getOverallLearnedCount() >= total },
+      { id: 'sharp_shooter', icon: 'fa-bullseye', title: 'Xạ thủ chính xác', desc: 'Trả lời đúng liên tiếp 10 câu', check: () => state.maxStreak >= 10 },
+      { id: 'unstoppable', icon: 'fa-bolt', title: 'Không thể ngăn cản', desc: 'Trả lời đúng liên tiếp 20 câu', check: () => state.maxStreak >= 20 },
+      { id: 'exam_ace', icon: 'fa-medal', title: 'Thi thử xuất sắc', desc: 'Đạt từ 90% trở lên trong 1 bài thi thử', check: () => state.examHistory.some(h => h.score >= 90) },
+      { id: 'daily_streak_7', icon: 'fa-fire', title: 'Kiên trì 7 ngày', desc: 'Ôn tập hằng ngày liên tục 7 ngày', check: () => state.dailyStreak >= 7 },
+    ];
+    // Per-set completion achievements (Bộ 1-N, N phụ thuộc số câu của môn)
+    Object.keys(SET_LIMITS).forEach((setId, i) => {
+      const limit = SET_LIMITS[setId];
+      const count = limit.end - limit.start + 1;
+      defs.push({
+        id: `${setId}_master`,
+        icon: 'fa-layer-group',
+        title: `Hoàn thành Bộ ${i + 1}`,
+        desc: `Học thuộc 100% câu hỏi trong Bộ ${i + 1}`,
+        check: () => (state.userProgress[setId] || []).length >= count
+      });
     });
-  });
+    return defs;
+  }
 
   // Compares current progress against all achievement definitions and unlocks new ones
   function checkAchievements() {
@@ -548,8 +643,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // 4. DASHBOARD MODULE LOGIC
   // ==========================================
 
+  let dashboardListenersBound = false;
   function initDashboard() {
     renderDashboard();
+    if (dashboardListenersBound) return;
+    dashboardListenersBound = true;
 
     // Quick action bindings
     UI.quickStudyAll.addEventListener('click', () => {
@@ -584,7 +682,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderDashboard() {
     renderDailyQuizCard();
     renderAchievements();
-    const totalQ = 547;
+    const totalQ = state.questions.length;
     const learned = getOverallLearnedCount();
     const learnedPct = Math.round((learned / totalQ) * 100);
 
@@ -620,15 +718,12 @@ document.addEventListener('DOMContentLoaded', () => {
       UI.dashHighScoreSub.textContent = "Bắt đầu thi ở menu";
     }
 
-    // Render Set Selector Cards
-    const sets = [
-      { id: 'set-1', name: 'Bộ câu hỏi 1-100', count: 100 },
-      { id: 'set-2', name: 'Bộ câu hỏi 101-200', count: 100 },
-      { id: 'set-3', name: 'Bộ câu hỏi 201-300', count: 100 },
-      { id: 'set-4', name: 'Bộ câu hỏi 301-400', count: 100 },
-      { id: 'set-5', name: 'Bộ câu hỏi 401-500', count: 100 },
-      { id: 'set-6', name: 'Bộ câu hỏi 501-547', count: 47 }
-    ];
+    // Render Set Selector Cards (built from the current course's SET_LIMITS)
+    const sets = Object.keys(SET_LIMITS).map(setId => {
+      const limit = SET_LIMITS[setId];
+      const count = limit.end - limit.start + 1;
+      return { id: setId, name: `Bộ câu hỏi ${limit.start}-${limit.end}`, count };
+    });
 
     UI.setsContainer.innerHTML = '';
     sets.forEach(set => {
@@ -712,18 +807,45 @@ document.addEventListener('DOMContentLoaded', () => {
       const opt = document.createElement('option');
       opt.value = value;
       opt.textContent = label;
+      opt.setAttribute('data-dynamic', 'true');
       UI.studySetSelect.insertBefore(opt, UI.studySetSelect.firstChild);
     }
   }
 
+  // Rebuilds the "Bộ câu hỏi N-M" <option> list to match the current course's SET_LIMITS.
+  // Clears any options left over from a previous course (dynamic set-N/daily options) first.
+  function rebuildStudySetOptions() {
+    UI.studySetSelect.querySelectorAll('option[data-dynamic="true"]').forEach(opt => opt.remove());
+    const starredOpt = UI.studySetSelect.querySelector('option[value="starred"]');
+    Object.keys(SET_LIMITS).forEach(setId => {
+      const limit = SET_LIMITS[setId];
+      const opt = document.createElement('option');
+      opt.value = setId;
+      opt.textContent = `Bộ câu hỏi ${limit.start}-${limit.end}`;
+      opt.setAttribute('data-dynamic', 'true');
+      UI.studySetSelect.insertBefore(opt, starredOpt);
+    });
+  }
+
+  let studyListenersBound = false;
   function initStudy() {
+    rebuildStudySetOptions();
+
     // Restore last viewed set/question from saved state
     studyState.currentSet = state.studyPosition.set;
     studyState.currentIndex = state.studyPosition.index;
     if (studyState.currentSet === 'daily') {
       ensureStudySetOption('daily', 'Ôn tập hôm nay (Daily)');
     }
+    // A saved position from a set that no longer exists for this course (e.g. leftover
+    // 'daily' with no matching option) falls back to "all" instead of showing blank.
+    if (!UI.studySetSelect.querySelector(`option[value="${studyState.currentSet}"]`)) {
+      studyState.currentSet = 'all';
+    }
     UI.studySetSelect.value = studyState.currentSet;
+
+    if (studyListenersBound) return;
+    studyListenersBound = true;
 
     UI.studySetSelect.addEventListener('change', (e) => {
       studyState.currentSet = e.target.value;
@@ -856,9 +978,9 @@ document.addEventListener('DOMContentLoaded', () => {
   function resetStudyProgress(setName) {
     if (setName === 'all') {
       state.userProgress.all = [];
-      for (let i = 1; i <= 6; i++) {
-        state.userProgress[`set-${i}`] = [];
-      }
+      Object.keys(SET_LIMITS).forEach(setId => {
+        state.userProgress[setId] = [];
+      });
       showToast('Đã xóa toàn bộ tiến trình học tập!', 'success');
     } else if (setName === 'starred') {
       state.starredQuestions = [];
@@ -867,9 +989,9 @@ document.addEventListener('DOMContentLoaded', () => {
       state.userProgress[setName] = [];
       // Re-compile all
       let allCorrect = [];
-      for (let i = 1; i <= 6; i++) {
-        allCorrect = [...allCorrect, ...state.userProgress[`set-${i}`]];
-      }
+      Object.keys(SET_LIMITS).forEach(setId => {
+        allCorrect = [...allCorrect, ...state.userProgress[setId]];
+      });
       state.userProgress.all = [...new Set(allCorrect)];
       showToast(`Đã xóa tiến trình của ${setName.toUpperCase()}!`, 'success');
     }
@@ -946,7 +1068,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="question-header">
             <div class="question-meta">
               <span class="meta-pill">Câu hỏi ID: ${q.id}</span>
-              <span class="meta-pill" style="background-color: var(--primary-glow); color: var(--primary)">MLN111</span>
+              <span class="meta-pill" style="background-color: var(--primary-glow); color: var(--primary)">${currentCourse.code}</span>
             </div>
             <button class="btn-star-question ${isStarred ? 'starred' : ''}" id="btn-study-star" title="Đánh dấu câu hỏi này">
               <i class="${isStarred ? 'fa-solid' : 'fa-regular'} fa-star"></i>
@@ -1155,13 +1277,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function getSetIdForQuestionId(qId) {
-    if (qId >= 1 && qId <= 100) return 'set-1';
-    if (qId >= 101 && qId <= 200) return 'set-2';
-    if (qId >= 201 && qId <= 300) return 'set-3';
-    if (qId >= 301 && qId <= 400) return 'set-4';
-    if (qId >= 401 && qId <= 500) return 'set-5';
-    if (qId >= 501 && qId <= 547) return 'set-6';
-    return null;
+    const setId = Object.keys(SET_LIMITS).find(id => {
+      const limit = SET_LIMITS[id];
+      return qId >= limit.start && qId <= limit.end;
+    });
+    return setId || null;
   }
 
   function studyPrevQuestion() {
@@ -1224,7 +1344,11 @@ document.addEventListener('DOMContentLoaded', () => {
     totalTime: 0               // seconds
   };
 
+  let examListenersBound = false;
   function initExam() {
+    if (examListenersBound) return;
+    examListenersBound = true;
+
     UI.btnStartExam.addEventListener('click', startExamFlow);
     UI.btnExamPrev.addEventListener('click', examPrevQuestion);
     UI.btnExamNext.addEventListener('click', examNextQuestion);
@@ -1260,14 +1384,24 @@ document.addEventListener('DOMContentLoaded', () => {
       showToast(`Đã thêm ${added} câu hỏi làm sai vào Hộp câu sai!`, 'success');
       switchSection('review-section');
     });
-
-    // Resume an in-progress exam if the page was reloaded mid-exam
-    resumeExamSessionIfAny();
   }
 
   function resumeExamSessionIfAny() {
     const saved = loadExamSession();
-    if (!saved || !saved.examQuestions || !saved.examQuestions.length) return;
+    if (!saved || !saved.examQuestions || !saved.examQuestions.length) {
+      // No saved session for this course — clear any leftover in-memory exam
+      // from a course we just switched away from, so its UI doesn't linger.
+      if (examState.timerInterval) clearInterval(examState.timerInterval);
+      examState.examQuestions = [];
+      examState.userAnswers = {};
+      examState.flagged = [];
+      examState.currentIndex = 0;
+      examState.timerInterval = null;
+      UI.examSetupContainer.style.display = 'block';
+      UI.examActiveContainer.style.display = 'none';
+      UI.examResultContainer.style.display = 'none';
+      return;
+    }
 
     const elapsedSecs = Math.floor((Date.now() - (saved.savedAt || Date.now())) / 1000);
     const remaining = Math.max(0, (saved.timeLeft || 0) - elapsedSecs);
@@ -1585,7 +1719,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (score >= 90) {
       evalTitle = "Xuất sắc! Thầy cô tự hào!";
-      evalDesc = `Bạn đã làm chủ hoàn hảo bộ kiến thức Triết học Mác-Lênin.`;
+      evalDesc = `Bạn đã làm chủ hoàn hảo bộ kiến thức ${currentCourse.name}.`;
     } else if (score >= 70) {
       evalTitle = "Rất tốt! Tiến lên!";
       evalDesc = `Bạn hoàn thành bài thi đạt loại giỏi. Tiếp tục ôn tập thêm.`;
@@ -1675,7 +1809,11 @@ document.addEventListener('DOMContentLoaded', () => {
     answersRevealed: false
   };
 
+  let reviewListenersBound = false;
   function initReview() {
+    if (reviewListenersBound) return;
+    reviewListenersBound = true;
+
     UI.btnReviewPrev.addEventListener('click', reviewPrevQuestion);
     UI.btnReviewNext.addEventListener('click', reviewNextQuestion);
     UI.btnReviewShowAnswer.addEventListener('click', revealReviewAnswer);
@@ -1884,7 +2022,22 @@ document.addEventListener('DOMContentLoaded', () => {
   // 8. QUICK SEARCH MODULE LOGIC
   // ==========================================
 
+  let searchListenersBound = false;
   function initSearch() {
+    // Reset any query/results left over from a previous course
+    UI.searchInput.value = '';
+    UI.btnSearchClear.style.display = 'none';
+    UI.searchResultsCount.textContent = '0';
+    UI.searchResultsList.innerHTML = `
+      <div class="text-center text-muted card py-5">
+        <p><i class="fa-solid fa-search fa-2x"></i></p>
+        <p class="mt-2">Nhập từ khóa từ 2 ký tự trở lên để tra cứu nhanh câu hỏi trắc nghiệm</p>
+      </div>
+    `;
+
+    if (searchListenersBound) return;
+    searchListenersBound = true;
+
     UI.searchInput.addEventListener('input', (e) => {
       const val = e.target.value.trim();
       if (val.length > 0) {
