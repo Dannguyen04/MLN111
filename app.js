@@ -40,32 +40,88 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Load state from localStorage if exists
   function loadState() {
-    const saved = localStorage.getItem(`${currentCourse.id}_state`);
+    // Reset state to clean defaults for the active course to prevent state bleeding across courses
+    const savedTheme = state.currentTheme || 'dark';
+    state.userProgress = {};
+    state.starredQuestions = [];
+    state.incorrectQuestions = [];
+    state.streak = 0;
+    state.maxStreak = 0;
+    state.examHistory = [];
+    state.currentTheme = savedTheme;
+    state.studyPosition = { set: 'all', index: 0 };
+    state.dailyQuiz = { date: null, ids: [], completed: [] };
+    state.dailyStreak = 0;
+    state.lastDailyStreakDate = null;
+    state.achievements = [];
+
+    let saved = localStorage.getItem(`${currentCourse.id}_state`);
+
+    // Backward compatibility: If current course is MLN111 and no course-specific state exists yet,
+    // check legacy storage keys (study_hub_state, mln_state, etc.) and migrate automatically.
+    if (!saved && currentCourse.id === 'mln111') {
+      const legacyKey = localStorage.getItem('study_hub_state') ||
+                        localStorage.getItem('mln_state') ||
+                        localStorage.getItem('mln111_progress') ||
+                        localStorage.getItem('study_hub_progress');
+      if (legacyKey) {
+        saved = legacyKey;
+        try {
+          localStorage.setItem('mln111_state', legacyKey);
+        } catch (e) {}
+      }
+    }
+
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
         state.userProgress = parsed.userProgress || {};
-        state.starredQuestions = parsed.starredQuestions || [];
-        state.incorrectQuestions = parsed.incorrectQuestions || [];
+        state.starredQuestions = Array.isArray(parsed.starredQuestions) ? parsed.starredQuestions : [];
+        state.incorrectQuestions = Array.isArray(parsed.incorrectQuestions) ? parsed.incorrectQuestions : [];
         state.streak = parsed.streak || 0;
         state.maxStreak = parsed.maxStreak || 0;
-        state.examHistory = parsed.examHistory || [];
-        state.currentTheme = parsed.currentTheme || 'dark';
+        state.examHistory = Array.isArray(parsed.examHistory) ? parsed.examHistory : [];
+        state.currentTheme = parsed.currentTheme || savedTheme;
         state.studyPosition = parsed.studyPosition || { set: 'all', index: 0 };
         state.dailyQuiz = parsed.dailyQuiz || { date: null, ids: [], completed: [] };
         state.dailyStreak = parsed.dailyStreak || 0;
         state.lastDailyStreakDate = parsed.lastDailyStreakDate || null;
-        state.achievements = parsed.achievements || [];
+        state.achievements = Array.isArray(parsed.achievements) ? parsed.achievements : [];
       } catch (e) {
         console.error('Failed to parse saved state, initializing fresh state', e);
       }
     }
 
-    // Ensure basic structure exists
-    if (!state.userProgress.all) state.userProgress.all = [];
+    // Ensure basic structure exists and sanitize against active course's valid question IDs
+    const validQIds = new Set(state.questions.map(q => q.id));
+
+    state.starredQuestions = state.starredQuestions.filter(id => validQIds.has(id));
+    state.incorrectQuestions = state.incorrectQuestions.filter(id => validQIds.has(id));
+
+    if (!state.userProgress || typeof state.userProgress !== 'object') {
+      state.userProgress = {};
+    }
+    if (!Array.isArray(state.userProgress.all)) {
+      state.userProgress.all = [];
+    } else {
+      state.userProgress.all = state.userProgress.all.filter(id => validQIds.has(id));
+    }
+
     Object.keys(SET_LIMITS).forEach(setId => {
-      if (!state.userProgress[setId]) state.userProgress[setId] = [];
+      if (!Array.isArray(state.userProgress[setId])) {
+        state.userProgress[setId] = [];
+      } else {
+        state.userProgress[setId] = state.userProgress[setId].filter(id => validQIds.has(id));
+      }
     });
+
+    // Validate dailyQuiz items
+    if (state.dailyQuiz && Array.isArray(state.dailyQuiz.ids)) {
+      const allDailyValid = state.dailyQuiz.ids.length > 0 && state.dailyQuiz.ids.every(id => validQIds.has(id));
+      if (!allDailyValid) {
+        state.dailyQuiz = { date: null, ids: [], completed: [] };
+      }
+    }
   }
 
   // Persist state to localStorage without triggering achievement checks (avoids recursion)
@@ -249,11 +305,154 @@ document.addEventListener('DOMContentLoaded', () => {
     btnSearchClear: document.getElementById('btn-search-clear'),
     searchResultsCount: document.getElementById('search-results-count'),
     searchResultsList: document.getElementById('search-results-list'),
+
+    // Auth Overlay UI
+    authOverlay: document.getElementById('auth-overlay'),
+    authForm: document.getElementById('auth-form'),
+    authPasswordInput: document.getElementById('auth-password-input'),
+    btnTogglePassword: document.getElementById('btn-toggle-password'),
+    eyeIcon: document.getElementById('eye-icon'),
+    authRememberMe: document.getElementById('auth-remember-me'),
+    authErrorMsg: document.getElementById('auth-error-msg'),
+    authErrorText: document.getElementById('auth-error-text'),
+    btnAuthSubmit: document.getElementById('btn-auth-submit'),
+    btnLockApp: document.getElementById('btn-lock-app'),
   };
+
+  // ==========================================
+  // ACCESS PROTECTION & AUTHENTICATION MODULE
+  // ==========================================
+  const AUTH_KEY = 'study_hub_authenticated';
+  const DEVICE_ID_KEY = 'study_hub_device_id';
+
+  function getDeviceId() {
+    let devId = localStorage.getItem(DEVICE_ID_KEY);
+    if (!devId) {
+      devId = 'dev-' + Math.random().toString(36).substring(2, 10) + Date.now().toString(36);
+      localStorage.setItem(DEVICE_ID_KEY, devId);
+    }
+    return devId;
+  }
+
+  function initAuth() {
+    if (!UI.authOverlay) return;
+
+    const isAuthed = localStorage.getItem(AUTH_KEY) === 'true' || sessionStorage.getItem(AUTH_KEY) === 'true';
+
+    if (isAuthed) {
+      UI.authOverlay.classList.add('hidden');
+    } else {
+      UI.authOverlay.classList.remove('hidden');
+      if (UI.authPasswordInput) {
+        setTimeout(() => UI.authPasswordInput.focus(), 300);
+      }
+    }
+
+    // Toggle password eye icon
+    if (UI.btnTogglePassword && UI.authPasswordInput) {
+      UI.btnTogglePassword.addEventListener('click', () => {
+        const type = UI.authPasswordInput.type === 'password' ? 'text' : 'password';
+        UI.authPasswordInput.type = type;
+        if (UI.eyeIcon) {
+          UI.eyeIcon.className = type === 'password' ? 'fa-solid fa-eye' : 'fa-solid fa-eye-slash';
+        }
+      });
+    }
+
+    // Handle form submit
+    if (UI.authForm && UI.authPasswordInput) {
+      UI.authForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const code = UI.authPasswordInput.value.trim();
+        if (!code) return;
+
+        if (UI.authErrorMsg) UI.authErrorMsg.style.display = 'none';
+        if (UI.btnAuthSubmit) {
+          UI.btnAuthSubmit.disabled = true;
+          UI.btnAuthSubmit.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang xác thực...';
+        }
+
+        const isValid = await verifyAccessCode(code);
+
+        if (UI.btnAuthSubmit) {
+          UI.btnAuthSubmit.disabled = false;
+          UI.btnAuthSubmit.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Mở khóa ứng dụng';
+        }
+
+        if (isValid) {
+          if (UI.authRememberMe && UI.authRememberMe.checked) {
+            localStorage.setItem(AUTH_KEY, 'true');
+          } else {
+            sessionStorage.setItem(AUTH_KEY, 'true');
+          }
+          UI.authOverlay.classList.add('hidden');
+          UI.authPasswordInput.value = '';
+          showToast('Xác thực thành công! Đã mở khóa ứng dụng.', 'success');
+        } else {
+          if (UI.authErrorText) UI.authErrorText.textContent = 'Mật khẩu hoặc mã kích hoạt không chính xác!';
+          if (UI.authErrorMsg) UI.authErrorMsg.style.display = 'flex';
+          UI.authPasswordInput.focus();
+          UI.authPasswordInput.select();
+        }
+      });
+    }
+
+    // Lock app button in top bar
+    if (UI.btnLockApp) {
+      UI.btnLockApp.addEventListener('click', () => {
+        localStorage.removeItem(AUTH_KEY);
+        sessionStorage.removeItem(AUTH_KEY);
+        if (UI.authOverlay) UI.authOverlay.classList.remove('hidden');
+        if (UI.authErrorMsg) UI.authErrorMsg.style.display = 'none';
+        if (UI.authPasswordInput) {
+          setTimeout(() => UI.authPasswordInput.focus(), 300);
+        }
+        showToast('Đã khóa ứng dụng.', 'warning');
+      });
+    }
+  }
+
+  async function verifyAccessCode(inputCode) {
+    const cleanCode = inputCode.trim().toUpperCase();
+
+    // 1. Check client default master passwords (case insensitive)
+    const DEFAULT_PASSWORDS = [
+       'DUNGHOCNUANGHIDI'
+    ];
+    if (DEFAULT_PASSWORDS.includes(cleanCode)) {
+      return true;
+    }
+
+    // 2. Try backend endpoint /api/verify-code if running on node server
+    try {
+      const response = await fetch('/api/verify-code', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          code: cleanCode,
+          deviceId: getDeviceId()
+        })
+      });
+      if (response.ok) {
+        const data = await response.json();
+        if (data.success) return true;
+      }
+    } catch (e) {
+      // Backend request unreachable or server static mode
+    }
+
+    // 3. Fallback check for MLN111-XX format or codes.json pattern
+    if (/^MLN(111|122)-\d{2}$/i.test(cleanCode)) {
+      return true;
+    }
+
+    return false;
+  }
 
   // App bootstrap: figure out which course was last active, wire up the course
   // switcher once, then load that course's data.
   async function initApp() {
+    initAuth();
     const savedId = localStorage.getItem(CURRENT_COURSE_KEY);
     currentCourse = COURSES.find(c => c.id === savedId) || COURSES[0];
     initCourseSwitcher();

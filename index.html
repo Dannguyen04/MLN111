@@ -151,6 +151,13 @@
                         >
                             <i class="fa-solid fa-moon"></i>
                         </div>
+                        <div
+                            class="stat-pill"
+                            id="btn-lock-app"
+                            title="Khóa ứng dụng (Yêu cầu mật khẩu)"
+                        >
+                            <i class="fa-solid fa-lock text-primary"></i>
+                        </div>
                     </div>
                 </header>
 
@@ -1016,6 +1023,61 @@
                     </section>
                 </div>
             </main>
+        </div>
+
+        <!-- Password Auth Overlay -->
+        <div class="auth-overlay" id="auth-overlay">
+            <div class="auth-card">
+                <div class="auth-badge">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <div class="auth-header">
+                    <h2>Bảo Vệ Truy Cập</h2>
+                    <p>Vui lòng nhập mật khẩu hoặc mã kích hoạt để bắt đầu sử dụng ứng dụng MLN Study Hub.</p>
+                </div>
+
+                <form id="auth-form" class="auth-form" onsubmit="return false;">
+                    <div class="auth-input-group">
+                        <label for="auth-password-input"><i class="fa-solid fa-lock"></i> Mật khẩu / Mã truy cập</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-key input-icon"></i>
+                            <input
+                                type="password"
+                                id="auth-password-input"
+                                placeholder="Nhập mật khẩu hoặc mã (ví dụ: 123456)..."
+                                autocomplete="current-password"
+                                required
+                            />
+                            <button type="button" class="btn-toggle-eye" id="btn-toggle-password" title="Hiện/Ẩn mật khẩu">
+                                <i class="fa-solid fa-eye" id="eye-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="auth-options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="auth-remember-me" checked />
+                            <span>Ghi nhớ đăng nhập trên thiết bị này</span>
+                        </label>
+                    </div>
+
+                    <div class="auth-error-msg" id="auth-error-msg" style="display: none;">
+                        <i class="fa-solid fa-circle-exclamation"></i>
+                        <span id="auth-error-text">Mật khẩu hoặc mã kích hoạt không chính xác!</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full btn-auth-submit" id="btn-auth-submit">
+                        <i class="fa-solid fa-right-to-bracket"></i> Mở khóa ứng dụng
+                    </button>
+                </form>
+
+                <div class="auth-footer">
+                    <div class="auth-hint">
+                        <i class="fa-solid fa-lightbulb text-warning"></i>
+                        <span>Mật khẩu mặc định: <strong>123456</strong> hoặc <strong>mln111</strong> / <strong>mln122</strong> (hoặc sử dụng Mã truy cập MLN111-XX).</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Notification Toast -->
