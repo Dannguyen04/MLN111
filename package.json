@@ -1,0 +1,28 @@
+{
+  "name": "mln111",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dannguyen04/MLN111.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dannguyen04/MLN111/issues"
+  },
+  "homepage": "https://github.com/Dannguyen04/MLN111#readme",
+  "dependencies": {
+    "pdf-parse": "^2.4.5"
+  }
+}
