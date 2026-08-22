@@ -498,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // module. Called once at startup and again every time switchCourse() runs.
   async function loadCourseData() {
     try {
-      const response = await fetch(currentCourse.file);
+      const response = await fetch(`${currentCourse.file}?v=${Date.now()}`);
       state.questions = await response.json();
       console.log(`Loaded ${state.questions.length} questions for ${currentCourse.code}.`);
 

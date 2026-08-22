@@ -121,10 +121,16 @@ function parseCleanLines(lines) {
     const optionMatch = line.match(/^([A-D])\s*[\.\s]\s*(.*)$/i);
     
     if (optionMatch && state !== 'NOTE') {
-      state = 'OPTIONS';
-      currentOptionKey = optionMatch[1].toUpperCase();
-      currentOptions[currentOptionKey].push(optionMatch[2]);
-      continue;
+      const matchedKey = optionMatch[1].toUpperCase();
+      // If we are in QUESTION state, we only transition to OPTIONS on Option A/a
+      if (state === 'QUESTION' && matchedKey !== 'A') {
+        // Do not transition, treat as part of the question
+      } else {
+        state = 'OPTIONS';
+        currentOptionKey = matchedKey;
+        currentOptions[currentOptionKey].push(optionMatch[2]);
+        continue;
+      }
     }
     
     // If we are in OPTIONS state and encounter an answer key
