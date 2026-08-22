@@ -1,0 +1,2809 @@
+﻿Total questions: 491
+Checking questions with fewer than 4 options:
+
+----------------------------------------
+JSON Question #6 (Options count: 3, Answer: A):
+Q: ─Éß╗ïa t├┤ ch├¬nh lß╗çch II thu ─æ╞░ß╗úc tr├¬n
+Options: {
+  A: 'Ruß╗Öng ─æß║Ñt ─æ├ú th├óm canh',
+  B: 'Ruß╗Öng ─æß║Ñt c├│ ─æß╗Ö m├áu mß╗í trung b├¼nh',
+  C: 'Ruß╗Öng ─æß║Ñt c├│ ─æß╗Ö m├áu mß╗í tß╗æt'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #12 (Options count: 3, Answer: B):
+Q: C├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün sß╗¡ dß╗Ñng gi├í cß║ú ─æß╗Öc quyß╗ün ─æß╗â
+Options: {
+  A: 'Cß╗ºng cß╗æ vai tr├▓ tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün',
+  B: 'Chiß║┐m ─æoß║ít gi├í trß╗ï thß║╖ng d╞░ cß╗ºa ng╞░ß╗¥i kh├íc',
+  C: 'G├óy thiß╗çt hß║íi cho c├íc ─æß╗æi thß╗º cß║ính tranh'
+}
+Raw text surrounding line 156:
+  154: D. X├ú hß╗Öi chß╗º ngh─⌐a
+  155: A
+  156: C├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün sß╗¡ dß╗Ñng gi├í cß║ú ─æß╗Öc
+  157: quyß╗ün ─æß╗â
+  158: A. Cß╗ºng cß╗æ vai tr├▓ tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün
+  159: B. Chiß║┐m ─æoß║ít gi├í trß╗ï thß║╖ng d╞░ cß╗ºa ng╞░ß╗¥i
+  160: kh├íc
+  161: C. G├óy thiß╗çt hß║íi cho c├íc ─æß╗æi thß╗º cß║ính tranh
+  162: B
+  163: C╞í chß║┐ kinh tß║┐ cß╗ºa ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+  164: trong chß╗º ngh─⌐a t╞░ bß║ún gß╗ôm:
+  165: A. C╞í chß║┐ thß╗ï tr╞░ß╗ƒng, ─æß╗Öc quyß╗ün t╞░ nh├ón
+  166: v├á sß╗▒ can thiß╗çp cß╗ºa nh├á n╞░ß╗¢c
+  167: B. C╞í chß║┐ thß╗ï tr╞░ß╗¥ng, c├íc nh├á t├ái phiß╗çt v├á
+  168: sß╗▒ ─æiß╗üu tiß║┐t cß╗ºa nh├á n╞░ß╗¢c
+
+----------------------------------------
+JSON Question #13 (Options count: 3, Answer: A):
+Q: C╞í chß║┐ kinh tß║┐ cß╗ºa ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░ bß║ún gß╗ôm:
+Options: {
+  A: 'C╞í chß║┐ thß╗ï tr╞░ß╗ƒng, ─æß╗Öc quyß╗ün t╞░ nh├ón v├á sß╗▒ can thiß╗çp cß╗ºa nh├á n╞░ß╗¢c',
+  B: 'C╞í chß║┐ thß╗ï tr╞░ß╗¥ng, c├íc nh├á t├ái phiß╗çt v├á sß╗▒ ─æiß╗üu tiß║┐t cß╗ºa nh├á n╞░ß╗¢c',
+  C: 'C╞í chß║┐ thß╗ï tr╞░ß╗¥ng v├á ─æß╗Öc quyß╗ün t╞░ nh├ón'
+}
+Raw text surrounding line 163:
+  161: C. G├óy thiß╗çt hß║íi cho c├íc ─æß╗æi thß╗º cß║ính tranh
+  162: B
+  163: C╞í chß║┐ kinh tß║┐ cß╗ºa ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+  164: trong chß╗º ngh─⌐a t╞░ bß║ún gß╗ôm:
+  165: A. C╞í chß║┐ thß╗ï tr╞░ß╗ƒng, ─æß╗Öc quyß╗ün t╞░ nh├ón
+  166: v├á sß╗▒ can thiß╗çp cß╗ºa nh├á n╞░ß╗¢c
+  167: B. C╞í chß║┐ thß╗ï tr╞░ß╗¥ng, c├íc nh├á t├ái phiß╗çt v├á
+  168: sß╗▒ ─æiß╗üu tiß║┐t cß╗ºa nh├á n╞░ß╗¢c
+  169: C. C╞í chß║┐ thß╗ï tr╞░ß╗¥ng v├á ─æß╗Öc quyß╗ün t╞░ nh├ón
+  170: A
+  171: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  172: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	3/142
+  173: 
+  174: -- 3 of 142 --
+  175: 
+
+----------------------------------------
+JSON Question #15 (Options count: 3, Answer: A):
+Q: V├¼ sao trong chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün cß║ính tranh kh├┤ng bß╗ï thß╗º ti├¬u?
+Options: {
+  A: 'V├¼ cß║ính tranh l├á quy luß║¡t kh├ích quan cß╗ºa kinh tß║┐ h├áng ho├í',
+  B: 'V├¼ tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün cß║ính tranh vß╗¢i c├íc c├┤ng ty ngo├ái ─æß╗Öc quyß╗ün',
+  C: 'V├¼ c├íc x├¡ nghiß╗çp trong nß╗Öi bß╗Ö tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün cß║ính tranh vß╗¢i nhau'
+}
+Raw text surrounding line 185:
+  183: D. Sß║ún xuß║Ñt v├á trao ─æß╗òi h├áng h├│a
+  184: D
+  185: V├¼ sao trong chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün
+  186: cß║ính tranh kh├┤ng bß╗ï thß╗º ti├¬u?
+  187: A. V├¼ cß║ính tranh l├á quy luß║¡t kh├ích quan
+  188: cß╗ºa kinh tß║┐ h├áng ho├í
+  189: B. V├¼ tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün cß║ính tranh vß╗¢i c├íc
+  190: c├┤ng ty ngo├ái ─æß╗Öc quyß╗ün
+  191: C. V├¼ c├íc x├¡ nghiß╗çp trong nß╗Öi bß╗Ö tß╗ò chß╗⌐c
+  192: ─æß╗Öc quyß╗ün cß║ính tranh vß╗¢i nhau
+  193: A
+  194: C├ích mß║íng c├┤ng nghiß╗çp lß║ºn thß╗⌐ hai diß╗àn ra
+  195: trong giai ─æoß║ín n├áo?
+  196: A. Tß╗½ nß╗¡a cuß╗æi thß║┐ kß╗╖ XIX ─æß║┐n ─æß║ºu thß║┐ kß╗╖
+  197: XX
+
+----------------------------------------
+JSON Question #24 (Options count: 3, Answer: A):
+Q: Mß╗çnh ─æß╗ü n├áo sau ─æ├óy l├á ├╜ kh├┤ng ─æ├║ng vß╗ü lao ─æß╗Öng phß╗⌐c tß║íp?
+Options: {
+  A: 'Lao ─æß╗Öng phß╗⌐c tß║íp l├á lao ─æß╗Öng tr├¡ tuß╗ç cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng c├│ tr├¼nh ─æß╗Ö cao',
+  B: 'Lao ─æß╗Öng phß╗⌐c tß║íp l├á lao ─æß╗Öng trß║úi qua ─æ├áo tß║ío, huß║Ñn luyß╗çn',
+  C: 'Trong c├╣ng mß╗Öt thß╗¥i gian lao ─æß╗Öng, lao ─æß╗Öng phß╗⌐c tß║íp tß║ío ra nhiß╗üu gi├í trß╗ï h╞ín lao ─æß╗Öng giß║ún ─æ╞ín.'
+}
+Raw text surrounding line 334:
+  332: D. Tß║Ñt cß║ú ph╞░╞íng ├ín tr├¬n
+  333: D
+  334: Mß╗çnh ─æß╗ü n├áo sau ─æ├óy l├á ├╜ kh├┤ng ─æ├║ng vß╗ü
+  335: lao ─æß╗Öng phß╗⌐c tß║íp?
+  336: A. Lao ─æß╗Öng phß╗⌐c tß║íp l├á lao ─æß╗Öng tr├¡ tuß╗ç
+  337: cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng c├│ tr├¼nh ─æß╗Ö cao
+  338: B. Lao ─æß╗Öng phß╗⌐c tß║íp l├á lao ─æß╗Öng trß║úi qua
+  339: ─æ├áo tß║ío, huß║Ñn luyß╗çn
+  340: C. Trong c├╣ng mß╗Öt thß╗¥i gian lao ─æß╗Öng, lao
+  341: ─æß╗Öng phß╗⌐c tß║íp tß║ío ra nhiß╗üu gi├í trß╗ï h╞ín lao
+  342: ─æß╗Öng giß║ún ─æ╞ín.
+  343: A
+  344: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  345: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	6/142
+  346: 
+
+----------------------------------------
+JSON Question #31 (Options count: 3, Answer: A):
+Q: Bß║ún chß║Ñt khß╗ºng hoß║úng thß╗¡a trong nß╗ün kinh tß║┐ l├á.
+Options: {
+  A: 'Khß╗ºng hoß║úng sß║ún xuß║Ñt "thß╗½a" so vß╗¢i sß╗⌐c mua c├│ hß║ín cß╗ºa x├ú hß╗Öi.',
+  B: 'Khß╗ºng hoß║úng sß║ún xuß║Ñt "thß╗½a" so vß╗¢i nhu cß║ºu x├ú hß╗Öi.',
+  C: 'Khß╗ºng hoß║úng sß║ún xuß║Ñt "thiß║┐u hß╗Ñt" so vß╗¢i sß╗⌐c mua.'
+}
+Raw text surrounding line 415:
+  413: d╞░
+  414: B
+  415: Bß║ún chß║Ñt khß╗ºng hoß║úng thß╗¡a trong nß╗ün kinh
+  416: tß║┐ l├á.
+  417: A. Khß╗ºng hoß║úng sß║ún xuß║Ñt "thß╗½a" so vß╗¢i sß╗⌐c
+  418: mua c├│ hß║ín cß╗ºa x├ú hß╗Öi.
+  419: B. Khß╗ºng hoß║úng sß║ún xuß║Ñt "thß╗½a" so vß╗¢i nhu
+  420: cß║ºu x├ú hß╗Öi.
+  421: C. Khß╗ºng hoß║úng sß║ún xuß║Ñt "thiß║┐u hß╗Ñt" so vß╗¢i
+  422: sß╗⌐c mua.
+  423: A
+  424: C├│ mß║Ñy nguy├¬n nh├ón ch├¡nh dß║½n ─æß║┐n sß╗▒
+  425: h├¼nh th├ánh ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º
+  426: ngh─⌐a t╞░ bß║ún?
+  427: A. Ba nguy├¬n nh├ón
+
+----------------------------------------
+JSON Question #33 (Options count: 3, Answer: A):
+Q: Tiß╗ün c├┤ng thß╗▒c tß║┐ l├á
+Options: {
+  A: 'Tiß╗ün c├┤ng ─æ╞░ß╗úc biß╗âu hiß╗çn bß║▒ng sß╗æ l╞░ß╗úng h├áng h├│a ti├¬u d├╣ng v├á dß╗ïch vß╗Ñ m├á c├┤ng nh├ón mua ─æ╞░ß╗úc bß║▒ng tiß╗ün c├┤ng danh ngh─⌐a cß╗ºa m├¼nh',
+  B: 'Tiß╗ün c├┤ng ─æ╞░ß╗úc biß╗âu hiß╗çn bß║▒ng sß╗æ l╞░ß╗úng h├áng h├│a ti├¬u d├╣ng v├á dß╗ïch vß╗Ñ m├á c├┤ng nh├ón mua ─æ╞░ß╗úc bß║▒ng tiß╗ün c├┤ng thß╗▒c tß║┐ cß╗ºa m├¼nh',
+  C: 'Tiß╗ün c├┤ng ─æ╞░ß╗úc biß╗âu hiß╗çn bß║▒ng sß╗æ t╞░ liß╗çu sß║ún xuß║Ñt v├á ti├¬u d├╣ng v├á dß╗ïch vß╗Ñ m├á c├┤ng nh├ón mua ─æ╞░ß╗úc bß║▒ng tiß╗ün c├┤ng thß╗▒c tß║┐ cß╗ºa m├¼nh'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #38 (Options count: 3, Answer: A):
+Q: C├ích mß║íng c├┤ng nghiß╗çp lß║ºn thß╗⌐ t╞░ sß║╜ l├ám mß║Ñt ─æi lß╗úi thß║┐ cß╗ºa c├íc n╞░ß╗¢c ─æang ph├ít triß╗ân vß╗ü
+Options: {
+  A: 'T├ái nguy├¬n thi├¬n nhi├¬n, c├┤ng nh├ón gi├í rß║╗',
+  B: 'Kho├íng sß║ún, sß╗⌐c lao ─æß╗Öng',
+  C: 'Khoa hß╗ìc c├┤ng nghß╗ç, nh├ón c├┤ng chß║Ñt l╞░ß╗úng cao'
+}
+Raw text surrounding line 507:
+  505: -- 10 of 142 --
+  506: 
+  507: C├ích mß║íng c├┤ng nghiß╗çp lß║ºn thß╗⌐ t╞░ sß║╜ l├ám
+  508: mß║Ñt ─æi lß╗úi thß║┐ cß╗ºa c├íc n╞░ß╗¢c ─æang ph├ít triß╗ân
+  509: vß╗ü(NHUNG HO├ÇNG)
+  510: A. T├ái nguy├¬n thi├¬n nhi├¬n, c├┤ng nh├ón gi├í
+  511: rß║╗
+  512: B. Kho├íng sß║ún, sß╗⌐c lao ─æß╗Öng
+  513: C. Khoa hß╗ìc c├┤ng nghß╗ç, nh├ón c├┤ng chß║Ñt
+  514: l╞░ß╗úng cao
+  515: A
+  516: ─Éß║íi hß╗Öi n├áo ─æ├ú x├íc ─æß╗ïnh kinh tß║┐ thß╗ï tr╞░ß╗¥ng
+  517: ─æß╗ïnh h╞░ß╗¢ng x├ú hß╗Öi chß╗º ngh─⌐a l├á "mß╗Öt kiß╗âu
+  518: tß╗ò chß╗⌐c kinh tß║┐ vß╗½a tu├ón theo quy luß║¡t cß╗ºa
+  519: kinh tß║┐ thß╗ï tr╞░ß╗¥ng vß╗½a dß╗▒a tr├¬n c╞í sß╗ƒ v├á
+
+----------------------------------------
+JSON Question #42 (Options count: 3, Answer: A):
+Q: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, lao ─æß╗Öng trß╗½u t╞░ß╗úng l├á
+Options: {
+  A: 'L├á phß║ím tr├╣ cß╗ºa mß╗ìi nß╗ün kinh tß║┐ h├áng ho├í',
+  B: 'L├á phß║ím tr├╣ ri├¬ng cß╗ºa kinh tß║┐ thß╗ï tr╞░ß╗¥ng',
+  C: 'L├á phß║ím tr├╣ chung cß╗ºa mß╗ìi nß╗ün kinh tß║┐'
+}
+Raw text surrounding line 559:
+  557: ng╞░ß╗¥i t─âng l├¬n
+  558: D
+  559: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, lao ─æß╗Öng trß╗½u
+  560: t╞░ß╗úng l├á
+  561: A. L├á phß║ím tr├╣ cß╗ºa mß╗ìi nß╗ün kinh tß║┐ h├áng
+  562: ho├í
+  563: B. L├á phß║ím tr├╣ ri├¬ng cß╗ºa kinh tß║┐ thß╗ï tr╞░ß╗¥ng
+  564: C. L├á phß║ím tr├╣ chung cß╗ºa mß╗ìi nß╗ün kinh tß║┐
+  565: A
+  566: X├⌐t vß╗ü bß║ún chß║Ñt, th├¼ lß╗úi ├¡ch kinh tß║┐ ─æ╞░ß╗úc
+  567: hiß╗âu l├á:(NHUNG HO├ÇNG)
+  568: A. Quan hß╗ç kinh tß║┐ x├ú hß╗Öi
+  569: B. Quan hß╗ç x├ú hß╗Öi, mang t├¡nh lß╗ïch sß╗¡
+  570: C. Quan hß╗ç sß║ún xuß║Ñt
+  571: D. Quan hß╗ç ch├¡nh trß╗ï mang t├¡nh lß╗úi ├¡ch
+
+----------------------------------------
+JSON Question #53 (Options count: 3, Answer: A):
+Q: Khi ─æß╗ông thß╗¥i t─âng n─âng suß║Ñt lao ─æß╗Öng v├á c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng l├¬n 2 lß║ºn th├¼ ├╜ n├áo d╞░ß╗¢i ─æ├óy l├á ─æ├║ng?
+Options: {
+  A: 'Gi├í trß╗ï 1 h├áng ho├í giß║úm 2 lß║ºn, tß╗òng sß╗æ gi├í trß╗ï h├áng ho├í t─âng 2 lß║ºn',
+  B: 'Tß╗òng sß╗æ h├áng hoß║ú t─âng l├¬n 2 lß║ºn, gi├í trß╗ï 1 h├áng ho├í giß║úm 2 lß║ºn',
+  C: 'Tß╗òng sß╗æ h├áng ho├í t─âng l├¬n 4 lß║ºn, tß╗òng sß╗æ gi├í trß╗ï h├áng ho├í t─âng l├¬n 4 lß║ºn'
+}
+Raw text surrounding line 694:
+  692: D. Gi├í trß╗ï mß╗Öt ─æ╞ín vß╗ï sß║ún phß║⌐m giß║úm ─æi
+  693: c
+  694: Khi ─æß╗ông thß╗¥i t─âng n─âng suß║Ñt lao ─æß╗Öng v├á
+  695: c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng l├¬n 2 lß║ºn th├¼ ├╜ n├áo d╞░ß╗¢i
+  696: ─æ├óy l├á ─æ├║ng?(NHUNG HO├ÇNG)
+  697: A. Gi├í trß╗ï 1 h├áng ho├í giß║úm 2 lß║ºn, tß╗òng sß╗æ
+  698: gi├í trß╗ï h├áng ho├í t─âng 2 lß║ºn
+  699: B. Tß╗òng sß╗æ h├áng hoß║ú t─âng l├¬n 2 lß║ºn, gi├í trß╗ï
+  700: 1 h├áng ho├í giß║úm 2 lß║ºn
+  701: C. Tß╗òng sß╗æ h├áng ho├í t─âng l├¬n 4 lß║ºn, tß╗òng
+  702: sß╗æ gi├í trß╗ï h├áng ho├í t─âng l├¬n 4 lß║ºn
+  703: A
+  704: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  705: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	14/142
+  706: 
+
+----------------------------------------
+JSON Question #54 (Options count: 3, Answer: C):
+Q: H├úy chß╗ìn ├╜ ─æ├║ng khi n├│i vß╗ü quan hß╗ç giß╗»a gi├í trß╗ï v├á gi├í cß║ú?
+Options: {
+  A: 'Gi├í trß╗ï l├á c╞í sß╗ƒ cß╗ºa gi├í cß║ú, l├á yß║┐u tß╗æ quyß║┐t ─æß╗ïnh gi├í cß║ú, gi├í cß║ú l├á h├¼nh thß╗⌐c biß╗âu hiß╗çn bß║▒ng tiß╗ün cß╗ºa gi├í trß╗ï',
+  B: 'Gi├í cß║ú thß╗ï tr╞░ß╗¥ng c├▓n chß╗ïu ß║únh h╞░ß╗ƒng cß╗ºa cung - cß║ºu, gi├í trß╗ï cß╗ºa tiß╗ün',
+  C: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng'
+}
+Raw text surrounding line 709:
+  707: -- 14 of 142 --
+  708: 
+  709: H├úy chß╗ìn ├╜ ─æ├║ng khi n├│i vß╗ü quan hß╗ç giß╗»a
+  710: gi├í trß╗ï v├á gi├í cß║ú?(NHUNG HO├ÇNG)
+  711: A. Gi├í trß╗ï l├á c╞í sß╗ƒ cß╗ºa gi├í cß║ú, l├á yß║┐u tß╗æ
+  712: quyß║┐t ─æß╗ïnh gi├í cß║ú, gi├í cß║ú l├á h├¼nh thß╗⌐c biß╗âu
+  713: hiß╗çn bß║▒ng tiß╗ün cß╗ºa gi├í trß╗ï
+  714: B. Gi├í cß║ú thß╗ï tr╞░ß╗¥ng c├▓n chß╗ïu ß║únh h╞░ß╗ƒng
+  715: cß╗ºa cung - cß║ºu, gi├í trß╗ï cß╗ºa tiß╗ün
+  716: C. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng
+  717: C
+  718: Quan ─æiß╗âm cho rß║▒ng lß╗úi nhuß║¡n phß║ºn thu
+  719: nhß║¡p thß║╖ng d╞░ t├¡nh bß║▒ng hiß╗çu quß║ú giß╗»a gi├í
+  720: trß╗ï tß╗òng doanh thu trß╗½ ─æi tß╗òng chi ph├¡ v├á l├á
+  721: phß║ºn th╞░ß╗ƒng cho viß╗çc g├ính chß╗ïu rß╗ºi ro v├á
+
+----------------------------------------
+JSON Question #58 (Options count: 3, Answer: A):
+Q: Thß╗â chß║┐ ─æ╞░ß╗úc ph├ón loß║íi theo:
+Options: {
+  A: 'C├ích tiß║┐p cß║¡n cß║Ñu tr├║c hß╗ç thß╗æng, ph╞░╞íng thß╗⌐c ph├ít huy vai tr├▓ cß╗ºa chß╗º thß╗â ─æß╗æi vß╗¢i qu├í tr├¼nh ph├ít triß╗ân, theo cß║Ñu th├ánh c├íc l─⌐nh vß╗▒c cß╗æt l├╡i cß╗ºa x├ú hß╗Öi v├á theo cß║Ñu tr├║c c├íc tß╗ò chß╗⌐c tham gia v├áo x├ú hß╗Öi',
+  B: 'C├ích tiß║┐p cß║¡n cß║Ñu tr├║c hß╗ç thß╗æng ph╞░╞íng thß╗⌐c ph├ít huy vai tr├▓ cß╗ºa doanh nghiß╗çp vß╗¢i qu├í tr├¼nh ph├ít triß╗ân, theo cß║Ñu th├ánh c├íc l─⌐nh vß╗▒c cß╗æt l├╡i cß╗ºa x├ú hß╗Öi v├á theo cß║Ñu tr├║c c├íc tß╗ò chß╗⌐c tham gia v├áo x├ú hß╗Öi',
+  C: 'C├ích tiß║┐p cß║¡n sß╗▒ ph├ón chia b├¬n trong hay b├¬n ngo├ái, ph╞░╞íng thß╗⌐c ph├ít huy vai tr├▓ cß╗ºa doanh nghiß╗çp vß╗¢i qu├í tr├¼nh ph├ít triß╗ân, theo cß║Ñu th├ánh c├íc l─⌐nh vß╗▒c cß╗æt l├╡i cß╗ºa x├ú hß╗Öi v├á theo cß║Ñu tr├║c c├íc tß╗ò chß╗⌐c tham gia v├áo x├ú hß╗Öi'
+}
+Raw text surrounding line 749:
+  747: -- 15 of 142 --
+  748: 
+  749: Thß╗â chß║┐ ─æ╞░ß╗úc ph├ón loß║íi theo:
+  750: A. C├ích tiß║┐p cß║¡n cß║Ñu tr├║c hß╗ç thß╗æng,
+  751: ph╞░╞íng thß╗⌐c ph├ít huy vai tr├▓ cß╗ºa chß╗º thß╗â
+  752: ─æß╗æi vß╗¢i qu├í tr├¼nh ph├ít triß╗ân, theo cß║Ñu th├ánh
+  753: c├íc l─⌐nh vß╗▒c cß╗æt l├╡i cß╗ºa x├ú hß╗Öi v├á theo cß║Ñu
+  754: tr├║c c├íc tß╗ò chß╗⌐c tham gia v├áo x├ú hß╗Öi
+  755: B. C├ích tiß║┐p cß║¡n cß║Ñu tr├║c hß╗ç thß╗æng ph╞░╞íng
+  756: thß╗⌐c ph├ít huy vai tr├▓ cß╗ºa doanh nghiß╗çp vß╗¢i
+  757: qu├í tr├¼nh ph├ít triß╗ân, theo cß║Ñu th├ánh c├íc l─⌐nh
+  758: vß╗▒c cß╗æt l├╡i cß╗ºa x├ú hß╗Öi v├á theo cß║Ñu tr├║c c├íc
+  759: tß╗ò chß╗⌐c tham gia v├áo x├ú hß╗Öi
+  760: C. C├ích tiß║┐p cß║¡n sß╗▒ ph├ón chia b├¬n trong
+  761: hay b├¬n ngo├ái, ph╞░╞íng thß╗⌐c ph├ít huy vai
+
+----------------------------------------
+JSON Question #66 (Options count: 3, Answer: A):
+Q: C├íc luß║¡n ─æiß╗âm d╞░ß╗¢i ─æ├óy, luß║¡n ─æiß╗âm n├áo sai?
+Options: {
+  A: 'B├│c lß╗Öt sß║ún phß║⌐m thß║╖ng d╞░ chß╗ë c├│ ß╗ƒ chß╗º ngh─⌐a t╞░ bß║ún',
+  B: 'C├íc ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt tr╞░ß╗¢c chß╗º ngh─⌐a t╞░ bß║ún b├│c lß╗Öt sß║ún phß║⌐m thß║╖ng d╞░ trß╗▒c tiß║┐p',
+  C: 'Sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi l├á h├¼nh th├íi chung nhß║Ñt cß╗ºa sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░'
+}
+Raw text surrounding line 879:
+  877: -- 18 of 142 --
+  878: 
+  879: C├íc luß║¡n ─æiß╗âm d╞░ß╗¢i ─æ├óy, luß║¡n ─æiß╗âm n├áo
+  880: sai?(NHUNG HO├ÇNG)
+  881: A. B├│c lß╗Öt sß║ún phß║⌐m thß║╖ng d╞░ chß╗ë c├│ ß╗ƒ chß╗º
+  882: ngh─⌐a t╞░ bß║ún
+  883: B. C├íc ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt tr╞░ß╗¢c chß╗º
+  884: ngh─⌐a t╞░ bß║ún b├│c lß╗Öt sß║ún phß║⌐m thß║╖ng d╞░
+  885: trß╗▒c tiß║┐p
+  886: C. Sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi l├á
+  887: h├¼nh th├íi chung nhß║Ñt cß╗ºa sß║ún xuß║Ñt gi├í trß╗ï
+  888: thß║╖ng d╞░
+  889: A
+  890: X├óy dß╗▒ng nß╗ün kinh tß║┐ thß╗ï tr╞░ß╗¥ng ─æß╗ïnh
+  891: h╞░ß╗¢ng x├ú hß╗Öi chß╗º ngh─⌐a ß╗ƒ Viß╗çt Nam nhß║▒m
+
+----------------------------------------
+JSON Question #75 (Options count: 3, Answer: C):
+Q: T├¡nh hai mß║╖t cß╗ºa lao ─æß╗Öng sß║ún xuß║Ñt h├áng h├│a l├á
+Options: {
+  A: 'Lao ─æß╗Öng t╞░ nh├ón, lao ─æß╗Öng x├ú hß╗Öi',
+  B: 'Lao ─æß╗Öng giß║ún ─æ╞ín, lao ─æß╗Öng phß╗⌐c tß║íp',
+  C: 'Lao ─æß╗Öng cß╗Ñ thß╗â, lao ─æß╗Öng trß╗½u t╞░ß╗úng'
+}
+Raw text surrounding line 1033:
+  1031: D. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng
+  1032: D
+  1033: T├¡nh hai mß║╖t cß╗ºa lao ─æß╗Öng sß║ún xuß║Ñt h├áng
+  1034: h├│a l├á(NHUNG HO├ÇNG)
+  1035: A. Lao ─æß╗Öng t╞░ nh├ón, lao ─æß╗Öng x├ú hß╗Öi
+  1036: B. Lao ─æß╗Öng giß║ún ─æ╞ín, lao ─æß╗Öng phß╗⌐c tß║íp
+  1037: C. Lao ─æß╗Öng cß╗Ñ thß╗â, lao ─æß╗Öng trß╗½u t╞░ß╗úng
+  1038: C
+  1039: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1040: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	21/142
+  1041: 
+  1042: -- 21 of 142 --
+  1043: 
+  1044: Kinh tß║┐ ch├¡nh trß╗ï cß╗ò ─æiß╗ân Anh ─æ╞░ß╗úc h├¼nh
+  1045: th├ánh v├á ph├ít triß╗ân trong thß╗¥i kß╗│ n├áo?
+
+----------------------------------------
+JSON Question #77 (Options count: 3, Answer: A):
+Q: Gi├í cß║ú ruß╗Öng ─æß║Ñt phß╗Ñ thuß╗Öc c├íc nh├ón tß╗æ n├áo?
+Options: {
+  A: 'Mß╗⌐c ─æß╗ïa t├┤ cß╗ºa ─æß║Ñt',
+  B: '─Éß╗Ö m├áu mß╗í cß╗ºa ─æß║Ñt',
+  C: 'Vß╗ï tr├¡ cß╗ºa ─æß║Ñt'
+}
+Raw text surrounding line 1054:
+  1052: D. Tß╗½ nß╗¡a ─æß║ºu thß║┐ kß╗╖ XIX
+  1053: C
+  1054: Gi├í cß║ú ruß╗Öng ─æß║Ñt phß╗Ñ thuß╗Öc c├íc nh├ón tß╗æ
+  1055: n├áo?(NHUNG HO├ÇNG)
+  1056: A. Mß╗⌐c ─æß╗ïa t├┤ cß╗ºa ─æß║Ñt
+  1057: B. ─Éß╗Ö m├áu mß╗í cß╗ºa ─æß║Ñt
+  1058: C. Vß╗ï tr├¡ cß╗ºa ─æß║Ñt
+  1059: A
+  1060: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c xuß║Ñt hiß╗çn trong chß╗º
+  1061: ngh─⌐a t╞░ bß║ún l├á sß╗▒ li├¬n minh giß╗»a nh├á
+  1062: n╞░ß╗¢c t╞░ bß║ún vß╗¢i(073-356-8678)
+  1063: A. C├íc tß╗ò chß╗⌐c nh├á n╞░ß╗¢c
+  1064: B. C├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün
+  1065: C. C├íc tß╗ò chß╗⌐c kinh tß║┐ t╞░ nh├ón
+  1066: B
+
+----------------------------------------
+JSON Question #78 (Options count: 3, Answer: B):
+Q: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c xuß║Ñt hiß╗çn trong chß╗º ngh─⌐a t╞░ bß║ún l├á sß╗▒ li├¬n minh giß╗»a nh├á n╞░ß╗¢c t╞░ bß║ún vß╗¢i
+Options: {
+  A: 'C├íc tß╗ò chß╗⌐c nh├á n╞░ß╗¢c',
+  B: 'C├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün',
+  C: 'C├íc tß╗ò chß╗⌐c kinh tß║┐ t╞░ nh├ón'
+}
+Raw text surrounding line 470:
+  468: 
+  469: Nhß╗»ng biß╗âu hiß╗çn cß╗ºa ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+  470: trong chß╗º ngh─⌐a t╞░ bß║ún l├á:
+  471: A. Sß╗▒ kß║┐t hß╗úp nh├ón sß╗▒ giß╗»a tß╗ò chß╗⌐c ─æß╗Öc
+  472: quyß╗ün c├╣ng vß╗¢i nh├á n╞░ß╗¢c; sß╗▒ h├¼nh th├ánh,
+  473: ph├ít triß╗ân cß╗ºa sß╗ƒ hß╗»u nh├á n╞░ß╗¢c
+  474: B. Sß╗▒ kß║┐t hß╗úp vß╗ü nh├ón sß╗▒ giß╗»a tß╗ò chß╗⌐c ─æß╗Öc
+  475: quyß╗ün c├╣ng vß╗¢i nh├á n╞░ß╗¢c; sß╗▒ h├¼nh th├ánh,
+  476: ph├ít triß╗ân cß╗ºa sß╗ƒ hß╗»u nh├á n╞░ß╗¢c, sß╗▒ ─æiß╗üu
+  477: tiß║┐t kinh tß║┐ cß╗ºa nh├á n╞░ß╗¢c t╞░ sß║ún.
+  478: C. Sß╗▒ kß║┐t hß╗úp vß╗ü nh├ón sß╗▒ giß╗»a tß╗ò chß╗⌐c
+  479: ─æß╗Öc quyß╗ün c├╣ng vß╗¢i nh├á n╞░ß╗¢c; sß╗▒ h├¼nh
+  480: th├ánh, ph├ít triß╗ân cß╗ºa sß╗ƒ hß╗»u nh├á n╞░ß╗¢c, sß╗▒
+  481: ─æiß╗üu tiß║┐t kinh tß║┐ ─æß╗æi ngoß║íi cß╗ºa nh├á n╞░ß╗¢c t╞░
+  482: sß║ún.
+
+----------------------------------------
+JSON Question #86 (Options count: 3, Answer: A):
+Q: Chß╗ìn ├╜ ─æ├║ng vß╗ü quan hß╗ç cung - cß║ºu ─æß╗æi vß╗¢i gi├í trß╗ï, gi├í cß║ú?
+Options: {
+  A: 'C├│ ß║únh h╞░ß╗ƒng tß╗¢i gi├í cß║ú thß╗ï tr╞░ß╗¥ng',
+  B: 'Quyß║┐t ─æß╗ïnh gi├í trß╗ï v├á gi├í cß║ú h├áng ho├í',
+  C: 'Chß╗ë quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú v├á c├│ ß║únh h╞░ß╗ƒng ─æß║┐n gi├í trß╗ï'
+}
+Raw text surrounding line 1195:
+  1193: D. Lß║¡t ─æß╗ò chß╗º ngh─⌐a x├ú hß╗Öi
+  1194: AC
+  1195: Chß╗ìn ├╜ ─æ├║ng vß╗ü quan hß╗ç cung - cß║ºu ─æß╗æi vß╗¢i
+  1196: gi├í trß╗ï, gi├í cß║ú?
+  1197: A. C├│ ß║únh h╞░ß╗ƒng tß╗¢i gi├í cß║ú thß╗ï tr╞░ß╗¥ng
+  1198: B. Quyß║┐t ─æß╗ïnh gi├í trß╗ï v├á gi├í cß║ú h├áng ho├í
+  1199: C. Chß╗ë quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú v├á c├│ ß║únh
+  1200: h╞░ß╗ƒng ─æß║┐n gi├í trß╗ï
+  1201: A
+  1202: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1203: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	24/142
+  1204: 
+  1205: -- 24 of 142 --
+  1206: 
+  1207: ─Éß╗ïa t├┤ tuyß╗çt ─æß╗æi ─æ╞░ß╗úc hiß╗âu l├á(NHUNG
+
+----------------------------------------
+JSON Question #87 (Options count: 3, Answer: A):
+Q: ─Éß╗ïa t├┤ tuyß╗çt ─æß╗æi ─æ╞░ß╗úc hiß╗âu l├á
+Options: {
+  A: 'Loß║íi ─æß╗ïa t├┤ m├á tß║Ñt cß║ú c├íc nh├á t╞░ bß║ún kinh doanh n├┤ng nghiß╗çp ─æß╗üu phß║úi nß╗Öp cho ─æß╗ïa chß╗º, cho d├╣ ruß╗Öng ─æß║Ñt l├á tß╗æt hay xß║Ñu',
+  B: 'Phß║ºn gi├í trß╗ï thß║╖ng d╞░ c├▓n lß║íi sau khi ─æ├ú khß║Ñu trß╗½ ─æi phß║ºn lß╗úi nhuß║¡n binh quß║ºn m├á c├íc nh├á t╞░ bß║ún kinh doanh n├┤ng nghiß╗çp phß║úi nß╗Öp cho ─æß╗ïa chß╗º',
+  C: 'Lß╗úi nhuß║¡n si├¬u ngß║ích d├┤i ra ngo├ái lß╗úi nhuß║¡n b├¼nh qu├ón'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #99 (Options count: 3, Answer: A):
+Q: Gi├í cß║ú ─æß╗Öc quyß╗ün ─æ╞░ß╗úc hiß╗âu l├á.
+Options: {
+  A: 'Gi├í cß║ú c├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün ├íp ─æß║╖t trong qu├í tr├¼nh mua v├á b├ín',
+  B: 'Gi├í cß║ú do c├íc tß╗ò chß╗⌐c nh├á n╞░ß╗¢c ├íp ─æß║╖t quy ─æß╗ïnh trong qu├í tr├¼nh mua v├á b├ín',
+  C: 'Gi├í cß║ú ─æ╞░ß╗úc c├íc tß╗ò chß╗⌐c doanh nghiß╗çp chiß║┐m thß╗ï phß║ºn lß╗¢n tr├¬n thß╗ï tr╞░ß╗¥ng ├íp ─æß║╖t v├á th├┤ng qua nh├á n╞░ß╗¢c ─æ╞░a ra gi├í mua v├á b├ín'
+}
+Raw text surrounding line 1369:
+  1367: -- 28 of 142 --
+  1368: 
+  1369: Gi├í cß║ú ─æß╗Öc quyß╗ün ─æ╞░ß╗úc hiß╗âu l├á.
+  1370: A. Gi├í cß║ú c├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün ├íp ─æß║╖t
+  1371: trong qu├í tr├¼nh mua v├á b├ín
+  1372: B. Gi├í cß║ú do c├íc tß╗ò chß╗⌐c nh├á n╞░ß╗¢c ├íp ─æß║╖t
+  1373: quy ─æß╗ïnh trong qu├í tr├¼nh mua v├á b├ín
+  1374: C. Gi├í cß║ú ─æ╞░ß╗úc c├íc tß╗ò chß╗⌐c doanh nghiß╗çp
+  1375: chiß║┐m thß╗ï phß║ºn lß╗¢n tr├¬n thß╗ï tr╞░ß╗¥ng ├íp ─æß║╖t v├á
+  1376: th├┤ng qua nh├á n╞░ß╗¢c ─æ╞░a ra gi├í mua v├á
+  1377: b├ín
+  1378: A
+  1379: Ai l├á ng╞░ß╗¥i ─æ╞░a kinh tß║┐ ch├¡nh trß╗ï trß╗ƒ th├ánh
+  1380: m├┤n khoa hß╗ìc c├│ t├¡nh hß╗ç thß╗æng vß╗¢i c├íc
+  1381: phß║ím tr├╣ v├á kh├íi niß╗çm chuy├¬n ng├ánh?
+
+----------------------------------------
+JSON Question #101 (Options count: 3, Answer: A):
+Q: Tiß╗ün c├┤ng trong chß╗º ngh─⌐a t╞░ bß║ún c├│ mß║Ñy h├¼nh thß╗⌐c?
+Options: { A: 'Hai h├¼nh thß╗⌐c', B: 'Ba h├¼nh thß╗⌐c', C: 'Bß╗æn h├¼nh thß╗⌐c' }
+Raw text surrounding line 1420:
+  1418: C. William Petty
+  1419: D. Thomas Mun )
+  1420: Tiß╗ün c├┤ng trong chß╗º ngh─⌐a t╞░ bß║ún c├│ mß║Ñy
+  1421: h├¼nh thß╗⌐c?
+  1422: A. Hai h├¼nh thß╗⌐c
+  1423: B. Ba h├¼nh thß╗⌐c
+  1424: C. Bß╗æn h├¼nh thß╗⌐c
+  1425: A
+  1426: Thuß║¡t ngß╗» "kinh tß║┐ ch├¡nh trß╗ï" ─æ╞░ß╗úc sß╗¡ dß╗Ñng
+  1427: lß║ºn ─æß║ºu ti├¬n v├áo n─âm n├áo?
+  1428: A. 1615
+  1429: B. 1616
+  1430: C. 1617
+  1431: D. 1618
+  1432: A
+
+----------------------------------------
+JSON Question #108 (Options count: 3, Answer: B):
+Q: Mß╗⌐c ─æß╗Ö b├│c lß╗Öt cß╗ºa nh├á t╞░ bß║ún ─æ╞░ß╗úc t├¡nh bß║▒ng
+Options: {
+  A: 'Tß╗╖ suß║Ñt lß╗úi nhuß║¡n',
+  B: 'Tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░',
+  C: 'Tß╗╖ suß║Ñt lß╗úi nhuß║¡n b├¼nh qu├ón'
+}
+Raw text surrounding line 1496:
+  1494: D. Sß║ún xuß║Ñt v┼⌐ kh├¡
+  1495: A
+  1496: Mß╗⌐c ─æß╗Ö b├│c lß╗Öt cß╗ºa nh├á t╞░ bß║ún ─æ╞░ß╗úc t├¡nh
+  1497: bß║▒ng
+  1498: A. Tß╗╖ suß║Ñt lß╗úi nhuß║¡n
+  1499: B. Tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░
+  1500: C. Tß╗╖ suß║Ñt lß╗úi nhuß║¡n b├¼nh qu├ón
+  1501: B
+  1502: H├¼nh thß╗⌐c ─æß╗Öc quyß╗ün d╞░ß╗¢i dß║íng Cartel
+  1503: ─æ╞░ß╗úc phß╗ò biß║┐n ß╗ƒ Ch├óu ├óu v├áo thß╗¥i gian
+  1504: n├áo?(NHUNG HO├ÇNG)
+  1505: A. ─Éß║ºu thß║┐ kß╗╖ XIX
+  1506: B. Giß╗» thß║┐ kß╗╖ XIX
+  1507: C. Cuß╗æi thß║┐ kß╗╖ XIX
+  1508: D. ─Éß║ºu thß║┐ kß╗╖ XX
+
+----------------------------------------
+JSON Question #111 (Options count: 3, Answer: A):
+Q: L╞░ß╗úng gi├í trß╗ï cß╗ºa ─æ╞ín vß╗ï h├áng ho├í thay ─æß╗òi:
+Options: {
+  A: 'Tß╗╖ lß╗ç nghß╗ïch vß╗¢i n─âng suß║Ñt lao ─æß╗Öng, kh├┤ng phß╗Ñ thuß╗Öc v├áo c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng',
+  B: 'Tß╗╖ lß╗ç nghß╗ïch vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng',
+  C: 'Tß╗╖ lß╗ç thuß║¡n vß╗¢i n─âng suß║Ñt lao ─æß╗Öng'
+}
+Raw text surrounding line 1523:
+  1521: -- 31 of 142 --
+  1522: 
+  1523: L╞░ß╗úng gi├í trß╗ï cß╗ºa ─æ╞ín vß╗ï h├áng ho├í thay ─æß╗òi:
+  1524: A. Tß╗╖ lß╗ç nghß╗ïch vß╗¢i n─âng suß║Ñt lao ─æß╗Öng,
+  1525: kh├┤ng phß╗Ñ thuß╗Öc v├áo c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  1526: B. Tß╗╖ lß╗ç nghß╗ïch vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  1527: C. Tß╗╖ lß╗ç thuß║¡n vß╗¢i n─âng suß║Ñt lao ─æß╗Öng
+  1528: A
+  1529: Trong chß╗º ngh─⌐a t╞░ bß║ún ng├áy nay, c├íc tr├╣m
+  1530: t├ái ch├¡nh thß╗æng trß╗ï nß╗ün kinh tß║┐ th├┤ng qua
+  1531: A. Kß║┐t hß╗úp "chß║┐ ─æß╗Ö tham dß╗▒" vß╗¢i "chß║┐ ─æß╗Ö
+  1532: uß╗╖ nhiß╗çm"
+  1533: B. Chß║┐ ─æß╗Ö tham dß╗▒
+  1534: C. Chß║┐ ─æß╗Ö uß╗╖ nhiß╗çm
+  1535: A
+
+----------------------------------------
+JSON Question #112 (Options count: 3, Answer: A):
+Q: Trong chß╗º ngh─⌐a t╞░ bß║ún ng├áy nay, c├íc tr├╣m t├ái ch├¡nh thß╗æng trß╗ï nß╗ün kinh tß║┐ th├┤ng qua
+Options: {
+  A: 'Kß║┐t hß╗úp "chß║┐ ─æß╗Ö tham dß╗▒" vß╗¢i "chß║┐ ─æß╗Ö uß╗╖ nhiß╗çm"',
+  B: 'Chß║┐ ─æß╗Ö tham dß╗▒',
+  C: 'Chß║┐ ─æß╗Ö uß╗╖ nhiß╗çm'
+}
+Raw text surrounding line 1529:
+  1527: C. Tß╗╖ lß╗ç thuß║¡n vß╗¢i n─âng suß║Ñt lao ─æß╗Öng
+  1528: A
+  1529: Trong chß╗º ngh─⌐a t╞░ bß║ún ng├áy nay, c├íc tr├╣m
+  1530: t├ái ch├¡nh thß╗æng trß╗ï nß╗ün kinh tß║┐ th├┤ng qua
+  1531: A. Kß║┐t hß╗úp "chß║┐ ─æß╗Ö tham dß╗▒" vß╗¢i "chß║┐ ─æß╗Ö
+  1532: uß╗╖ nhiß╗çm"
+  1533: B. Chß║┐ ─æß╗Ö tham dß╗▒
+  1534: C. Chß║┐ ─æß╗Ö uß╗╖ nhiß╗çm
+  1535: A
+  1536: "Khoa hß╗ìc v├á c├┤ng nghß╗ç sß║╜ c├│ b╞░ß╗¢c tiß║┐n
+  1537: nhß║úy vß╗ìt. Kinh tß║┐ tri thß╗⌐c c├│ vai tr├▓ ng├áy
+  1538: c├áng nß╗òi bß║¡t trong qu├í tr├¼nh ph├ít triß╗ân lß╗▒c
+  1539: l╞░ß╗úng sß║ún xuß║Ñt" ─æ╞░ß╗úc nhß║¡n ─æß╗ïnh trong ─æß║íi
+  1540: hß╗Öi mß║Ñy cß╗ºa ─Éß║úng ?
+  1541: A. ─Éß║íi hß╗Öi XI
+
+----------------------------------------
+JSON Question #114 (Options count: 3, Answer: A):
+Q: ─Éß╗Öc quyß╗ün ─æ╞░ß╗úc hiß╗âu l├á:
+Options: {
+  A: 'Li├¬n minh giß╗»a c├íc doanh nghiß╗çp lß╗¢n, c├│ khß║ú n─âng th├óu t├│m viß╗çc sß║ún xuß║Ñt v├á ti├¬u thß╗Ñ mß╗Öt sß╗æ loß║íi h├áng h├│a, c├│ khß║ú n─âng ─æß╗ïnh ra gi├í cß║ú ─æß╗Öc quyß╗ün, nhß║▒m thu lß╗úi nhuß║¡n ─æß╗Öc quyß╗ün cao',
+  B: 'Li├¬n minh giß╗»a c├íc tß╗ò chß╗⌐c c├í nh├ón v├á nh├á n╞░ß╗¢c, c├│ khß║ú n─âng th├óu t├│m viß╗çc sß║ún xuß║Ñt v├á ti├¬u thß╗Ñ mß╗Öt sß╗æ loß║íi h├áng h├│a, c├│ khß║ú n─âng ─æß╗ïnh ra gi├í cß║ú ─æß╗Öc quyß╗ün, nhß║▒m thu lß╗úi nhuß║¡n ─æß╗Öc quyß╗ün cao',
+  C: 'Li├¬n minh giß╗»a c├íc doanh nghiß╗çp vß╗½a v├á nhß╗Å, c├│ khß║ú n─âng th├óu t├│m viß╗çc sß║ún xuß║Ñt v├á ti├¬u thß╗Ñ mß╗Öt sß╗æ loß║íi h├áng h├│a, c├│ khß║ú n─âng ─æß╗ïnh ra gi├í cß║ú ─æß╗Öc quyß╗ün, nhß║▒m thu lß╗úi nhuß║¡n ─æß╗Öc quyß╗ün cao'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #119 (Options count: 3, Answer: A):
+Q: T├¡ch l┼⌐y t╞░ bß║ún dß║½n ─æß║┐n
+Options: {
+  A: 'H├¼nh th├ánh chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün',
+  B: 'H├¼nh th├ánh chß╗º ngh─⌐a t╞░ bß║ún',
+  C: 'H├¼nh th├ánh ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c giai ─æoß║ín tß╗▒ do cß║ính tranh'
+}
+Raw text surrounding line 1615:
+  1613: -- 33 of 142 --
+  1614: 
+  1615: T├¡ch l┼⌐y t╞░ bß║ún dß║½n ─æß║┐n
+  1616: A. H├¼nh th├ánh chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün
+  1617: B. H├¼nh th├ánh chß╗º ngh─⌐a t╞░ bß║ún
+  1618: C. H├¼nh th├ánh ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c giai
+  1619: ─æoß║ín tß╗▒ do cß║ính tranh
+  1620: A
+  1621: ─Éß║┐n nay thß║┐ giß╗¢i trß║úi qua bao nhiß╗üu cuß╗Öc
+  1622: c├ích mß║íng c├┤ng nghiß╗çp?
+  1623: A. Ba cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp
+  1624: B. Bß╗æn cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp
+  1625: C. N─âm cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp
+  1626: D. Hai cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp
+  1627: B
+
+----------------------------------------
+JSON Question #132 (Options count: 3, Answer: A):
+Q: Vai tr├▓ cß╗ºa m├íy m├│c trong qu├í tr├¼nh tß║ío ra gi├í trß╗ï thß║╖ng d╞░, chß╗ìn ├╜ ─æ├║ng.
+Options: {
+  A: 'M├íy m├│c l├á tiß╗ün ─æß╗ü vß║¡t chß║Ñt cho viß╗çc tß║ío ra gi├í trß╗ï thß║╖ng d╞░',
+  B: 'M├íy m├│c v├á sß╗⌐c lao ─æß╗Öng ─æß╗üu tß║ío ra gi├í trß╗ï thß║╖ng d╞░',
+  C: 'M├íy m├│c l├á nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng d╞░'
+}
+Raw text surrounding line 1791:
+  1789: d╞░
+  1790: A
+  1791: Vai tr├▓ cß╗ºa m├íy m├│c trong qu├í tr├¼nh tß║ío ra
+  1792: gi├í trß╗ï thß║╖ng d╞░, chß╗ìn ├╜ ─æ├║ng.
+  1793: A. M├íy m├│c l├á tiß╗ün ─æß╗ü vß║¡t chß║Ñt cho viß╗çc tß║ío
+  1794: ra gi├í trß╗ï thß║╖ng d╞░
+  1795: B. M├íy m├│c v├á sß╗⌐c lao ─æß╗Öng ─æß╗üu tß║ío ra gi├í
+  1796: trß╗ï thß║╖ng d╞░
+  1797: C. M├íy m├│c l├á nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng
+  1798: d╞░
+  1799: A
+  1800: Mß╗ùi cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp xuß║Ñt hiß╗çn
+  1801: ─æß╗üu c├│ sß╗▒ ph├ít triß╗ân nhß║úy vß╗ìt vß╗ü:(NHUNG
+  1802: HO├ÇNG)
+  1803: A. T╞░ liß╗çu lao ─æß╗Öng
+
+----------------------------------------
+JSON Question #135 (Options count: 3, Answer: C):
+Q: Trong nß╗ün sß║ún xuß║Ñt h├áng h├│a, lß║ím ph├ít l├á hiß╗çn t╞░ß╗úng kinh tß║┐ t├íc ─æß╗Öng trß╗▒c tiß║┐p ─æß║┐n
+Options: {
+  A: 'T├¡ch tß╗Ñ v├á tß║¡p trung t╞░ bß║ún',
+  B: 'Tuß║ºn ho├án v├á chu chuyß╗ân t╞░ bß║ún',
+  C: 'Sß║ún xuß║Ñt v├á ti├¬u d├╣ng'
+}
+Raw text surrounding line 1821:
+  1819: D. ─Éß║íi hß╗Öi ─æß║úng V
+  1820: B
+  1821: Trong nß╗ün sß║ún xuß║Ñt h├áng h├│a, lß║ím ph├ít l├á
+  1822: hiß╗çn t╞░ß╗úng kinh tß║┐ t├íc ─æß╗Öng trß╗▒c tiß║┐p ─æß║┐n
+  1823: A. T├¡ch tß╗Ñ v├á tß║¡p trung t╞░ bß║ún
+  1824: B. Tuß║ºn ho├án v├á chu chuyß╗ân t╞░ bß║ún
+  1825: C. Sß║ún xuß║Ñt v├á ti├¬u d├╣ng
+  1826: C
+  1827: Theo quan ─æiß╗âm cß╗ºa kinh tß║┐ ch├¡nh trß╗ï, trong
+  1828: t╞░ liß╗çu lao ─æß╗Öng bß╗Ö phß║¡n n├áo quyß║┐t ─æß╗ïnh
+  1829: ─æß║┐n n─âng suß║Ñt lao ─æß╗Öng
+  1830: A. C├íc vß║¡t chß╗⌐a ─æß╗▒ng, bß║úo quß║ún
+  1831: B. Nguy├¬n vß║¡t liß╗çu cho sß║ún xuß║Ñt
+  1832: C. C├┤ng cß╗Ñ lao ─æß╗Öng
+  1833: D. Kß║┐t cß║Ñu hß║í tß║ºng sß║ún xuß║Ñt
+
+----------------------------------------
+JSON Question #151 (Options count: 3, Answer: A):
+Q: Yß║┐u tß╗æ quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú h├áng ho├í l├á
+Options: {
+  A: 'Gi├í trß╗ï cß╗ºa h├áng ho├í',
+  B: 'Quan hß╗ç cung cß║ºu vß╗ü h├áng ho├í',
+  C: 'Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng ho├í'
+}
+Raw text surrounding line 1990:
+  1988: D. CH/ch
+  1989: A
+  1990: Yß║┐u tß╗æ quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú h├áng ho├í
+  1991: l├á(NHUNG HO├ÇNG)
+  1992: A. Gi├í trß╗ï cß╗ºa h├áng ho├í
+  1993: B. Quan hß╗ç cung cß║ºu vß╗ü h├áng ho├í
+  1994: C. Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng ho├í
+  1995: A
+  1996: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1997: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	41/142
+  1998: 
+  1999: -- 41 of 142 --
+  2000: 
+  2001: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, mß╗Ñc ti├¬u cuß╗æi
+  2002: c├╣ng cß╗ºa xuß║Ñt khß║⌐u t╞░ bß║ún l├á:
+
+----------------------------------------
+JSON Question #152 (Options count: 3, Answer: A):
+Q: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, mß╗Ñc ti├¬u cuß╗æi c├╣ng cß╗ºa xuß║Ñt khß║⌐u t╞░ bß║ún l├á:
+Options: {
+  A: 'Chiß║┐m ─æoß║ít gi├í trß╗ï thß║╖ng d╞░ v├á c├íc nguß╗ôn lß╗úi kh├íc ß╗ƒ n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún',
+  B: 'Thß╗▒c hiß╗çn gi├í trß╗ï v├á chiß║┐m c├íc nguß╗ôn lß╗úi kh├íc cß╗ºa n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún',
+  C: 'Gi├║p ─æß╗í c├íc n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún ph├ít triß╗ân.'
+}
+Raw text surrounding line 2001:
+  1999: -- 41 of 142 --
+  2000: 
+  2001: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, mß╗Ñc ti├¬u cuß╗æi
+  2002: c├╣ng cß╗ºa xuß║Ñt khß║⌐u t╞░ bß║ún l├á:
+  2003: A. Chiß║┐m ─æoß║ít gi├í trß╗ï thß║╖ng d╞░ v├á c├íc
+  2004: nguß╗ôn lß╗úi kh├íc ß╗ƒ n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún
+  2005: B. Thß╗▒c hiß╗çn gi├í trß╗ï v├á chiß║┐m c├íc nguß╗ôn lß╗úi
+  2006: kh├íc cß╗ºa n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún
+  2007: C. Gi├║p ─æß╗í c├íc n╞░ß╗¢c nhß║¡p khß║⌐u t╞░ bß║ún
+  2008: ph├ít triß╗ân.
+  2009: A
+  2010: Tß╗æc ─æß╗Ö chu chuyß╗ân t╞░ bß║ún ─æ╞░ß╗úc t├¡nh bß║▒ng
+  2011: c├┤ng thß╗⌐c:
+  2012: A. n = CH/ch
+  2013: B. N = ch/ CH
+
+----------------------------------------
+JSON Question #157 (Options count: 3, Answer: C):
+Q: Cß║ính tranh trong chß╗º ngh─⌐a t╞░ bß║ún dß║½n ─æß║┐n
+Options: { A: 'T├¡ch l┼⌐y t╞░ bß║ún', B: 'T├¡ch tß╗Ñ t╞░ bß║ún', C: '─Éß╗Öc quyß╗ün' }
+Raw text surrounding line 1963:
+  1961: mß║ính ß╗ƒ x├ú hß╗Öi phong kiß║┐n
+  1962: D. Kinh tß║┐ thß╗ï tr╞░ß╗¥ng ─æß║ít ─æß║┐n tr├¼nh ─æß╗Ö cao
+  1963: trong chß╗º ngh─⌐a t╞░ bß║ún
+  1964: C
+  1965: (Kiß╗â
+  1966: u hß╗Å
+  1967: i kh├íc: ─Éß║╖
+  1968: c ─æiß╗â
+  1969: m n├áo d╞░ß╗¢i ─æ├óy kh├┤ng phß║ú
+  1970: i cß╗º
+  1971: a kinh tß║┐
+  1972: thß╗ï
+  1973: tr╞░ß╗¥
+  1974: ng?)
+  1975: Chß╗ìn c├óu sai: Khuyß║┐t tß║¡t cß╗ºa kinh tß║┐ thß╗ï
+
+----------------------------------------
+JSON Question #158 (Options count: 3, Answer: A):
+Q: Trong c╞í chß║┐ cß╗ºa ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░ bß║ún th├¼
+Options: {
+  A: 'Nh├á n╞░ß╗¢c phß╗Ñ thuß╗Öc v├áo tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün',
+  B: 'Nh├á n╞░ß╗¢c kh├┤ng phß╗Ñ thuß╗Öc v├áo tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün',
+  C: 'Tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün phß╗Ñ thuß╗Öc v├áo nh├á n╞░ß╗¢c.'
+}
+Raw text surrounding line 323:
+  321: ph╞░╞íng ph├íp luß║¡n
+  322: D
+  323: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░
+  324: bß║ún, sß╗ƒ hß╗»u nh├á n╞░ß╗¢c thß╗▒c hiß╗çn chß╗⌐c
+  325: n─âng n├áo?(NHUNG HO├ÇNG)
+  326: A. Mß╗ƒ rß╗Öng sß║ún xuß║Ñt t╞░ bß║ún chß╗º ngh─⌐a
+  327: B. Tß║ío ─æiß╗üu kiß╗çn cho viß╗çc di chuyß╗ân t╞░ bß║ún
+  328: cß╗ºa c├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün v├áo c├íc ng├ánh
+  329: sß║ún xuß║Ñt kinh doanh kh├íc nhau
+  330: C. L├ám chß╗ù dß╗▒a cho sß╗▒ ─æiß╗üu tiß║┐t kinh tß║┐
+  331: nh├á n╞░ß╗¢c
+  332: D. Tß║Ñt cß║ú ph╞░╞íng ├ín tr├¬n
+  333: D
+  334: Mß╗çnh ─æß╗ü n├áo sau ─æ├óy l├á ├╜ kh├┤ng ─æ├║ng vß╗ü
+  335: lao ─æß╗Öng phß╗⌐c tß║íp?
+
+----------------------------------------
+JSON Question #161 (Options count: 3, Answer: C):
+Q: Chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i khi
+Options: {
+  A: 'Sß║ún xuß║Ñt h├áng ho├í ─æ├ú ph├ít triß╗ân cao',
+  B: 'Ph├ón c├┤ng lao ─æß╗Öng ─æ├ú ph├ít triß╗ân cao',
+  C: 'T╞░ liß╗çu sß║ún xuß║Ñt tß║¡p trung v├áo mß╗Öt sß╗æ ├¡t ng╞░ß╗¥i c├▓n ─æa sß╗æ ng╞░ß╗¥i bß╗ï mß║Ñt hß║┐t t╞░ liß╗çu sß║ún xuß║Ñt'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #162 (Options count: 3, Answer: A):
+Q: Khi n├áo sß╗⌐c lao ─æß╗Öng trß╗ƒ th├ánh h├áng ho├í mß╗Öt c├ích phß╗ò biß║┐n?
+Options: {
+  A: 'Trong nß╗ün sß║ún xuß║Ñt h├áng ho├í t╞░ bß║ún chß╗º ngh─⌐a',
+  B: 'Trong x├ú hß╗Öi chiß║┐m hß╗»u n├┤ lß╗ç',
+  C: 'Trong nß╗ün sß║ún xuß║Ñt lß╗¢n hiß╗çn ─æß║íi'
+}
+Raw text surrounding line 642:
+  640: D. ─Éi vay nh├á n╞░ß╗¢
+  641: c)
+  642: Sß╗⌐c lao ─æß╗Öng trß╗ƒ th├ánh h├áng ho├í mß╗Öt c├ích
+  643: phß╗ò biß║┐n tß╗½ khi n├áo?
+  644: A. Tß╗½ khi c├│ chß╗º ngh─⌐a t╞░ bß║ún
+  645: B. Tß╗½ khi c├│ sß║ún xuß║Ñt h├áng ho├í
+  646: C. Tß╗½ khi c├│ kinh tß║┐ thß╗ï tr╞░ß╗¥ng
+  647: D. Tß╗½ khi lao ─æß╗Öng ra ─æß╗¥i
+  648: A
+  649: Khi lß║ím ph├ít phi m├ú xß║úy ra, h├¼nh thß╗⌐c sß╗¡
+  650: dß╗Ñng tiß╗ün n├áo c├│ lß╗úi nhß║Ñt?
+  651: A. Mua h├áng ho├í hoß║╖c v├áng cß║Ñt giß╗»
+  652: B. Gß╗¡i ng├ón h├áng
+  653: C. ─Éß║ºu t╞░ v├áo sß║ún xuß║Ñt kinh doanh
+  654: D. Mua USD
+
+----------------------------------------
+JSON Question #167 (Options count: 3, Answer: A):
+Q: Thß╗â chß║┐ ─æ╞░ß╗úc hiß╗âu l├á
+Options: {
+  A: 'Nhß╗»ng quy tß║»c, ph├íp luß║¡t, bß╗Ö m├íy quß║ún l├¡ v├á c╞í chß║┐ vß║¡n h├ánh nhß║▒m ─æiß╗üu chß╗ënh c├íc hoß║ít ─æß╗Öng cß╗ºa con ng╞░ß╗¥i trong 1 chß║┐ ─æß╗Ö x├ú hß╗Öi',
+  B: 'Luß║¡t ch╞íi" ch├¡nh thß╗⌐c v├á phi ch├¡nh thß╗⌐c ─æ╞░ß╗úc ─æß║╖t ra ─æß╗æi vß╗¢i c├íc chß╗º thß╗â tham gia hoß║ít ─æß╗Öng trong nß╗ün kinh tß║┐ cß╗ºa mß╗Öt quß╗æc gia trong mß╗Öt giai ─æoß║ín lß╗ïch sß╗¡ nhß║Ñt ─æß╗ïnh',
+  C: '─É╞░ß╗úc cß║Ñu th├ánh bß╗ƒi hß╗ç thß╗æng c├íc bß╗Ö phß║¡n kh├íc nhau m├á mß╗ùi bß╗Ö phß║¡n c┼⌐ng l├á mß╗Öt hß╗ç thß╗æng phß╗⌐c tß║íp gß╗ôm nhiß╗üu yß║┐u tß╗æ'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #171 (Options count: 3, Answer: A):
+Q: Dß╗▒a v├áo c─ân cß╗⌐ n├áo ─æß╗â chia t╞░ bß║ún ra th├ánh t╞░ bß║ún cß╗æ ─æß╗ïnh v├á t╞░ bß║ún l╞░u ─æß╗Öng?
+Options: {
+  A: 'Ph╞░╞íng thß╗⌐c chuyß╗ân gi├í trß╗ï cß╗ºa c├íc bß╗Ö phß║¡n t╞░ bß║ún sang sß║ún phß║⌐m',
+  B: 'Vai tr├▓ c├íc bß╗Ö phß║¡n t╞░ bß║ún trong qu├í tr├¼nh sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░',
+  C: 'Sß╗▒ thay ─æß╗òi vß╗ü l╞░ß╗úng trong qu├í tr├¼nh sß║ún xuß║Ñt'
+}
+Raw text surrounding line 2202:
+  2200: -- 46 of 142 --
+  2201: 
+  2202: Dß╗▒a v├áo c─ân cß╗⌐ n├áo ─æß╗â chia t╞░ bß║ún ra
+  2203: th├ánh t╞░ bß║ún cß╗æ ─æß╗ïnh v├á t╞░ bß║ún l╞░u ─æß╗Öng?
+  2204: A. Ph╞░╞íng thß╗⌐c chuyß╗ân gi├í trß╗ï cß╗ºa c├íc bß╗Ö
+  2205: phß║¡n t╞░ bß║ún sang sß║ún phß║⌐m
+  2206: B. Vai tr├▓ c├íc bß╗Ö phß║¡n t╞░ bß║ún trong qu├í
+  2207: tr├¼nh sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░
+  2208: C. Sß╗▒ thay ─æß╗òi vß╗ü l╞░ß╗úng trong qu├í tr├¼nh
+  2209: sß║ún xuß║Ñt
+  2210: A
+  2211: C├ích mß║íng c├┤ng nghiß╗çp lß║ºn thß╗⌐ ba diß╗àn ra
+  2212: trong giai ─æoß║ín n├áo?
+  2213: A. Tß╗½ ─æß║ºu thß║¡p ni├¬n 50 cß╗ºa thß║┐ kß╗╖ XX ─æß║┐n
+  2214: cuß╗æi thß║┐ kß╗╖ XX
+
+----------------------------------------
+JSON Question #178 (Options count: 3, Answer: A):
+Q: Xuß║Ñt khß║⌐u h├áng ho├í l├á g├¼?
+Options: {
+  A: '─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░ bß║ún tß╗▒ do cß║ính tranh',
+  B: '─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün tß╗▒ do cß║ính tranh',
+  C: '─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c'
+}
+Raw text surrounding line 2321:
+  2319: D. Mua ─æ╞░ß╗úc h├áng h├│a sß╗⌐c lao ─æß╗Öng
+  2320: D
+  2321: Xuß║Ñt khß║⌐u h├áng ho├í l├á g├¼?
+  2322: A. ─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░
+  2323: bß║ún tß╗▒ do cß║ính tranh
+  2324: B. ─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░
+  2325: bß║ún ─æß╗Öc quyß╗ün tß╗▒ do cß║ính tranh
+  2326: C. ─Éß║╖c ─æiß╗âm cß╗ºa giai ─æoß║ín chß╗º ngh─⌐a t╞░
+  2327: bß║ún ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+  2328: A
+  2329: (Kiß╗âu hß╗Åi kh├íc
+  2330: Xuß║Ñ
+  2331: t khß║⌐
+  2332: u h├áng h├│a l├á mß╗Ö
+  2333: t trong nhß╗»
+
+----------------------------------------
+JSON Question #179 (Options count: 3, Answer: B):
+Q: Nguß╗ôn gß╗æc cß╗ºa t├¡ch l┼⌐y t╞░ bß║ún l├á
+Options: {
+  A: 'Gi├í trß╗ï cß╗ºa h├áng h├│a',
+  B: 'Gi├í trß╗ï thß║╖ng d╞░',
+  C: 'Gi├í trß╗ï cß╗ºa h├áng h├│a sß╗⌐c lao ─æß╗Öng'
+}
+Raw text surrounding line 2369:
+  2367: -- 48 of 142 --
+  2368: 
+  2369: Nguß╗ôn gß╗æc cß╗ºa t├¡ch l┼⌐y t╞░ bß║ún l├á
+  2370: A. Gi├í trß╗ï cß╗ºa h├áng h├│a
+  2371: B. Gi├í trß╗ï thß║╖ng d╞░
+  2372: C. Gi├í trß╗ï cß╗ºa h├áng h├│a sß╗⌐c lao ─æß╗Öng
+  2373: B
+  2374: Kinh tß║┐- ch├¡nh trß╗ï M├íc - L├¬nin ─æ├ú kß║┐ thß╗½a v├á
+  2375: ph├ít triß╗ân trß╗▒c tiß║┐p nhß╗»ng th├ánh tß╗▒u
+  2376: cß╗ºa(NHUNG HO├ÇNG)
+  2377: A. Kinh tß║┐ ch├¡nh trß╗ï cß╗ò ─æiß╗ân Anh
+  2378: B. Chß╗º ngh─⌐a trß╗ìng th╞░╞íng
+  2379: C. Chß╗º ngh─⌐a trß╗ìng n├┤ng
+  2380: D. Kinh tß║┐ ch├¡nh trß╗ï tß║ºm th╞░ß╗¥ng
+  2381: A
+
+----------------------------------------
+JSON Question #182 (Options count: 3, Answer: B):
+Q: C├┤ng thß╗⌐c chung cß╗ºa t╞░ bß║ún l├á:
+Options: { A: 'H-T-H', B: "T-H-T'", C: 'T-H-T' }
+Raw text surrounding line 2394:
+  2392: c├íc x├¡ nghiß╗çp ─æß╗Öc quyß╗ün
+  2393: D
+  2394: C├┤ng thß╗⌐c chung cß╗ºa t╞░ bß║ún l├á:
+  2395: A. H-T-H
+  2396: B. T-H-T'
+  2397: C. T-H-T
+  2398: B
+  2399: L╞░ß╗úng tß╗╖ suß║Ñt lß╗úi nhuß║¡n l├á
+  2400: A. Lu├┤n lu├┤n nhß╗Å h╞ín gi├í trß╗ï thß║╖ng d╞░
+  2401: B. Lu├┤n lu├┤n lß╗¢n h╞ín tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng
+  2402: d╞░
+  2403: C. Lu├┤n lu├┤n bß║▒ng tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░
+  2404: D. Lu├┤n lu├┤n nhß╗Å h╞ín tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng
+  2405: d╞░
+  2406: D
+
+----------------------------------------
+JSON Question #185 (Options count: 3, Answer: A):
+Q: Nß╗Öi dung c╞í bß║ún cß╗ºa c├ích mß║íng c├┤ng nghiß╗çp lß║ºn thß╗⌐ nhß║Ñt ─æ├│ l├á
+Options: {
+  A: 'Chuyß╗ân tß╗½ lao ─æß╗Öng thß╗º c├┤ng sang lao ─æß╗Öng m├íy m├│c',
+  B: 'Chuyß╗ân tß╗½ lao ─æß╗Öng thß╗º c├┤ng sang sß╗¡ dß╗Ñng ─æß╗Öng c╞í ─æiß╗çn',
+  C: 'Chuyß╗ân tß╗½ lao ─æß╗Öng m├íy m├│c sang lao ─æß╗Öng sß╗¡ dß╗Ñng n─âng l╞░ß╗úng ─æiß╗çn v├á ─æß╗Öng c╞í ─æiß╗çn'
+}
+Raw text surrounding line 597:
+  595: 
+  596: Yß║┐u tß╗æ n├áo quyß║┐t ─æß╗ïnh ─æß║┐n sß╗▒ h├¼nh th├ánh
+  597: cß╗ºa c├ích mß║íng c├┤ng nghiß╗çp.
+  598: A. Sß╗▒ ph├ít triß╗ân v╞░ß╗út bß║¡c cß╗ºa quan hß╗ç sß║ún
+  599: xuß║Ñt
+  600: B. Ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt mß╗¢i ra ─æß╗¥i
+  601: C. Sß╗▒ ph├ít triß╗ân nhß║úy vß╗ìt vß╗ü tr├¼nh ─æß╗Ö cß╗ºa t╞░
+  602: liß╗çu lao ─æß╗Öng
+  603: D. C├íc ph├ít minh s├íng chß║┐ cß╗ºa c├íc nh├á
+  604: khoa hß╗ìc tr├¬n mß╗ìi l─⌐nh vß╗▒c
+  605: C
+  606: Nguß╗ôn vß╗æn ─æß╗â c├┤ng nghiß╗çp h├│a ß╗ƒ c├íc
+  607: n╞░ß╗¢c t╞░ bß║ún cß╗ò ─æiß╗ân lß║Ñy tß╗½ ─æ├óu?
+  608: A. C╞░ß╗¢p b├│c thuß╗Öc ─æß╗ïa
+  609: B. Khai th├íc lao ─æß╗Öng l├ám thu├¬
+
+----------------------------------------
+JSON Question #188 (Options count: 3, Answer: A):
+Q: Ph╞░╞íng ph├íp sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi v├á ph╞░╞íng ph├íp sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ t╞░╞íng ─æß╗æi c├│ ─æiß╗âm n├áo giß╗æng nhau?
+Options: {
+  A: '─Éß╗üu l├ám t─âng tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░',
+  B: '─Éß╗üu l├ám cho c├┤ng nh├ón tß╗òn sß╗⌐c lao ─æß╗Öng nhiß╗üu h╞ín',
+  C: '─Éß╗üu l├ám giß║úm gi├í trß╗ï sß╗⌐c lao ─æß╗Öng cß╗ºa c├┤ng nh├ón'
+}
+Raw text surrounding line 2524:
+  2522: D. Tiß╗ün v├áng
+  2523: D
+  2524: Ph╞░╞íng ph├íp sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░
+  2525: tuyß╗çt ─æß╗æi v├á ph╞░╞íng ph├íp sß║ún xuß║Ñt gi├í trß╗ï
+  2526: thß║╖ng d╞░ t╞░╞íng ─æß╗æi c├│ ─æiß╗âm n├áo giß╗æng
+  2527: nhau?
+  2528: A. ─Éß╗üu l├ám t─âng tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░
+  2529: B. ─Éß╗üu l├ám cho c├┤ng nh├ón tß╗òn sß╗⌐c lao
+  2530: ─æß╗Öng nhiß╗üu h╞ín
+  2531: C. ─Éß╗üu l├ám giß║úm gi├í trß╗ï sß╗⌐c lao ─æß╗Öng cß╗ºa
+  2532: c├┤ng nh├ón
+  2533: A
+  2534: Nhß╗»ng ng├ánh n├áo sß║╜ ─æ╞░ß╗úc nh├á n╞░ß╗¢c t╞░
+  2535: sß║ún ─æß║ºu t╞░ thay cho giai cß║Ñp t╞░ sß║ún t╞░
+  2536: nh├ón?
+
+----------------------------------------
+JSON Question #190 (Options count: 3, Answer: B):
+Q: Khß╗æi l╞░ß╗úng gi├í trß╗ï thß║╖ng d╞░ ─æ╞░ß╗úc t├¡nh bß║▒ng c├┤ng thß╗⌐c n├áo?
+Options: { A: "M = m'x p'", B: "M=m' x V", C: "M=m'xt'" }
+Raw text surrounding line 2548:
+  2546: nhuß║¡n ├¡t
+  2547: D
+  2548: Khß╗æi l╞░ß╗úng gi├í trß╗ï thß║╖ng d╞░ ─æ╞░ß╗úc t├¡nh bß║▒ng
+  2549: c├┤ng thß╗⌐c n├áo?
+  2550: A. M = m'x p'
+  2551: B. M=m' x V
+  2552: C. M=m'xt'
+  2553: B
+  2554: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  2555: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	51/142
+  2556: 
+  2557: -- 51 of 142 --
+  2558: 
+  2559: Sß║ún xuß║Ñt h├áng h├│a l├á(NHUNG HO├ÇNG)
+  2560: A. Kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ m├á sß║ún phß║⌐m l├ám
+
+----------------------------------------
+JSON Question #191 (Options count: 3, Answer: A):
+Q: Sß║ún xuß║Ñt h├áng h├│a l├á
+Options: {
+  A: 'Kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ m├á sß║ún phß║⌐m l├ám ra ─æ╞░ß╗úc mang ra trao ─æß╗òi, mua b├ín tr├¬n thß╗ï tr╞░ß╗¥ng ─æß╗â thß╗Åa m├ún nhu cß║ºu cß╗ºa x├ú hß╗Öi',
+  B: 'Kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ m├á sß║ún phß║⌐m l├ám ra phß║úi tu├ón thß╗º c├íc quy luß║¡t cß╗ºa thß╗ï tr╞░ß╗¥ng nhß║▒m thß╗Åa m├ún nhu cß║ºu cß╗ºa x├ú hß╗Öi',
+  C: 'Kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ do c├íc quy luß║¡t sß║ún xuß║Ñt v├á l╞░u th├┤ng quyß║┐t ─æß╗ïnh nhß║▒m thß╗Åa m├ún nhu cß║ºu cß╗ºa thß╗ï tr╞░ß╗¥ng'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #193 (Options count: 3, Answer: B):
+Q: T├¡ch l┼⌐y t╞░ bß║ún l├á:
+Options: {
+  A: 'T╞░ bß║ún h├│a t╞░ liß╗çu ti├¬u d├╣ng',
+  B: 'T╞░ bß║ún h├│a gi├í trß╗ï thß║╖ng d╞░',
+  C: 'T╞░ bß║ún h├│a sß╗⌐c lao ─æß╗Öng'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #197 (Options count: 3, Answer: A):
+Q: Chß╗ë c├│ sß║ún phß║⌐m cß╗ºa nhß╗»ng lao ─æß╗Öng t╞░ nh├ón ─æß╗Öc lß║¡p v├á kh├┤ng phß╗Ñ thuß╗Öc v├áo nhau mß╗¢i ─æß╗æi diß╗çn vß╗¢i nhau nh╞░
+Options: {
+  A: 'Nhß╗»ng h├áng h├│a',
+  B: 'Nhß╗»ng sß║ún vß║¡t trao ─æß╗òi',
+  C: 'Nhß╗»ng sß║ún phß║⌐m trao ─æß╗òi'
+}
+Raw text surrounding line 2633:
+  2631: -- 53 of 142 --
+  2632: 
+  2633: Chß╗ë c├│ sß║ún phß║⌐m cß╗ºa nhß╗»ng lao ─æß╗Öng t╞░
+  2634: nh├ón ─æß╗Öc lß║¡p v├á kh├┤ng phß╗Ñ thuß╗Öc v├áo nhau
+  2635: mß╗¢i ─æß╗æi diß╗çn vß╗¢i nhau nh╞░(NHUNG
+  2636: HO├ÇNG)
+  2637: A. Nhß╗»ng h├áng h├│a
+  2638: B. Nhß╗»ng sß║ún vß║¡t trao ─æß╗òi
+  2639: C. Nhß╗»ng sß║ún phß║⌐m trao ─æß╗òi
+  2640: A
+  2641: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â chia ra th├ánh t├íi sß║ún
+  2642: xuß║Ñt giß║ún ─æ╞ín v├á t├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng?
+  2643: A. C─ân cß╗⌐ v├áo phß║ím vi
+  2644: B. C─ân cß╗⌐ v├áo nß╗Öi dung
+  2645: C. C─ân cß╗⌐ v├áo quy m├┤
+
+----------------------------------------
+JSON Question #198 (Options count: 3, Answer: C):
+Q: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â chia ra th├ánh t├íi sß║ún xuß║Ñt giß║ún ─æ╞ín v├á t├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng?
+Options: {
+  A: 'C─ân cß╗⌐ v├áo phß║ím vi',
+  B: 'C─ân cß╗⌐ v├áo nß╗Öi dung',
+  C: 'C─ân cß╗⌐ v├áo quy m├┤'
+}
+Raw text surrounding line 2641:
+  2639: C. Nhß╗»ng sß║ún phß║⌐m trao ─æß╗òi
+  2640: A
+  2641: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â chia ra th├ánh t├íi sß║ún
+  2642: xuß║Ñt giß║ún ─æ╞ín v├á t├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng?
+  2643: A. C─ân cß╗⌐ v├áo phß║ím vi
+  2644: B. C─ân cß╗⌐ v├áo nß╗Öi dung
+  2645: C. C─ân cß╗⌐ v├áo quy m├┤
+  2646: C
+  2647: ─Éiß╗ün v├áo chß╗ù trß╗æng. C. M├íc v├á Ph.
+  2648: ─éngghen ─æ├ú nhß║¡n x├⌐t rß║▒ng:"Giai cß║Ñp t╞░
+  2649: sß║ún, trong qu├í tr├¼nh thß╗æng trß╗ï giai cß║Ñp ch╞░a
+  2650: ─æß║ºy mß╗Öt thß║┐ kß╗ë, ─æ├ú tß║ío ra nhß╗»ng ... nhiß╗üu
+  2651: h╞ín v├á ─æß╗ô sß╗Ö h╞ín ... cß╗ºa tß║Ñt cß║ú c├íc thß║┐ hß╗ç
+  2652: tr╞░ß╗¢c kia gß╗Öp lß║íi"
+  2653: A. Lß╗▒c l╞░ß╗úng sß║ún xuß║Ñt... lß╗▒c l╞░ß╗úng sß║ún
+
+----------------------------------------
+JSON Question #200 (Options count: 3, Answer: B):
+Q: Trong kinh tß║┐ h├áng h├│a, cß║ính tranh c├│ t├íc dß╗Ñng.
+Options: {
+  A: 'N├│ l├ám cho sß║ún xuß║Ñt thiß║┐u t├¡nh nh├ón v─ân',
+  B: 'N├│ buß╗Öc ng╞░ß╗¥i sß║ún xuß║Ñt phß║úi th╞░ß╗¥ng xuy├¬n n─âng ─æß╗Öng, nhß║íy b├⌐n.',
+  C: 'N├│ l├ám cho sß║ún xuß║Ñt mang t├¡nh nh├ón v─ân h╞ín'
+}
+Raw text surrounding line 2659:
+  2657: D. Vß║¡t chß║Ñt... vß║¡t chß║Ñt
+  2658: A
+  2659: Trong kinh tß║┐ h├áng h├│a, cß║ính tranh c├│ t├íc
+  2660: dß╗Ñng.
+  2661: A. N├│ l├ám cho sß║ún xuß║Ñt thiß║┐u t├¡nh nh├ón v─ân
+  2662: B. N├│ buß╗Öc ng╞░ß╗¥i sß║ún xuß║Ñt phß║úi th╞░ß╗¥ng
+  2663: xuy├¬n n─âng ─æß╗Öng, nhß║íy b├⌐n.
+  2664: C. N├│ l├ám cho sß║ún xuß║Ñt mang t├¡nh nh├ón
+  2665: v─ân h╞ín
+  2666: B
+  2667: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  2668: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	54/142
+  2669: 
+  2670: -- 54 of 142 --
+  2671: 
+
+----------------------------------------
+JSON Question #202 (Options count: 3, Answer: A):
+Q: T─âng n─âng suß║Ñt lao ─æß╗Öng v├á t─âng c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng giß╗æng nhau ß╗ƒ:
+Options: {
+  A: '─Éß╗üu l├ám t─âng sß╗æ h├áng h├│a sß║ún xuß║Ñt ra trong mß╗Öt thß╗¥i gian',
+  B: '─Éß╗üu l├ám t─âng l╞░ß╗úng lao ─æß╗Öng hao ph├¡ trong 1 ─æ╞ín vß╗ï thß╗¥i gian',
+  C: '─Éß╗üu l├ám gi├í trß╗ï ─æ╞ín vß╗ï h├áng ho├í giß║úm'
+}
+Raw text surrounding line 2683:
+  2681: d╞░
+  2682: C
+  2683: T─âng n─âng suß║Ñt lao ─æß╗Öng v├á t─âng c╞░ß╗¥ng ─æß╗Ö
+  2684: lao ─æß╗Öng giß╗æng nhau ß╗ƒ:
+  2685: A. ─Éß╗üu l├ám t─âng sß╗æ h├áng h├│a sß║ún xuß║Ñt ra
+  2686: trong mß╗Öt thß╗¥i gian
+  2687: B. ─Éß╗üu l├ám t─âng l╞░ß╗úng lao ─æß╗Öng hao ph├¡
+  2688: trong 1 ─æ╞ín vß╗ï thß╗¥i gian
+  2689: C. ─Éß╗üu l├ám gi├í trß╗ï ─æ╞ín vß╗ï h├áng ho├í giß║úm
+  2690: A
+  2691: Nhß╗»ng hß║ín chß║┐ cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún bao
+  2692: gß╗ôm: (chß╗ìn nhiß╗üu ph╞░╞íng ├ín).
+  2693: A. Mß╗Ñc ─æ├¡ch cß╗ºa n├¬n sß║ún xuß║Ñt t╞░ bß║ún chß╗º
+  2694: ngh─⌐a vß║½n tß║¡p trung chß╗º yß║┐u v├¼ lß╗úi ├¡ch cß╗ºa
+  2695: thiß╗âu sß╗æ giai cß║Ñp t╞░ sß║ún
+
+----------------------------------------
+JSON Question #204 (Options count: 3, Answer: A):
+Q: Chß╗ìn c├íc ├╜ kh├┤ng ─æ├║ng vß╗ü sß║ún phß║⌐m v├á h├áng ho├í.
+Options: {
+  A: 'Mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á h├áng ho├í',
+  B: 'Mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á kß║┐t quß║ú cß╗ºa sß║ún xuß║Ñt',
+  C: 'Kh├┤ng phß║úi mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á h├áng ho├í'
+}
+Raw text surrounding line 2704:
+  2702: D. G├óy ra biß║┐n ─æß╗æi kh├¡ hß║¡u v├á m├┤i tr╞░ß╗¥ng
+  2703: ABC
+  2704: Chß╗ìn c├íc ├╜ kh├┤ng ─æ├║ng vß╗ü sß║ún phß║⌐m v├á
+  2705: h├áng ho├í.
+  2706: A. Mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á h├áng ho├í
+  2707: B. Mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á kß║┐t quß║ú cß╗ºa sß║ún
+  2708: xuß║Ñt
+  2709: C. Kh├┤ng phß║úi mß╗ìi sß║ún phß║⌐m ─æß╗üu l├á h├áng
+  2710: ho├í
+  2711: A
+  2712: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  2713: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	55/142
+  2714: 
+  2715: -- 55 of 142 --
+  2716: 
+
+----------------------------------------
+JSON Question #205 (Options count: 3, Answer: A):
+Q: Chi ph├¡ thß╗▒c tß║┐ cß╗ºa x├ú hß╗Öi ─æß╗â sß║ún xuß║Ñt h├áng ho├í l├á
+Options: {
+  A: 'Chi ph├¡ lao ─æß╗Öng sß╗æng v├á lao ─æß╗Öng qu├í khß╗⌐',
+  B: 'Chi ph├¡ t╞░ bß║ún bß║Ñt biß║┐n v├á t╞░ bß║ún khß║ú biß║┐n',
+  C: 'Chi ph├¡ sß╗⌐c lao ─æß╗Öng cß╗ºa to├án x├ú hß╗Öi'
+}
+Raw text surrounding line 2717:
+  2715: -- 55 of 142 --
+  2716: 
+  2717: Chi ph├¡ thß╗▒c tß║┐ cß╗ºa x├ú hß╗Öi ─æß╗â sß║ún xuß║Ñt
+  2718: h├áng ho├í l├á
+  2719: A. Chi ph├¡ lao ─æß╗Öng sß╗æng v├á lao ─æß╗Öng qu├í
+  2720: khß╗⌐
+  2721: B. Chi ph├¡ t╞░ bß║ún bß║Ñt biß║┐n v├á t╞░ bß║ún khß║ú
+  2722: biß║┐n
+  2723: C. Chi ph├¡ sß╗⌐c lao ─æß╗Öng cß╗ºa to├án x├ú hß╗Öi
+  2724: A
+  2725: Quy luß║¡t chung cß╗ºa t├¡ch luß╗╣ t╞░ bß║ún l├á g├¼? ├¥
+  2726: n├áo sau ─æ├óy kh├┤ng ─æ├║ng.
+  2727: A. Giai cß║Ñp t╞░ sß║ún ng├áy c├áng gi├áu c├│, m├óu
+  2728: thuß║½n trong chß╗º ngh─⌐a t╞░ bß║ún t─âng l├¬n
+  2729: B. Cß║Ñu tß║ío hß╗»u c╞í cß╗ºa t╞░ bß║ún t─âng l├¬n
+
+----------------------------------------
+JSON Question #208 (Options count: 3, Answer: A):
+Q: Gi├í trß╗ï c├í biß╗çt cß╗ºa h├áng ho├í do
+Options: {
+  A: 'Hao ph├¡ lao ─æß╗Öng c├í biß╗çt cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt quyß║┐t ─æß╗ïnh',
+  B: 'Hao ph├¡ lao ─æß╗Öng c├í biß╗çt cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt nhiß╗üu h├áng ho├í quyß║┐t ─æß╗ïnh',
+  C: 'Hao ph├¡ lao ─æß╗Öng cß╗ºa ng├ánh quyß║┐t ─æß╗ïnh'
+}
+Raw text surrounding line 2773:
+  2771: h╞░ß╗¢ng x├ú hß╗Öi chß╗º ngh─⌐a
+  2772: A
+  2773: Gi├í trß╗ï c├í biß╗çt cß╗ºa h├áng ho├í do
+  2774: A. Hao ph├¡ lao ─æß╗Öng c├í biß╗çt cß╗ºa ng╞░ß╗¥i sß║ún
+  2775: xuß║Ñt quyß║┐t ─æß╗ïnh
+  2776: B. Hao ph├¡ lao ─æß╗Öng c├í biß╗çt cß╗ºa ng╞░ß╗¥i sß║ún
+  2777: xuß║Ñt nhiß╗üu h├áng ho├í quyß║┐t ─æß╗ïnh
+  2778: C. Hao ph├¡ lao ─æß╗Öng cß╗ºa ng├ánh quyß║┐t ─æß╗ïnh
+  2779: A
+  2780: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  2781: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	56/142
+  2782: 
+  2783: -- 56 of 142 --
+  2784: 
+  2785: L╞░u th├┤ng h├áng ho├í dß╗▒a tr├¬n nguy├¬n tß║»c
+
+----------------------------------------
+JSON Question #209 (Options count: 3, Answer: C):
+Q: L╞░u th├┤ng h├áng ho├í dß╗▒a tr├¬n nguy├¬n tß║»c ngang gi├í. ─Éiß╗üu n├áy ─æ╞░ß╗úc hiß╗âu nh╞░ thß║┐ n├áo l├á ─æ├║ng?
+Options: {
+  A: 'Gi├í cß║ú cß╗ºa tß╗½ng h├áng ho├í lu├┤n lu├┤n bß║▒ng gi├í trß╗ï cß╗ºa n├│',
+  B: 'Gi├í trß╗ï lu├┤n lu├┤n bß║▒ng gi├í cß║ú',
+  C: 'Gi├í cß║ú c├│ thß╗â t├ích rß╗¥i gi├í trß╗ï v├á xoay quanh gi├í trß╗ï cß╗ºa n├│'
+}
+Raw text surrounding line 2785:
+  2783: -- 56 of 142 --
+  2784: 
+  2785: L╞░u th├┤ng h├áng ho├í dß╗▒a tr├¬n nguy├¬n tß║»c
+  2786: ngang gi├í. ─Éiß╗üu n├áy ─æ╞░ß╗úc hiß╗âu nh╞░ thß║┐
+  2787: n├áo l├á ─æ├║ng?
+  2788: A. Gi├í cß║ú cß╗ºa tß╗½ng h├áng ho├í lu├┤n lu├┤n
+  2789: bß║▒ng gi├í trß╗ï cß╗ºa n├│
+  2790: B. Gi├í trß╗ï lu├┤n lu├┤n bß║▒ng gi├í cß║ú
+  2791: C. Gi├í cß║ú c├│ thß╗â t├ích rß╗¥i gi├í trß╗ï v├á xoay
+  2792: quanh gi├í trß╗ï cß╗ºa n├│
+  2793: C
+  2794: Nhß╗»ng th├ánh tß╗▒u v├á hß║ín chß║┐ cß╗ºa chß╗º
+  2795: ngh─⌐a t╞░ bß║ún bß║»t nguß╗ôn tß╗½
+  2796: A. M├óu thuß║½n giß╗»a tr├¼nh ─æß╗Ö x├ú hß╗Öi h├│a cao
+  2797: cß╗ºa lß╗▒c l╞░ß╗úng sß║ún xuß║Ñt vß╗¢i quan hß╗ç sß╗ƒ hß╗»u
+
+----------------------------------------
+JSON Question #214 (Options count: 3, Answer: A):
+Q: Nh├ón tß╗æ n├áo l├á c╞í bß║ún th├║c ─æß║⌐y chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i nhanh ch├│ng?
+Options: {
+  A: 'T├¡ch luß╗╣ nguy├¬n thuß╗╖',
+  B: 'Sß╗▒ ph├ít triß╗ân mß║ính mß║╜ cß╗ºa ph╞░╞íng tiß╗çn giao th├┤ng vß║¡n tß║úi nhß╗¥ ─æ├│ mß╗ƒ rß╗Öng giao l╞░u bu├┤n b├ín quß╗æc tß║┐',
+  C: 'Sß╗▒ t├íc ─æß╗Öng cß╗ºa quy luß║¡t gi├í trß╗ï'
+}
+Raw text surrounding line 2833:
+  2831: D. Kh├┤ng x├íc ─æß╗ïnh
+  2832: C
+  2833: Nh├ón tß╗æ n├áo l├á c╞í bß║ún th├║c ─æß║⌐y chß╗º ngh─⌐a
+  2834: t╞░ bß║ún ra ─æß╗¥i nhanh ch├│ng?
+  2835: A. T├¡ch luß╗╣ nguy├¬n thuß╗╖
+  2836: B. Sß╗▒ ph├ít triß╗ân mß║ính mß║╜ cß╗ºa ph╞░╞íng tiß╗çn
+  2837: giao th├┤ng vß║¡n tß║úi nhß╗¥ ─æ├│ mß╗ƒ rß╗Öng giao l╞░u
+  2838: bu├┤n b├ín quß╗æc tß║┐
+  2839: C. Sß╗▒ t├íc ─æß╗Öng cß╗ºa quy luß║¡t gi├í trß╗ï
+  2840: A
+  2841: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░
+  2842: bß║ún h├¼nh th├ánh dß╗▒a tr├¬n
+  2843: A. Ba nguy├¬n nh├ón
+  2844: B. Bß╗æn nguy├¬n nh├ón
+  2845: C. Hai nguy├¬n nh├ón
+
+----------------------------------------
+JSON Question #215 (Options count: 3, Answer: B):
+Q: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░ bß║ún h├¼nh th├ánh dß╗▒a tr├¬n
+Options: { A: 'Ba nguy├¬n nh├ón', B: 'Bß╗æn nguy├¬n nh├ón', C: 'Hai nguy├¬n nh├ón' }
+Raw text surrounding line 323:
+  321: ph╞░╞íng ph├íp luß║¡n
+  322: D
+  323: ─Éß╗Öc quyß╗ün nh├á n╞░ß╗¢c trong chß╗º ngh─⌐a t╞░
+  324: bß║ún, sß╗ƒ hß╗»u nh├á n╞░ß╗¢c thß╗▒c hiß╗çn chß╗⌐c
+  325: n─âng n├áo?(NHUNG HO├ÇNG)
+  326: A. Mß╗ƒ rß╗Öng sß║ún xuß║Ñt t╞░ bß║ún chß╗º ngh─⌐a
+  327: B. Tß║ío ─æiß╗üu kiß╗çn cho viß╗çc di chuyß╗ân t╞░ bß║ún
+  328: cß╗ºa c├íc tß╗ò chß╗⌐c ─æß╗Öc quyß╗ün v├áo c├íc ng├ánh
+  329: sß║ún xuß║Ñt kinh doanh kh├íc nhau
+  330: C. L├ám chß╗ù dß╗▒a cho sß╗▒ ─æiß╗üu tiß║┐t kinh tß║┐
+  331: nh├á n╞░ß╗¢c
+  332: D. Tß║Ñt cß║ú ph╞░╞íng ├ín tr├¬n
+  333: D
+  334: Mß╗çnh ─æß╗ü n├áo sau ─æ├óy l├á ├╜ kh├┤ng ─æ├║ng vß╗ü
+  335: lao ─æß╗Öng phß╗⌐c tß║íp?
+
+----------------------------------------
+JSON Question #227 (Options count: 3, Answer: B):
+Q: C├│ hai h├¼nh thß╗⌐c trß║ú tiß╗ün c├┤ng cß╗ºa nh├á t╞░ bß║ún ─æ├│ l├á
+Options: {
+  A: 'Trß║ú bß║▒ng tiß╗ün hay t╞░ liß╗çu sß║ún xuß║Ñt',
+  B: 'Trß║ú bß║▒ng tiß╗ün hay sß║ún phß║⌐m',
+  C: 'Trß║ú bß║▒ng tiß╗ün hay v├áng'
+}
+Raw text surrounding line 2993:
+  2991: sß║ún phß║⌐m
+  2992: c
+  2993: C├│ hai h├¼nh thß╗⌐c trß║ú tiß╗ün c├┤ng cß╗ºa nh├á t╞░
+  2994: bß║ún ─æ├│ l├á
+  2995: a. Trß║ú bß║▒ng tiß╗ün hay t╞░ liß╗çu sß║ún xuß║Ñt
+  2996: b. Trß║ú bß║▒ng tiß╗ün hay sß║ún phß║⌐m
+  2997: c. Trß║ú bß║▒ng tiß╗ün hay v├áng
+  2998: b
+  2999: Chß╗ìn ├╜ ─æ├║ng vß╗ü t─âng NSL─É v├á t─âng c╞░ß╗¥ng
+  3000: ─æß╗Ö lao ─æß╗Öng:
+  3001: A. T─âng NSL─É l├ám cho sß╗æ sß║ún phß║⌐m l├ám ra
+  3002: trong mß╗Öt ─æ╞ín vß╗ï thß╗¥i gian t─âng l├¬n, c├▓n gi├í
+  3003: trß╗ï 1 ─æ╞ín vß╗ï h├áng ho├í thay ─æß╗òi.
+  3004: B. T─âng c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng l├ám cho sß╗æ sß║ún
+  3005: phß║⌐m l├ám ra trong 1 ─æ╞ín vß╗ï thß╗¥i gian t─âng
+
+----------------------------------------
+JSON Question #230 (Options count: 3, Answer: A):
+Q: Nguß╗ôn gß╗æc chß╗º yß║┐u cß╗ºa t├¡ch l┼⌐y t╞░ bß║ún l├á: a) Lß╗úi nhuß║¡n b├¼nh qu├ón b) Gi├í trß╗ï lao ─æß╗Öng c) Gi├í trß╗ï thß║╖ng d╞░ d) Gi├í trß╗ï trao ─æß╗òi c Tiß╗ün l╞░╞íng t├¡nh theo sß║ún phß║⌐m l├á: a) Tiß╗ün l╞░╞íng ─æ╞░ß╗úc trß║ú c─ân cß╗⌐ v├áo sß╗æ l╞░ß╗úng sß║ún phß║⌐m ng╞░ß╗¥i c├┤ng nh├ón l├ám ra b) Tiß╗ün l╞░╞íng ─æ╞░ß╗úc trß║ú c─ân cß╗⌐ v├áo chß║Ñt l╞░ß╗úng sß║ún phß║⌐m m├á ng╞░ß╗¥i c├┤ng nh├ón l├ám ra c) Tiß╗ün l╞░╞íng ─æ╞░ß╗úc trß║ú c─ân cß╗⌐ v├áo sß╗æ l╞░ß╗úng v├á chß║Ñt l╞░ß╗úng sß║ún phß║⌐m m├á ng╞░ß╗¥i c├┤ng nh├ón l├ám ra d) Tiß╗ün l╞░╞íng ─æ╞░ß╗úc trß║ú c─ân cß╗⌐ v├áo sß║ún phß║⌐m m├á ng╞░ß╗¥i c├┤ng nh├ón l├ám ra c Mß╗⌐c ─æß╗Ö gi├áu c├│ cß╗ºa x├ú hß╗Öi phß╗Ñ thuß╗Öc chß╗º yß║┐u v├áo:
+Options: {
+  A: 'Tr├¼nh ─æß╗Ö khoa hß╗ìc c├┤ng nghß╗ç',
+  B: 'T├ái nguy├¬n thi├¬n nhi├¬n',
+  C: 'Khß╗æi l╞░ß╗úng sß║ún phß║⌐m thß║╖ng d╞░'
+}
+Raw text surrounding line 3059:
+  3057: t - l╞░
+  3058: u th├┤ng)
+  3059: Nguß╗ôn gß╗æc chß╗º yß║┐u cß╗ºa t├¡ch l┼⌐y t╞░ bß║ún l├á:
+  3060: (NHUNG HO├ÇNG)
+  3061: a) Lß╗úi nhuß║¡n b├¼nh qu├ón
+  3062: b) Gi├í trß╗ï lao ─æß╗Öng
+  3063: c) Gi├í trß╗ï thß║╖ng d╞░
+  3064: d) Gi├í trß╗ï trao ─æß╗òi
+  3065: c
+  3066: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3067: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	63/142
+  3068: 
+  3069: -- 63 of 142 --
+  3070: 
+  3071: Tiß╗ün l╞░╞íng t├¡nh theo sß║ún phß║⌐m l├á:
+
+----------------------------------------
+JSON Question #231 (Options count: 3, Answer: A):
+Q: T╞░ bß║ún bß║Ñt biß║┐n (c) v├á t╞░ bß║ún khß║ú biß║┐n (v) thuß╗Öc phß║ím tr├╣ t╞░ bß║ún n├áo?
+Options: { A: 'T╞░ bß║ún tiß╗ün tß╗ç.', B: 'T╞░ bß║ún sß║ún xuß║Ñt.', C: 'T╞░ bß║ún h├áng ho├í.' }
+Raw text surrounding line 3089:
+  3087: C. Khß╗æi l╞░ß╗úng sß║ún phß║⌐m thß║╖ng d╞░
+  3088: A
+  3089: T╞░ bß║ún bß║Ñt biß║┐n (c) v├á t╞░ bß║ún khß║ú biß║┐n (v)
+  3090: thuß╗Öc phß║ím tr├╣ t╞░ bß║ún n├áo?
+  3091: A. T╞░ bß║ún tiß╗ün tß╗ç.
+  3092: B. T╞░ bß║ún sß║ún xuß║Ñt.
+  3093: C. T╞░ bß║ún h├áng ho├í.
+  3094: A
+  3095: Tiß╗ün c├┤ng t╞░ bß║ún c├│ hai h├¼nh thß╗⌐c ─æ├│ l├á
+  3096: a. Tiß╗ün c├┤ng c╞í bß║ún v├á tiß╗ün c├┤ng phß╗Ñ th├¬m
+  3097: b. Tiß╗ün c├┤ng thß╗▒c tß║┐ v├á tiß╗ün c├┤ng danh
+  3098: ngh─⌐a
+  3099: c. Tiß╗ün mß║╖t v├á h├áng h├│a
+  3100: b
+  3101: Chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+
+----------------------------------------
+JSON Question #232 (Options count: 3, Answer: B):
+Q: Tiß╗ün c├┤ng t╞░ bß║ún c├│ hai h├¼nh thß╗⌐c ─æ├│ l├á
+Options: {
+  A: 'Tiß╗ün c├┤ng c╞í bß║ún v├á tiß╗ün c├┤ng phß╗Ñ th├¬m',
+  B: 'Tiß╗ün c├┤ng thß╗▒c tß║┐ v├á tiß╗ün c├┤ng danh ngh─⌐a',
+  C: 'Tiß╗ün mß║╖t v├á h├áng h├│a'
+}
+Raw text surrounding line 3095:
+  3093: C. T╞░ bß║ún h├áng ho├í.
+  3094: A
+  3095: Tiß╗ün c├┤ng t╞░ bß║ún c├│ hai h├¼nh thß╗⌐c ─æ├│ l├á
+  3096: a. Tiß╗ün c├┤ng c╞í bß║ún v├á tiß╗ün c├┤ng phß╗Ñ th├¬m
+  3097: b. Tiß╗ün c├┤ng thß╗▒c tß║┐ v├á tiß╗ün c├┤ng danh
+  3098: ngh─⌐a
+  3099: c. Tiß╗ün mß║╖t v├á h├áng h├│a
+  3100: b
+  3101: Chß╗º ngh─⌐a t╞░ bß║ún ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c
+  3102: h├¼nh th├ánh r├╡ n├⌐t tß╗½:
+  3103: a) Thß║┐ kß╗╖ XIX
+  3104: b) Cuß╗æi thß╗â kß╗╖ XIX - ─æß║ºu thß║┐ kß╗╖ XX
+  3105: c) Giß╗»a thß║┐ kß╗╖ XX
+  3106: d) ─Éß║ºu thß║┐ kß╗╖ XXI
+  3107: c
+
+----------------------------------------
+JSON Question #234 (Options count: 3, Answer: B):
+Q: X├⌐t vß╗ü gi├í trß╗ï cß╗ºa h├áng h├│a, h├áng h├│a c├áng khan hiß║┐m th├¼
+Options: {
+  A: 'Gi├í trß╗ï cß╗ºa n├│ c├áng cao',
+  B: 'Gi├í cß║ú cß╗ºa n├│ c├áng cao',
+  C: 'Cß║ú gi├í trß╗ï v├á gi├í cß║ú cß╗ºa h├áng h├│a c├áng cao'
+}
+Raw text surrounding line 3159:
+  3157: -- 65 of 142 --
+  3158: 
+  3159: X├⌐t vß╗ü gi├í trß╗ï cß╗ºa h├áng h├│a, h├áng h├│a c├áng
+  3160: khan hiß║┐m th├¼(NHUNG HO├ÇNG)
+  3161: a. Gi├í trß╗ï cß╗ºa n├│ c├áng cao
+  3162: b. Gi├í cß║ú cß╗ºa n├│ c├áng cao
+  3163: c. Cß║ú gi├í trß╗ï v├á gi├í cß║ú cß╗ºa h├áng h├│a c├áng
+  3164: cao
+  3165: b
+  3166: C├íc ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt nß╗æi tiß║┐p nhau
+  3167: trong lß╗ïch sß╗¡ theo tr├¼nh tß╗▒ n├áo?
+  3168: a. Chiß║┐m hß╗»u n├┤ lß╗ç - phong kiß║┐n - t╞░ bß║ún -
+  3169: chß╗º ngh─⌐a cß╗Öng sß║ún.
+  3170: b. Cß╗Öng sß║ún nguy├¬n thuß╗╖ - phong kiß║┐n -
+  3171: chiß║┐m hß╗»u n├┤ lß╗ç - t╞░ bß║ún - chß╗º ngh─⌐a cß╗Öng
+
+----------------------------------------
+JSON Question #236 (Options count: 3, Answer: A):
+Q: Sß║ún xuß║Ñt h├áng ho├í xuß║Ñt hiß╗çn dß╗▒a tr├¬n:
+Options: {
+  A: 'Ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi v├á chß║┐ ─æß╗Ö t╞░ hß╗»u hoß║╖c nhß╗»ng h├¼nh thß╗⌐c sß╗ƒ hß╗»u kh├íc nhau vß╗ü TLSX.',
+  B: 'Ph├ón c├┤ng lao ─æß╗Öng c├í biß╗çt v├á chß║┐ ─æß╗Ö t╞░ hß╗»u vß╗ü t╞░ liß╗çu sß║ún xuß║Ñt',
+  C: 'Ph├ón c├┤ng lao ─æß╗Öng chung v├á chß║┐ ─æß╗Ö sß╗ƒ hß╗»u kh├íc nhau vß╗ü TLSX'
+}
+Raw text surrounding line 3178:
+  3176: - phong kiß║┐n - t╞░ bß║ún- chß╗º ngh─⌐a cß╗Öng
+  3177: d
+  3178: Sß║ún xuß║Ñt h├áng ho├í xuß║Ñt hiß╗çn dß╗▒a tr├¬n:
+  3179: a. Ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi v├á chß║┐ ─æß╗Ö t╞░
+  3180: hß╗»u hoß║╖c nhß╗»ng h├¼nh thß╗⌐c sß╗ƒ hß╗»u kh├íc
+  3181: nhau vß╗ü TLSX.
+  3182: b. Ph├ón c├┤ng lao ─æß╗Öng c├í biß╗çt v├á chß║┐ ─æß╗Ö t╞░
+  3183: hß╗»u vß╗ü t╞░ liß╗çu sß║ún xuß║Ñt
+  3184: c. Ph├ón c├┤ng lao ─æß╗Öng chung v├á chß║┐ ─æß╗Ö sß╗ƒ
+  3185: hß╗»u kh├íc nhau vß╗ü TLSX
+  3186: a
+  3187: Sß╗⌐c lao ─æß╗Öng l├á:
+  3188: a) To├án bß╗Ö sß╗⌐c thß╗â lß╗▒c tß╗ôn tß║íi trong mß╗ùi
+  3189: con ng╞░ß╗¥i
+  3190: b) To├án bß╗Ö sß╗⌐c thß╗â lß╗▒c v├á tr├¡ lß╗▒c tß╗ôn tß║íi
+
+----------------------------------------
+JSON Question #239 (Options count: 3, Answer: C):
+Q: Hai h├áng ho├í trao ─æß╗òi ─æ╞░ß╗úc vß╗¢i nhau v├¼:
+Options: {
+  A: 'c├│ l╞░ß╗úng thß╗¥i gian hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi cß║ºn thiß║┐t ─æß╗â sß║ún xuß║Ñt ra ch├║ng bß║▒ng nhau.',
+  B: 'Ch├║ng c├╣ng l├á sß║ún phß║⌐m cß╗ºa lao ─æß╗Öng.',
+  C: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng'
+}
+Raw text surrounding line 3230:
+  3228: h├│a
+  3229: A
+  3230: Hai h├áng ho├í trao ─æß╗òi ─æ╞░ß╗úc vß╗¢i nhau v├¼:
+  3231: a. c├│ l╞░ß╗úng thß╗¥i gian hao ph├¡ lao ─æß╗Öng x├ú
+  3232: hß╗Öi cß║ºn thiß║┐t ─æß╗â sß║ún xuß║Ñt ra ch├║ng bß║▒ng
+  3233: nhau.
+  3234: b. Ch├║ng c├╣ng l├á sß║ún phß║⌐m cß╗ºa lao ─æß╗Öng.
+  3235: c. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng
+  3236: c
+  3237: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3238: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	67/142
+  3239: 
+  3240: -- 67 of 142 --
+  3241: 
+  3242: Khi nghi├¬n cß╗⌐u ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt
+
+----------------------------------------
+JSON Question #242 (Options count: 3, Answer: A):
+Q: Gi├í trß╗ï x├ú hß╗Öi cß╗ºa h├áng ho├í c├┤ng nghiß╗çp v├á n├┤ng nghiß╗çp giß╗æng nhau ß╗ƒ chß╗ù dß╗▒a tr├¬n:
+Options: {
+  A: 'Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi cß║ºn thiß║┐t',
+  B: 'Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi trong ─æiß╗üu kiß╗çn sß║ún xuß║Ñt trung b├¼nh',
+  C: 'Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi trong ─æiß╗üu kiß╗çn sß║ún xuß║Ñt kh├│ kh─ân nhß║Ñt'
+}
+Raw text surrounding line 3289:
+  3287: t╞░ bß║ún
+  3288: B
+  3289: Gi├í trß╗ï x├ú hß╗Öi cß╗ºa h├áng ho├í c├┤ng nghiß╗çp v├á
+  3290: n├┤ng nghiß╗çp giß╗æng nhau ß╗ƒ chß╗ù dß╗▒a tr├¬n:
+  3291: (NHUNG HO├ÇNG)
+  3292: A. Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi cß║ºn thiß║┐t
+  3293: B. Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi trong ─æiß╗üu kiß╗çn
+  3294: sß║ún xuß║Ñt trung b├¼nh
+  3295: C. Hao ph├¡ lao ─æß╗Öng x├ú hß╗Öi trong ─æiß╗üu kiß╗çn
+  3296: sß║ún xuß║Ñt kh├│ kh─ân nhß║Ñt
+  3297: A
+  3298: Tr├¬n gi├íc ─æß╗Ö KTCT, chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún
+  3299: ─æ╞░ß╗úc quan ─æiß╗âm l├á:
+  3300: a. Chi ph├¡ t╞░ bß║ún (c) v├á (v).
+  3301: b. Tß╗òng sß╗æ tiß╗ün nh├á t╞░ bß║ún ß╗⌐ng ra.
+
+----------------------------------------
+JSON Question #243 (Options count: 3, Answer: A):
+Q: Tr├¬n gi├íc ─æß╗Ö KTCT, chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún ─æ╞░ß╗úc quan ─æiß╗âm l├á:
+Options: {
+  A: 'Chi ph├¡ t╞░ bß║ún (c) v├á (v).',
+  B: 'Tß╗òng sß╗æ tiß╗ün nh├á t╞░ bß║ún ß╗⌐ng ra.',
+  C: 'Sß╗æ tiß╗ün nh├á t╞░ bß║ún mua m├íy m├│c, nguy├¬n vß║¡t liß╗çu.'
+}
+Raw text surrounding line 3298:
+  3296: sß║ún xuß║Ñt kh├│ kh─ân nhß║Ñt
+  3297: A
+  3298: Tr├¬n gi├íc ─æß╗Ö KTCT, chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún
+  3299: ─æ╞░ß╗úc quan ─æiß╗âm l├á:
+  3300: a. Chi ph├¡ t╞░ bß║ún (c) v├á (v).
+  3301: b. Tß╗òng sß╗æ tiß╗ün nh├á t╞░ bß║ún ß╗⌐ng ra.
+  3302: c. Sß╗æ tiß╗ün nh├á t╞░ bß║ún mua m├íy m├│c,
+  3303: nguy├¬n vß║¡t liß╗çu.
+  3304: a
+  3305: Trong quan hß╗ç vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng,
+  3306: l╞░ß╗úng gi├í trß╗ï cß╗ºa ─æ╞ín vß╗ï h├áng ho├í(NHUNG
+  3307: HO├ÇNG)
+  3308: A. Kh├┤ng phß╗Ñ thuß╗Öc v├áo c╞░ß╗¥ng ─æß╗Ö lao
+  3309: ─æß╗Öng
+  3310: B. Tß╗╖ lß╗ç thuß║¡n vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+
+----------------------------------------
+JSON Question #244 (Options count: 3, Answer: A):
+Q: Trong quan hß╗ç vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng, l╞░ß╗úng gi├í trß╗ï cß╗ºa ─æ╞ín vß╗ï h├áng ho├í
+Options: {
+  A: 'Kh├┤ng phß╗Ñ thuß╗Öc v├áo c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng',
+  B: 'Tß╗╖ lß╗ç thuß║¡n vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng',
+  C: 'Tß╗╖ lß╗ç nghß╗ïch vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng'
+}
+Raw text surrounding line 3305:
+  3303: nguy├¬n vß║¡t liß╗çu.
+  3304: a
+  3305: Trong quan hß╗ç vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng,
+  3306: l╞░ß╗úng gi├í trß╗ï cß╗ºa ─æ╞ín vß╗ï h├áng ho├í(NHUNG
+  3307: HO├ÇNG)
+  3308: A. Kh├┤ng phß╗Ñ thuß╗Öc v├áo c╞░ß╗¥ng ─æß╗Ö lao
+  3309: ─æß╗Öng
+  3310: B. Tß╗╖ lß╗ç thuß║¡n vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  3311: C. Tß╗╖ lß╗ç nghß╗ïch vß╗¢i c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  3312: A
+  3313: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3314: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	69/142
+  3315: 
+  3316: -- 69 of 142 --
+  3317: 
+
+----------------------------------------
+JSON Question #245 (Options count: 3, Answer: A):
+Q: Quan hß╗ç cung cß║ºu thuß╗Öc kh├óu n├áo cß╗ºa qu├í tr├¼nh t├íi sß║ún xuß║Ñt x├ú hß╗Öi?
+Options: {
+  A: 'Sß║ún xuß║Ñt v├á ti├¬u d├╣ng',
+  B: 'Ph├ón phß╗æi v├á trao ─æß╗òi',
+  C: 'Ti├¬u d├╣ng'
+}
+Raw text surrounding line 3318:
+  3316: -- 69 of 142 --
+  3317: 
+  3318: Quan hß╗ç cung cß║ºu thuß╗Öc kh├óu n├áo cß╗ºa qu├í
+  3319: tr├¼nh t├íi sß║ún xuß║Ñt x├ú hß╗Öi?
+  3320: a. Sß║ún xuß║Ñt v├á ti├¬u d├╣ng
+  3321: b. Ph├ón phß╗æi v├á trao ─æß╗òi
+  3322: c. Ti├¬u d├╣ng
+  3323: a
+  3324: Khi n├áo tiß╗ün tß╗ç ra ─æß╗¥i?
+  3325: a) Khi sß║ún xuß║Ñt v├á trao ─æß╗òi ─æ├ú ph├ít triß╗ân
+  3326: b) Khi vß║¡t ngang gi├í chung ─æ╞░ß╗úc cß╗æ ─æß╗ïnh ß╗ƒ
+  3327: v├áng, bß║íc
+  3328: c) Khi kh├┤ng c├▓n quan hß╗ç trao ─æß╗òi trß╗▒c tiß║┐p,
+  3329: c├│ mß╗Öt thß╗⌐ h├áng l├ám trung gian trong trao
+  3330: ─æß╗òi
+
+----------------------------------------
+JSON Question #246 (Options count: 3, Answer: C):
+Q: Khi n├áo tiß╗ün tß╗ç ra ─æß╗¥i? a) Khi sß║ún xuß║Ñt v├á trao ─æß╗òi ─æ├ú ph├ít triß╗ân b) Khi vß║¡t ngang gi├í chung ─æ╞░ß╗úc cß╗æ ─æß╗ïnh ß╗ƒ v├áng, bß║íc c) Khi kh├┤ng c├▓n quan hß╗ç trao ─æß╗òi trß╗▒c tiß║┐p, c├│ mß╗Öt thß╗⌐ h├áng l├ám trung gian trong trao ─æß╗òi d) Khi nhu cß║ºu trao ─æß╗òi v╞░ß╗út qu├í phß║ím vi quß╗æc gia b Chß╗ìn ─æß╗ïnh ngh─⌐a ch├¡nh x├íc vß╗ü t╞░ bß║ún:
+Options: {
+  A: 'T╞░ bß║ún l├á gi├í trß╗ï mang lß║íi gi├í trß╗ï thß║╖ng d╞░.',
+  B: 'T╞░ bß║ún l├á tiß╗ün v├á TLSX cß╗ºa nh├á t╞░ bß║ún ─æß╗â tß║ío ra gi├í trß╗ï thß║╖ng d╞░.',
+  C: 'T╞░ bß║ún l├á gi├í trß╗ï ─æem lß║íi gi├í trß╗ï thß║╖ng d╞░ bß║▒ng c├ích b├│c lß╗Öt lao ─æß╗Öng l├ám thu├¬.'
+}
+Raw text surrounding line 807:
+  805: Khi n├áo xuß║Ñt hiß╗çn h├¼nh th├íi tiß╗ün tß╗ç?
+  806: (NHUNG HO├ÇNG)
+  807: A. Khi sß║ún xuß║Ñt v├á trao ─æß╗òi ─æ├ú ph├ít triß╗ân
+  808: B. Khi vß║¡t ngang gi├í chung ─æ╞░ß╗úc cß╗æ ─æß╗ïnh ß╗ƒ
+  809: v├áng, bß║íc
+  810: C. Khi kh├┤ng c├▓n quan hß╗ç trao ─æß╗òi trß╗▒c
+  811: tiß║┐p, c├│ mß╗Öt thß╗⌐ h├áng l├ám trung gian trong
+  812: trao ─æß╗òi
+  813: D. Khi nhu cß║ºu trao ─æß╗òi v╞░ß╗út qu├í phß║ím vi
+  814: quß╗æc gia
+  815: B
+  816: Ho├án thiß╗çn hß╗ç thß╗æng luß║¡t ph├íp, c╞í chß║┐,
+  817: ch├¡nh s├ích cho hoß║ít ─æß╗Öng v├á ph├ít triß╗ân
+  818: l├ánh mß║ính cß╗ºa thß╗ï tr╞░ß╗¥ng chß╗⌐ng kho├ín,
+  819: t─âng t├¡nh minh bß║ích chß╗æng c├íc giao dß╗ïch
+
+----------------------------------------
+JSON Question #248 (Options count: 3, Answer: A):
+Q: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â ph├ón chia t╞░ bß║ún cß╗æ ─æß╗ïnh v├á t╞░ bß║ún l╞░u ─æß╗Öng? a) C─ân cß╗⌐ v├áo t├¡nh chß║Ñt chuyß╗ân gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa n├│ v├áo trong sß║ún phß║⌐m mß╗¢i b) C─ân cß╗⌐ v├áo t├¡nh chß║Ñt chuyß╗ân gi├í trß╗ï cß╗ºa n├│ v├áo trong sß║ún phß║⌐m c┼⌐ c) C─ân cß╗⌐ v├áo t├¡nh chß║Ñt chuyß╗ân gi├í trß╗ï cß╗ºa n├│ v├áo trong sß║ún phß║⌐m mß╗¢i d) C─ân cß╗⌐ v├áo t├¡nh chß║Ñt chuyß╗ân gi├í trß╗ï thß║╖ng d╞░ cß╗ºa n├│ v├áo trong sß║ún phß║⌐m mß╗¢i c Thuß║¡t ngß╗» "kinh tß║┐- ch├¡nh trß╗ï" ─æ╞░ß╗úc sß╗¡ dß╗Ñng lß║ºn ─æß║ºu ti├¬n v├áo n─âm n├áo?
+Options: { A: '1615', B: '1616', C: '1617' }
+Raw text surrounding line 1426:
+  1424: C. Bß╗æn h├¼nh thß╗⌐c
+  1425: A
+  1426: Thuß║¡t ngß╗» "kinh tß║┐ ch├¡nh trß╗ï" ─æ╞░ß╗úc sß╗¡ dß╗Ñng
+  1427: lß║ºn ─æß║ºu ti├¬n v├áo n─âm n├áo?
+  1428: A. 1615
+  1429: B. 1616
+  1430: C. 1617
+  1431: D. 1618
+  1432: A
+  1433: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1434: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	29/142
+  1435: 
+  1436: -- 29 of 142 --
+  1437: 
+  1438: ─Éß║íi Hß╗Öi X cß╗ºa ─Éß║úng chß╗ë r├╡ mß╗Ñc ti├¬u ─æß║ºy
+
+----------------------------------------
+JSON Question #249 (Options count: 3, Answer: B):
+Q: ─Éß╗â l├ám r├╡ vai tr├▓ cß╗ºa c├íc bß╗Ö phß║¡n t╞░ bß║ún trong viß╗çc tß║ío ra gi├í trß╗ï thß║╖ng d╞░, t╞░ bß║ún ─æ╞░ß╗úc chia th├ánh
+Options: {
+  A: 'T╞░ bß║ún ─æß╗Öc quyß╗ün v├á t╞░ bß║ún nh├á n╞░ß╗¢c',
+  B: 'T╞░ bß║ún bß║Ñt biß║┐n v├á t╞░ bß║ún khß║ú biß║┐n',
+  C: 'T╞░ bß║ún cß╗æ ─æß╗ïnh v├á t╞░ bß║ún l╞░u ─æß╗Öng'
+}
+Raw text surrounding line 1794:
+  1792: gi├í trß╗ï thß║╖ng d╞░, chß╗ìn ├╜ ─æ├║ng.
+  1793: A. M├íy m├│c l├á tiß╗ün ─æß╗ü vß║¡t chß║Ñt cho viß╗çc tß║ío
+  1794: ra gi├í trß╗ï thß║╖ng d╞░
+  1795: B. M├íy m├│c v├á sß╗⌐c lao ─æß╗Öng ─æß╗üu tß║ío ra gi├í
+  1796: trß╗ï thß║╖ng d╞░
+  1797: C. M├íy m├│c l├á nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng
+  1798: d╞░
+  1799: A
+  1800: Mß╗ùi cuß╗Öc c├ích mß║íng c├┤ng nghiß╗çp xuß║Ñt hiß╗çn
+  1801: ─æß╗üu c├│ sß╗▒ ph├ít triß╗ân nhß║úy vß╗ìt vß╗ü:(NHUNG
+  1802: HO├ÇNG)
+  1803: A. T╞░ liß╗çu lao ─æß╗Öng
+  1804: B. C├íc ph├ít minh s├íng chß║┐
+  1805: C. T╞░ liß╗çu sinh hoß║ít
+  1806: D. T╞░ liß╗çu ti├¬u d├╣ng
+
+----------------------------------------
+JSON Question #250 (Options count: 3, Answer: A):
+Q: Thß║┐ n├áo l├á sß║ún xuß║Ñt tß╗▒ cung, tß╗▒ cß║Ñp? a) Qu├í tr├¼nh sß║ún xuß║Ñt chß╗ë c├│ hai kh├óu: sß║ún xuß║Ñt v├á ti├¬n d├╣ng b) Sß║ún xuß║Ñt c├│ t├¡nh chß║Ñt kh├⌐p k├¡n c) L├á mß╗Öt kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ trong ─æ├│ nhß╗»ng sß║ún phß║⌐m ─æ╞░ß╗úc sß║ún xuß║Ñt ra nhß║▒m mß╗Ñc ─æ├¡ch thß╗Åa m├ún nhu cß║ºu ti├¬u d├╣ng cß╗ºa bß║ún th├ón ng╞░ß╗¥i sß║ún xuß║Ñt d) Sß║ún xuß║Ñt v├á t├íi sß║ún xuß║Ñt c Thß║┐ n├áo l├á lao ─æß╗Öng phß╗⌐c tß║íp?
+Options: {
+  A: 'L├á lao ─æß╗Öng phß║úi trß║úi qua ─æ├áo tß║ío, huß║Ñn luyß╗çn mß╗¢i l├ám ─æ╞░ß╗úc',
+  B: 'L├á lao ─æß╗Öng tß║ío ra c├íc sß║ún phß║⌐m chß║Ñt l╞░ß╗úng cao, tinh vi',
+  C: 'L├á lao ─æß╗Öng c├│ nhiß╗üu thao t├íc phß╗⌐c tß║íp'
+}
+Raw text surrounding line 3394:
+  3392: c. T╞░ bß║ún cß╗æ ─æß╗ïnh v├á t╞░ bß║ún l╞░u ─æß╗Öng
+  3393: b
+  3394: Thß║┐ n├áo l├á sß║ún xuß║Ñt tß╗▒ cung, tß╗▒ cß║Ñp?
+  3395: (NHUNG HO├ÇNG)
+  3396: a) Qu├í tr├¼nh sß║ún xuß║Ñt chß╗ë c├│ hai kh├óu: sß║ún
+  3397: xuß║Ñt v├á ti├¬n d├╣ng
+  3398: b) Sß║ún xuß║Ñt c├│ t├¡nh chß║Ñt kh├⌐p k├¡n
+  3399: c) L├á mß╗Öt kiß╗âu tß╗ò chß╗⌐c kinh tß║┐ trong ─æ├│
+  3400: nhß╗»ng sß║ún phß║⌐m ─æ╞░ß╗úc sß║ún xuß║Ñt ra nhß║▒m
+  3401: mß╗Ñc ─æ├¡ch thß╗Åa m├ún nhu cß║ºu ti├¬u d├╣ng cß╗ºa
+  3402: bß║ún th├ón ng╞░ß╗¥i sß║ún xuß║Ñt
+  3403: d) Sß║ún xuß║Ñt v├á t├íi sß║ún xuß║Ñt
+  3404: c
+  3405: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3406: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	71/142
+
+----------------------------------------
+JSON Question #251 (Options count: 3, Answer: A):
+Q: Khi lß║ím ph├ít phi m├ú xß║úy ra, h├¼nh thß╗⌐c sß╗¡ dß╗Ñng tiß╗ün n├áo c├│ lß╗úi nhß║Ñt?
+Options: {
+  A: 'Mua h├áng ho├í hoß║╖c v├áng cß║Ñt giß╗»',
+  B: 'Gß╗¡i ng├ón h├áng',
+  C: '─Éß║ºu t╞░ v├áo sß║ún xuß║Ñt kinh doanh'
+}
+Raw text surrounding line 649:
+  647: D. Tß╗½ khi lao ─æß╗Öng ra ─æß╗¥i
+  648: A
+  649: Khi lß║ím ph├ít phi m├ú xß║úy ra, h├¼nh thß╗⌐c sß╗¡
+  650: dß╗Ñng tiß╗ün n├áo c├│ lß╗úi nhß║Ñt?
+  651: A. Mua h├áng ho├í hoß║╖c v├áng cß║Ñt giß╗»
+  652: B. Gß╗¡i ng├ón h├áng
+  653: C. ─Éß║ºu t╞░ v├áo sß║ún xuß║Ñt kinh doanh
+  654: D. Mua USD
+  655: A
+  656: Sß╗▒ tuß║ºn ho├án cß╗ºa t╞░ bß║ún, nß║┐u x├⌐t n├│ vß╗¢i t╞░
+  657: c├ích l├á mß╗Öt qu├í tr├¼nh ─æß╗ïnh kß╗│ ─æß╗òi mß╗¢i v├á
+  658: th╞░ß╗¥ng xuy├¬n lß║╖p ─æi lß║╖p lß║íi ─æ╞░ß╗úc gß╗ìi
+  659: l├á(NHUNG HO├ÇNG)
+  660: A. Chu chuyß╗ân t╞░ bß║ún
+  661: B. L╞░u th├┤ng tß╗▒ bß║ún
+
+----------------------------------------
+JSON Question #252 (Options count: 3, Answer: B):
+Q: ─Éiß╗üu kiß╗çn ─æß╗â tiß╗ün biß║┐n th├ánh t╞░ bß║ún l├á: a) Phß║úi t├¡ch l┼⌐y ─æ╞░ß╗úc mß╗Öt l╞░ß╗úng tiß╗ün lß╗¢n; tiß╗ün kh├┤ng ─æ╞░ß╗úc ─æ╞░a v├áo kinh doanh vß╗¢i mß╗Ñc ─æ├¡ch thu gi├í trß╗ï thß║╖ng d╞░ b) Phß║úi t├¡ch l┼⌐y ─æ╞░ß╗úc mß╗Öt l╞░ß╗úng tiß╗ün lß╗¢n; tiß╗ün phß║úi ─æ╞░ß╗úc ─æ╞░a v├áo kinh doanh t╞░ bß║ún vß╗¢i mß╗Ñc ─æ├¡ch thu gi├í trß╗ï thß║╖ng d╞░ c) Phß║úi t├¡ch l┼⌐y ─æ╞░ß╗úc mß╗Öt l╞░ß╗úng h├áng h├│a lß╗¢n; h├áng h├│a phß║úi ─æ╞░ß╗úc ─æ╞░a v├áo kinh doanh t╞░ bß║ún vß╗¢i mß╗Ñc b Quy luß║¡t kinh tß║┐ c╞í bß║ún cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún l├á
+Options: {
+  A: 'Quy luß║¡t ─æß║Ñu tranh giai cß║Ñp',
+  B: 'Quy luß║¡t gi├í trß╗ï',
+  C: 'Quy luß║¡t quan hß╗ç sß║ún xuß║Ñt ph├╣ hß╗úp vß╗¢i lß╗▒c l╞░ß╗úng sß║ún xuß║Ñt'
+}
+Raw text surrounding line 1779:
+  1777: ─Éß╗â tiß╗ün biß║┐n th├ánh t╞░ bß║ún cß║ºn?
+  1778: A. Phß║úi t├¡ch l┼⌐y mß╗Öt l╞░ß╗úng tiß╗ün lß╗¢n; tiß╗ün cß║ºn
+  1779: phß║úi ─æ╞░ß╗úc ─æ╞░a v├áo kinh doanh t╞░ bß║ún vß╗¢i
+  1780: mß╗Ñc ─æ├¡ch thu gi├í trß╗ï thß║╖ng d╞░
+  1781: B. Phß║úi t├¡ch l┼⌐y ─æ╞░ß╗úc mß╗Öt l╞░ß╗úng h├áng h├│a
+  1782: lß╗¢n, h├áng h├│a cß║ºn phß║úi ─æ╞░ß╗úc ─æ╞░a v├áo kinh
+  1783: doanh t╞░ bß║ún vß╗¢i mß╗Ñc ─æ├¡ch thu gi├í trß╗ï thß║╖ng
+  1784: d╞░
+  1785: C. Phß║úi t├¡ch l┼⌐y mß╗Öt l╞░ß╗úng tiß╗ün lß╗¢n
+  1786: D. Phß║úi t├¡ch l┼⌐y ─æ╞░ß╗úc mß╗Öt l╞░ß╗úng m├íy m├│c
+  1787: lß╗¢n, m├íy m├│c cß║ºn phß║úi ─æ╞░ß╗úc ─æ╞░a v├áo kinh
+  1788: doanh t╞░ bß║ún vß╗¢i mß╗Ñc ─æ├¡ch thu gi├í trß╗ï thß║╖ng
+  1789: d╞░
+  1790: A
+  1791: Vai tr├▓ cß╗ºa m├íy m├│c trong qu├í tr├¼nh tß║ío ra
+
+----------------------------------------
+JSON Question #253 (Options count: 3, Answer: A):
+Q: Cß║╖p phß║ím tr├╣ n├áo l├á ph├ít hiß╗çn ri├¬ng cß╗ºa
+Options: {
+  A: 'Lao ─æß╗Öng cß╗Ñ thß╗â v├á lao ─æß╗Öng trß╗½u t╞░ß╗úng',
+  B: 'Lao ─æß╗Öng giß║ún ─æ╞ín v├á lao ─æß╗Öng phß╗⌐c tß║íp',
+  C: 'M├íc? Lao ─æß╗Öng t╞░ nh├ón v├á lao ─æß╗Öng x├ú hß╗Öi'
+}
+Raw text surrounding line 3441:
+  3439: lß╗▒c l╞░ß╗úng sß║ún xuß║Ñt
+  3440: B
+  3441: Cß║╖p phß║ím tr├╣ n├áo l├á ph├ít hiß╗çn ri├¬ng cß╗ºa
+  3442: C.M├íc?
+  3443: a. Lao ─æß╗Öng cß╗Ñ thß╗â v├á lao ─æß╗Öng trß╗½u t╞░ß╗úng
+  3444: b. Lao ─æß╗Öng giß║ún ─æ╞ín v├á lao ─æß╗Öng phß╗⌐c tß║íp
+  3445: c. Lao ─æß╗Öng t╞░ nh├ón v├á lao ─æß╗Öng x├ú hß╗Öi
+  3446: a
+  3447: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3448: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	72/142
+  3449: 
+  3450: -- 72 of 142 --
+  3451: 
+  3452: Hß╗ìc thuyß║┐t kinh tß║┐ n├áo cß╗ºa C.M├íc ─æ╞░ß╗úc coi
+  3453: l├á h├▓n ─æ├í tß║úng
+
+----------------------------------------
+JSON Question #255 (Options count: 3, Answer: A):
+Q: ─Éiß╗üu kiß╗çn ─æß╗â ra ─æß╗¥i v├á tß╗ôn tß║íi cß╗ºa sß║ún xuß║Ñt h├áng h├│a:
+Options: {
+  A: 'Sß╗æ l╞░ß╗úng h├áng ho├í l├ám ra trong mß╗Öt ─æ╞ín vß╗ï thß╗¥i gian t─âng l├¬n',
+  B: 'Sß╗æ l╞░ß╗úng lao ─æß╗Öng hao ph├¡ trong thß╗¥i gian ─æ├│ kh├┤ng thay ─æß╗òi',
+  C: 'Gi├í trß╗ï 1 ─æ╞ín vß╗ï h├áng ho├í giß║úm ─æi'
+}
+Raw text surrounding line 377:
+  375: c ─æiß╗â
+  376: m g├¼?)
+  377: ─Éiß╗üu kiß╗çn ─æß╗â ra ─æß╗¥i v├á tß╗ôn tß║íi cß╗ºa sß║ún xuß║Ñt
+  378: h├áng h├│a l├á
+  379: A. Ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi v├á sß╗▒ t├ích
+  380: biß╗çt vß╗ü kinh tß║┐ giß╗»a c├íc chß╗º thß╗â sß║ún xuß║Ñt
+  381: B. Ph├ón c├┤ng lao ─æß╗Öng trong c├íc gia ─æ├¼nh
+  382: xuß║Ñt hiß╗çn
+  383: C. Chß║┐ ─æß╗Ö t╞░ hß╗»u vß╗ü t╞░ liß╗çu sß║ún xuß║Ñt
+  384: D. Nhu cß║ºu trao ─æß╗òi trong x├ú hß╗Öi t─âng l├¬n
+  385: A
+  386: Con ─æ╞░ß╗¥ng c├┤ng nghiß╗çp h├│a cß╗ºa Li├¬n X├┤
+  387: th╞░ß╗¥ng ╞░u ti├¬n l─⌐nh vß╗▒c n├áo?
+  388: A. C├┤ng nghiß╗çp nß║╖ng
+  389: B. C├┤ng nghiß╗çp nhß║╣
+
+----------------------------------------
+JSON Question #256 (Options count: 3, Answer: A):
+Q: L╞░ß╗úng gi├í trß╗ï cß╗ºa h├áng h├│a l├á yß║┐u tß╗æ
+Options: {
+  A: 'Cß╗æ ─æß╗ïnh',
+  B: 'Lu├┤n lu├┤n thay ─æß╗òi',
+  C: 'T├╣y thuß╗Öc v├áo nß╗ün sß║ún xuß║Ñt h├áng h├│a'
+}
+Raw text surrounding line 3467:
+  3465: c. Gi├í trß╗ï 1 ─æ╞ín vß╗ï h├áng ho├í giß║úm ─æi
+  3466: a
+  3467: L╞░ß╗úng gi├í trß╗ï cß╗ºa h├áng h├│a l├á yß║┐u
+  3468: tß╗æ(NHUNG HO├ÇNG)
+  3469: a. Cß╗æ ─æß╗ïnh
+  3470: b. Lu├┤n lu├┤n thay ─æß╗òi
+  3471: c. T├╣y thuß╗Öc v├áo nß╗ün sß║ún xuß║Ñt h├áng h├│a
+  3472: a
+  3473: Vß╗ü bß║ún chß║Ñt lß╗úi nhuß║¡n v├á gi├í trß╗ï thß║╖ng d╞░
+  3474: ─æß╗üu l├á:
+  3475: a) Lao ─æß╗Öng cß╗Ñ thß╗â cß╗ºa ng╞░ß╗¥i c├┤ng nh├ón
+  3476: b) Lao ─æß╗Öng kh├┤ng c├┤ng cß╗ºa ng╞░ß╗¥i c├┤ng
+  3477: nh├ón
+  3478: c) Lao ─æß╗Öng trß╗½u t╞░ß╗úng cß╗ºa ng╞░ß╗¥i c├┤ng
+  3479: nh├ón
+
+----------------------------------------
+JSON Question #257 (Options count: 3, Answer: B):
+Q: Vß╗ü bß║ún chß║Ñt lß╗úi nhuß║¡n v├á gi├í trß╗ï thß║╖ng d╞░ ─æß╗üu l├á: a) Lao ─æß╗Öng cß╗Ñ thß╗â cß╗ºa ng╞░ß╗¥i c├┤ng nh├ón b) Lao ─æß╗Öng kh├┤ng c├┤ng cß╗ºa ng╞░ß╗¥i c├┤ng nh├ón c) Lao ─æß╗Öng trß╗½u t╞░ß╗úng cß╗ºa ng╞░ß╗¥i c├┤ng nh├ón d) Lao ─æß╗Öng phß╗⌐c tß║íp cß╗ºa ng╞░ß╗¥i c├┤ng nh├ón b ─Éiß╗âm giß╗æng nhau giß╗»a t─âng n─âng suß║Ñt lao ─æß╗Öng v├á t─âng c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng? a) ─Éß╗üu l├ám giß║úm gi├í trß╗ï cß╗ºa mß╗Öt ─æ╞ín vß╗ï h├áng h├│a b) ─Éß╗üu l├ám t─âng th├¬m sß║ún l╞░ß╗úng sß║ún phß║⌐m ─æ╞░ß╗úc sß║ún xuß║Ñt ra trong mß╗Öt ─æ╞ín vß╗ï thß╗¥i gian c) ─Éß╗üu l├ám t─âng l╞░ß╗úng lao ─æß╗Öng hao ph├¡ trong mß╗Öt ─æ╞ín vß╗ï thß╗¥i gian d) ─Éß╗üu gß║»n vß╗¢i tiß║┐n bß╗Ö kß╗╣ thuß║¡t b Dß╗▒a v├áo c─ân cß╗⌐ n├áo ─æß╗â chia t╞░ bß║ún th├ánh t╞░ bß║ún bß║Ñt biß║┐n v├á t╞░ bß║ún khß║ú biß║┐n (c & v)
+Options: {
+  A: 'Ph╞░╞íng thß╗⌐c chuyß╗ân gi├í trß╗ï c├íc bß╗Ö phß║¡n t╞░ bß║ún sang sß║ún phß║⌐m',
+  B: 'Vai tr├▓ c├íc bß╗Ö phß║¡n t╞░ bß║ún trong qu├í tr├¼nh sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░',
+  C: 'Tß╗æc ─æß╗Ö chu chuyß╗ân cß╗ºa t╞░ bß║ún'
+}
+Raw text surrounding line 1894:
+  1892: Ph╞░╞íng h╞░ß╗¢ng c╞í bß║ún, l├óu d├ái ─æß╗â t─âng sß║ún
+  1893: phß║⌐m x├ú hß╗Öi l├á
+  1894: A. T─âng n─âng suß║Ñt lao ─æß╗Öng
+  1895: B. T─âng c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  1896: C. K├⌐o d├ái thß╗¥i gian lao ─æß╗Öng
+  1897: D. Mß╗ƒ rß╗Öng quy m├┤ sß║ún xuß║Ñt, khai th├íc t├ái
+  1898: nguy├¬n thi├¬n nhi├¬n
+  1899: A
+  1900: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1901: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	39/142
+  1902: 
+  1903: -- 39 of 142 --
+  1904: 
+  1905: ─É├óu l├á c├íc nh├ón tß╗æ th├║c ─æß║⌐y sß╗▒ t─âng
+  1906: tr╞░ß╗ƒng kinh tß║┐?
+
+----------------------------------------
+JSON Question #258 (Options count: 3, Answer: C):
+Q: T╞░ bß║ún bß║Ñt biß║┐n a) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│ t─âng l├¬n sau qu├í tr├¼nh sß║ún xuß║Ñt b) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│ giß║úm ─æi sau qu├í tr├¼nh sß║ún xuß║Ñt c) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│ kh├┤ng thay ─æß╗òi sau qu├í tr├¼nh sß║ún xuß║Ñt d) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa n├│ ─æ╞░ß╗úc bß║úo tß╗ôn v├á chuyß╗ân v├áo sß║ún phß║⌐m c Gi├í trß╗ï thß║╖ng d╞░ l├á: a) L├á phß║ºn lao ─æß╗Öng ─æ╞░ß╗úc trß║ú c├┤ng cß╗ºa c├┤ng nh├ón b) L├á phß║ºn lao dß╗Öng kh├┤ng c├┤ng cß╗ºa c├┤ng nh├ón c) L├á to├án bß╗Ö lao ─æß╗Öng cß╗ºa c├┤ng nh├ón d) L├á lao ─æß╗Öng s├íng tß║ío cß╗ºa c├┤ng nh├ón b Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a l├á kh├íi niß╗çm d├╣ng ─æß╗â chß╗ë
+Options: {
+  A: 'Mß╗⌐c ─æß╗Ö khan hiß║┐m cß╗ºa h├áng h├│a',
+  B: 'Gi├í trß╗ï trao ─æß╗òi cß╗ºa h├áng h├│a',
+  C: 'C├┤ng dß╗Ñng cß╗ºa h├áng h├│a'
+}
+Raw text surrounding line 3507:
+  3505: b
+  3506: T╞░ bß║ún bß║Ñt biß║┐n(NHUNG HO├ÇNG)
+  3507: a) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│
+  3508: t─âng l├¬n sau qu├í tr├¼nh sß║ún xuß║Ñt
+  3509: b) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│
+  3510: giß║úm ─æi sau qu├í tr├¼nh sß║ún xuß║Ñt
+  3511: c) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï cß╗ºa n├│
+  3512: kh├┤ng thay ─æß╗òi sau qu├í tr├¼nh sß║ún xuß║Ñt
+  3513: d) L├á gi├í trß╗ï t╞░ liß╗çu sß║ún xuß║Ñt, gi├í trß╗ï sß╗¡ dß╗Ñng
+  3514: cß╗ºa n├│ ─æ╞░ß╗úc bß║úo tß╗ôn v├á chuyß╗ân v├áo sß║ún
+  3515: phß║⌐m
+  3516: c
+  3517: Gi├í trß╗ï thß║╖ng d╞░ l├á:
+  3518: a) L├á phß║ºn lao ─æß╗Öng ─æ╞░ß╗úc trß║ú c├┤ng cß╗ºa
+  3519: c├┤ng nh├ón
+
+----------------------------------------
+JSON Question #260 (Options count: 3, Answer: C):
+Q: Chß╗ìn ph╞░╞íng ├ín ─æ├║ng vß╗ü quy luß║¡t kinh tß║┐:
+Options: {
+  A: 'Quy luß║¡t kinh tß║┐ l├á quy luß║¡t x├ú hß╗Öi do con ng╞░ß╗¥i ─æß║╖t ra, l├á quy luß║¡t kh├ích quan ph├ít sinh t├íc dß╗Ñng qua hoß║ít ─æß╗Öng kinh tß║┐ cß╗ºa con ng╞░ß╗¥i.',
+  B: 'Quy luß║¡t kinh tß║┐ c├│ t├¡nh lß╗ïch sß╗¡',
+  C: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng.'
+}
+Raw text surrounding line 3556:
+  3554: -- 74 of 142 --
+  3555: 
+  3556: Chß╗ìn ph╞░╞íng ├ín ─æ├║ng vß╗ü quy luß║¡t kinh tß║┐:
+  3557: a. Quy luß║¡t kinh tß║┐ l├á quy luß║¡t x├ú hß╗Öi do con
+  3558: ng╞░ß╗¥i ─æß║╖t ra, l├á quy luß║¡t kh├ích quan ph├ít
+  3559: sinh t├íc dß╗Ñng qua hoß║ít ─æß╗Öng kinh tß║┐ cß╗ºa
+  3560: con ng╞░ß╗¥i.
+  3561: b. Quy luß║¡t kinh tß║┐ c├│ t├¡nh lß╗ïch sß╗¡
+  3562: c. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng.
+  3563: c
+  3564: Trong c├íc yß║┐u tß╗æ sau ─æ├óy, yß║┐u tß╗æ n├áo ─æ╞░ß╗úc
+  3565: x├íc ─æß╗ïnh l├á thß╗▒c thß╗â gi├í trß╗ï cß╗ºa h├áng h├│a?
+  3566: a) Lao ─æß╗Öng cß╗Ñ thß╗â
+  3567: b) Lao ─æß╗Öng giß║ún ─æ╞ín
+  3568: c) Lao ─æß╗Öng phß╗⌐c tß║íp
+
+----------------------------------------
+JSON Question #267 (Options count: 3, Answer: A):
+Q: Thß║┐ n├áo l├á ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi? a) L├á ph├ón c├┤ng cß╗ºa x├ú hß╗Öi vß╗ü lao ─æß╗Öng h├¼nh th├ánh nhß╗»ng ngh├ánh nghß╗ü, nghß╗ü sß║ún xuß║Ñt kh├íc nhau. L├á sß╗▒ chuy├¬n m├┤n h├│a nhß║Ñt ─æß╗ïnh ─æß╗æi vß╗¢i ng╞░ß╗¥i sß║ún xuß║Ñt b) L├á ph├ón c├┤ng diß╗àn ra trong ─æ╞ín vß╗ï sß║ún xuß║Ñt c) L├á sß╗▒ chuy├¬n m├┤n h├│a nhß║Ñt ─æß╗ïnh ─æß╗æi vß╗¢i ng╞░ß╗¥i sß║ún xuß║Ñt d) L├á chia nhß╗Å qu├í tr├¼nh sß║ún xuß║Ñt, mß╗ùi ng╞░ß╗¥i chuy├¬n ─æß║úm nhß║¡n mß╗Öt c├┤ng ─æoß║ín a T├íi sß║ún xuß║Ñt t╞░ bß║ún gß╗ôm c├│ hai h├¼nh thß╗⌐c c╞í bß║ún ─æ├│ l├á
+Options: {
+  A: 'T├íi sß║ún xuß║Ñt giß║ún ─æ╞ín v├á t├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng',
+  B: 'T├íi sß║ún xuß║Ñt theo chiß╗üu rß╗Öng v├á t├íi sß║ún xuß║Ñt theo chiß╗üu s├óu',
+  C: 'T├íi sß║ún xuß║Ñt t╞░ bß║ún x├ú hß╗Öi v├á t├íi sß║ún xuß║Ñt t╞░ bß║ún t╞░ nh├ón'
+}
+Raw text surrounding line 3681:
+  3679: -- 77 of 142 --
+  3680: 
+  3681: Thß║┐ n├áo l├á ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi?
+  3682: (NHUNG HO├ÇNG)
+  3683: a) L├á ph├ón c├┤ng cß╗ºa x├ú hß╗Öi vß╗ü lao ─æß╗Öng
+  3684: h├¼nh th├ánh nhß╗»ng ngh├ánh nghß╗ü, nghß╗ü sß║ún
+  3685: xuß║Ñt kh├íc nhau. L├á sß╗▒ chuy├¬n m├┤n h├│a
+  3686: nhß║Ñt ─æß╗ïnh ─æß╗æi vß╗¢i ng╞░ß╗¥i sß║ún xuß║Ñt
+  3687: b) L├á ph├ón c├┤ng diß╗àn ra trong ─æ╞ín vß╗ï sß║ún
+  3688: xuß║Ñt
+  3689: c) L├á sß╗▒ chuy├¬n m├┤n h├│a nhß║Ñt ─æß╗ïnh ─æß╗æi vß╗¢i
+  3690: ng╞░ß╗¥i sß║ún xuß║Ñt
+  3691: d) L├á chia nhß╗Å qu├í tr├¼nh sß║ún xuß║Ñt, mß╗ùi
+  3692: ng╞░ß╗¥i chuy├¬n ─æß║úm nhß║¡n mß╗Öt c├┤ng ─æoß║ín
+  3693: a
+
+----------------------------------------
+JSON Question #268 (Options count: 3, Answer: B):
+Q: Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a phß║ún ├ính t├¡nh chß║Ñt n├áo sau ─æ├óy
+Options: {
+  A: 'T├¡nh chß║Ñt t╞░ nh├ón cß╗ºa h├áng h├│a',
+  B: 'T├¡nh chß║Ñt x├ú hß╗Öi cß╗ºa h├áng h├│a',
+  C: 'Cß║ú t├¡nh chß║Ñt t╞░ nh├ón v├á t├¡nh chß║Ñt x├ú hß╗Öi cß╗ºa h├áng h├│a'
+}
+Raw text surrounding line 3703:
+  3701: xuß║Ñt t╞░ bß║ún t╞░ nh├ón
+  3702: a
+  3703: Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a phß║ún ├ính
+  3704: t├¡nh chß║Ñt n├áo sau ─æ├óy
+  3705: a. T├¡nh chß║Ñt t╞░ nh├ón cß╗ºa h├áng h├│a
+  3706: b. T├¡nh chß║Ñt x├ú hß╗Öi cß╗ºa h├áng h├│a
+  3707: c. Cß║ú t├¡nh chß║Ñt t╞░ nh├ón v├á t├¡nh chß║Ñt x├ú hß╗Öi
+  3708: cß╗ºa h├áng h├│a
+  3709: b
+  3710: Qu├í tr├¼nh sß║ún xuß║Ñt t╞░ bß║ún l├á qu├í tr├¼nh sß║ún
+  3711: xuß║Ñt(NHUNG HO├ÇNG)
+  3712: a. Gi├í trß╗ï sß╗¡ dß╗Ñng
+  3713: b. Gi├í trß╗ï thß║╖ng d╞░
+  3714: c. Gi├í trß╗ï trao ─æß╗òi
+  3715: b
+
+----------------------------------------
+JSON Question #269 (Options count: 3, Answer: B):
+Q: Qu├í tr├¼nh sß║ún xuß║Ñt t╞░ bß║ún l├á qu├í tr├¼nh sß║ún xuß║Ñt
+Options: { A: 'Gi├í trß╗ï sß╗¡ dß╗Ñng', B: 'Gi├í trß╗ï thß║╖ng d╞░', C: 'Gi├í trß╗ï trao ─æß╗òi' }
+Raw text surrounding line 3710:
+  3708: cß╗ºa h├áng h├│a
+  3709: b
+  3710: Qu├í tr├¼nh sß║ún xuß║Ñt t╞░ bß║ún l├á qu├í tr├¼nh sß║ún
+  3711: xuß║Ñt(NHUNG HO├ÇNG)
+  3712: a. Gi├í trß╗ï sß╗¡ dß╗Ñng
+  3713: b. Gi├í trß╗ï thß║╖ng d╞░
+  3714: c. Gi├í trß╗ï trao ─æß╗òi
+  3715: b
+  3716: Trong kinh tß║┐ h├áng h├│a, lß║ím ph├ít l├á hiß╗çn
+  3717: t╞░ß╗úng kinh tß║┐
+  3718: a. Bß║Ñt b├¼nh th╞░ß╗¥ng
+  3719: b. Bß║Ñt ß╗òn ─æß╗ïnh
+  3720: c. B├¼nh th╞░ß╗¥ng
+  3721: c
+  3722: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+
+----------------------------------------
+JSON Question #270 (Options count: 3, Answer: C):
+Q: Trong kinh tß║┐ h├áng h├│a, lß║ím ph├ít l├á hiß╗çn t╞░ß╗úng kinh tß║┐
+Options: { A: 'Bß║Ñt b├¼nh th╞░ß╗¥ng', B: 'Bß║Ñt ß╗òn ─æß╗ïnh', C: 'B├¼nh th╞░ß╗¥ng' }
+Raw text surrounding line 3716:
+  3714: c. Gi├í trß╗ï trao ─æß╗òi
+  3715: b
+  3716: Trong kinh tß║┐ h├áng h├│a, lß║ím ph├ít l├á hiß╗çn
+  3717: t╞░ß╗úng kinh tß║┐
+  3718: a. Bß║Ñt b├¼nh th╞░ß╗¥ng
+  3719: b. Bß║Ñt ß╗òn ─æß╗ïnh
+  3720: c. B├¼nh th╞░ß╗¥ng
+  3721: c
+  3722: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3723: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	78/142
+  3724: 
+  3725: -- 78 of 142 --
+  3726: 
+  3727: C╞í sß╗ƒ chung cß╗ºa quan hß╗ç trao ─æß╗òi giß╗»a
+  3728: c├íc h├áng h├│a l├á g├¼?
+
+----------------------------------------
+JSON Question #272 (Options count: 3, Answer: B):
+Q: Chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún t├¡nh bß║▒ng c├┤ng thß╗⌐c n├áo sau ─æ├óy
+Options: { A: 'K = c + p + m', B: 'K = c + v + m', C: 'K = c + t + m' }
+Raw text surrounding line 3735:
+  3733: D. L├á sß╗▒ khan hiß║┐m cß╗ºa h├áng h├│a
+  3734: B
+  3735: Chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún t├¡nh bß║▒ng c├┤ng
+  3736: thß╗⌐c n├áo sau ─æ├óy(NHUNG HO├ÇNG)
+  3737: a. K = c + p + m
+  3738: b. K = c + v + m
+  3739: c. K = c + t + m
+  3740: b
+  3741: T├¡ch l┼⌐y t╞░ bß║ún l├á x├⌐t vß╗ü bß║ún chß║Ñt
+  3742: l├á(NHUNG HO├ÇNG)
+  3743: a. T╞░ bß║ún h├│a t╞░ liß╗çu ti├¬u d├╣ng
+  3744: b. T╞░ bß║ún h├│a gi├í trß╗ï thß║╖ng d╞░
+  3745: c. T╞░ bß║ún h├│a sß╗⌐c lao ─æß╗Öng
+  3746: b
+  3747: Trong sß║ún xuß║Ñt h├áng h├│a tß╗ôn tß║íi song song
+
+----------------------------------------
+JSON Question #273 (Options count: 3, Answer: B):
+Q: T├¡ch l┼⌐y t╞░ bß║ún l├á x├⌐t vß╗ü bß║ún chß║Ñt l├á
+Options: {
+  A: 'T╞░ bß║ún h├│a t╞░ liß╗çu ti├¬u d├╣ng',
+  B: 'T╞░ bß║ún h├│a gi├í trß╗ï thß║╖ng d╞░',
+  C: 'T╞░ bß║ún h├│a sß╗⌐c lao ─æß╗Öng'
+}
+Raw text surrounding line 3741:
+  3739: c. K = c + t + m
+  3740: b
+  3741: T├¡ch l┼⌐y t╞░ bß║ún l├á x├⌐t vß╗ü bß║ún chß║Ñt
+  3742: l├á(NHUNG HO├ÇNG)
+  3743: a. T╞░ bß║ún h├│a t╞░ liß╗çu ti├¬u d├╣ng
+  3744: b. T╞░ bß║ún h├│a gi├í trß╗ï thß║╖ng d╞░
+  3745: c. T╞░ bß║ún h├│a sß╗⌐c lao ─æß╗Öng
+  3746: b
+  3747: Trong sß║ún xuß║Ñt h├áng h├│a tß╗ôn tß║íi song song
+  3748: bao nhi├¬u mß║╖t
+  3749: a. Mß╗Öt mß║╖t
+  3750: b. Ba mß║╖t
+  3751: c. Hai mß║╖t
+  3752: c
+  3753: Mß╗Ñc ─æ├¡ch cß╗ºa sß║ún xuß║Ñt h├áng h├│a l├á thß╗Åa
+
+----------------------------------------
+JSON Question #274 (Options count: 3, Answer: C):
+Q: Trong sß║ún xuß║Ñt h├áng h├│a tß╗ôn tß║íi song song bao nhi├¬u mß║╖t
+Options: { A: 'Mß╗Öt mß║╖t', B: 'Ba mß║╖t', C: 'Hai mß║╖t' }
+Raw text surrounding line 3747:
+  3745: c. T╞░ bß║ún h├│a sß╗⌐c lao ─æß╗Öng
+  3746: b
+  3747: Trong sß║ún xuß║Ñt h├áng h├│a tß╗ôn tß║íi song song
+  3748: bao nhi├¬u mß║╖t
+  3749: a. Mß╗Öt mß║╖t
+  3750: b. Ba mß║╖t
+  3751: c. Hai mß║╖t
+  3752: c
+  3753: Mß╗Ñc ─æ├¡ch cß╗ºa sß║ún xuß║Ñt h├áng h├│a l├á thß╗Åa
+  3754: m├ún nhu cß║ºu cß╗ºa
+  3755: a. Ng╞░ß╗¥i sß║ún xuß║Ñt
+  3756: b. Thß╗ï tr╞░ß╗¥ng
+  3757: c. Cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt v├á ti├¬u d├╣ng
+  3758: b
+  3759: Chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i phß║úi c├│ mß║Ñy
+
+----------------------------------------
+JSON Question #275 (Options count: 3, Answer: B):
+Q: Mß╗Ñc ─æ├¡ch cß╗ºa sß║ún xuß║Ñt h├áng h├│a l├á thß╗Åa m├ún nhu cß║ºu cß╗ºa
+Options: {
+  A: 'Ng╞░ß╗¥i sß║ún xuß║Ñt',
+  B: 'Thß╗ï tr╞░ß╗¥ng',
+  C: 'Cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt v├á ti├¬u d├╣ng'
+}
+Raw text surrounding line 3753:
+  3751: c. Hai mß║╖t
+  3752: c
+  3753: Mß╗Ñc ─æ├¡ch cß╗ºa sß║ún xuß║Ñt h├áng h├│a l├á thß╗Åa
+  3754: m├ún nhu cß║ºu cß╗ºa
+  3755: a. Ng╞░ß╗¥i sß║ún xuß║Ñt
+  3756: b. Thß╗ï tr╞░ß╗¥ng
+  3757: c. Cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt v├á ti├¬u d├╣ng
+  3758: b
+  3759: Chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i phß║úi c├│ mß║Ñy
+  3760: nguy├¬n nh├ón(NHUNG HO├ÇNG)
+  3761: A. Bß╗æn nguy├¬n nh├ón c╞í bß║ún
+  3762: B. Ba nguy├¬n nh├ón c╞í bß║ún
+  3763: C. Hai nguy├¬n nh├ón c╞í bß║ún
+  3764: C
+  3765: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+
+----------------------------------------
+JSON Question #276 (Options count: 3, Answer: C):
+Q: Chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i phß║úi c├│ mß║Ñy nguy├¬n nh├ón
+Options: {
+  A: 'Bß╗æn nguy├¬n nh├ón c╞í bß║ún',
+  B: 'Ba nguy├¬n nh├ón c╞í bß║ún',
+  C: 'Hai nguy├¬n nh├ón c╞í bß║ún'
+}
+Raw text surrounding line 3759:
+  3757: c. Cß╗ºa ng╞░ß╗¥i sß║ún xuß║Ñt v├á ti├¬u d├╣ng
+  3758: b
+  3759: Chß╗º ngh─⌐a t╞░ bß║ún ra ─æß╗¥i phß║úi c├│ mß║Ñy
+  3760: nguy├¬n nh├ón(NHUNG HO├ÇNG)
+  3761: A. Bß╗æn nguy├¬n nh├ón c╞í bß║ún
+  3762: B. Ba nguy├¬n nh├ón c╞í bß║ún
+  3763: C. Hai nguy├¬n nh├ón c╞í bß║ún
+  3764: C
+  3765: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3766: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	79/142
+  3767: 
+  3768: -- 79 of 142 --
+  3769: 
+  3770: Vai tr├▓ cß╗ºa c├íc bß╗Ö phß║¡n t╞░ bß║ún trong chu
+  3771: chuyß╗ân t╞░ bß║ún ─æ╞░ß╗úc x├íc ─æß╗ïnh trong phß║ím
+
+----------------------------------------
+JSON Question #279 (Options count: 3, Answer: B):
+Q: Theo quan ─æiß╗âm cß╗ºa KTCT M├íc- L├¬nin, khß╗ºng hoß║úng kinh tß║┐ cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún mang t├¡nh
+Options: { A: 'Chß╗º quan', B: 'Kh├ích quan', C: 'Tß║ím thß╗¥i' }
+Raw text surrounding line 3786:
+  3784: D. V.I. L├¬nin
+  3785: B
+  3786: Theo quan ─æiß╗âm cß╗ºa KTCT M├íc- L├¬nin,
+  3787: khß╗ºng hoß║úng kinh tß║┐ cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún
+  3788: mang t├¡nh(NHUNG HO├ÇNG)
+  3789: a. Chß╗º quan
+  3790: b. Kh├ích quan
+  3791: c. Tß║ím thß╗¥i
+  3792: b
+  3793: Sß║ún xuß║Ñt h├áng h├│a c├│ vai tr├▓ g├¼ trong ph├ón
+  3794: c├┤ng lao ─æß╗Öng x├ú hß╗Öi
+  3795: a. L├á ─æiß╗üu kiß╗çn cß╗ºa ph├ón c├┤ng lao ─æß╗Öng x├ú
+  3796: hß╗Öi
+  3797: b. L├á nguß╗ôn gß╗æc cß╗ºa ph├ón c├┤ng lao ─æß╗Öng
+  3798: x├ú hß╗Öi
+
+----------------------------------------
+JSON Question #280 (Options count: 3, Answer: C):
+Q: Sß║ún xuß║Ñt h├áng h├│a c├│ vai tr├▓ g├¼ trong ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi
+Options: {
+  A: 'L├á ─æiß╗üu kiß╗çn cß╗ºa ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi',
+  B: 'L├á nguß╗ôn gß╗æc cß╗ºa ph├ón c├┤ng lao ─æß╗Öng x├ú hß╗Öi',
+  C: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu sai'
+}
+Raw text surrounding line 3793:
+  3791: c. Tß║ím thß╗¥i
+  3792: b
+  3793: Sß║ún xuß║Ñt h├áng h├│a c├│ vai tr├▓ g├¼ trong ph├ón
+  3794: c├┤ng lao ─æß╗Öng x├ú hß╗Öi
+  3795: a. L├á ─æiß╗üu kiß╗çn cß╗ºa ph├ón c├┤ng lao ─æß╗Öng x├ú
+  3796: hß╗Öi
+  3797: b. L├á nguß╗ôn gß╗æc cß╗ºa ph├ón c├┤ng lao ─æß╗Öng
+  3798: x├ú hß╗Öi
+  3799: c. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu sai
+  3800: c
+  3801: L╞░ß╗úng gi├í trß╗ï h├áng h├│a nhiß╗üu hay ├¡t, cao
+  3802: hay thß║Ñp, ─æ╞░ß╗úc x├íc ─æß╗ïnh nh╞░ thß║┐ n├áo?
+  3803: a) X├íc ─æß╗ïnh bß║▒ng thß╗¥i gian lao ─æß╗Öng c├í biß╗çt
+  3804: b) X├íc ─æß╗ïnh bß║▒ng thß╗¥i gian lao ─æß╗Öng x├ú hß╗Öi
+  3805: cß║ºn thiß║┐t
+
+----------------------------------------
+JSON Question #281 (Options count: 3, Answer: C):
+Q: L╞░ß╗úng gi├í trß╗ï h├áng h├│a nhiß╗üu hay ├¡t, cao hay thß║Ñp, ─æ╞░ß╗úc x├íc ─æß╗ïnh nh╞░ thß║┐ n├áo? a) X├íc ─æß╗ïnh bß║▒ng thß╗¥i gian lao ─æß╗Öng c├í biß╗çt b) X├íc ─æß╗ïnh bß║▒ng thß╗¥i gian lao ─æß╗Öng x├ú hß╗Öi cß║ºn thiß║┐t c) X├íc ─æß╗ïnh bß║▒ng thß╗¥i gian lao ─æß╗Öng giß║ún ─æ╞ín, trung b├¼nh x├ú hß╗Öi cß║ºn thiß║┐t b X├⌐t vß╗ü thß╗¥i gian, kinh tß║┐ h├áng h├│a ra ─æß╗¥i sau
+Options: {
+  A: 'Nß╗ün kinh tß║┐ x├ú hß╗Öi',
+  B: 'Nß╗ün kinh tß║┐ tß╗▒ do',
+  C: 'Nß╗ün kinh tß║┐ tß╗▒ nhi├¬n'
+}
+Raw text surrounding line 3129:
+  3127: thß╗¥i gian lao ─æß╗Öng cß║ºn thiß║┐t
+  3128: d) T─âng n─âng suß║Ñt lao ─æß╗Öng, l├ám r├║t ngß║»n
+  3129: thß╗¥i gian lao ─æß╗Öng c├í biß╗çt
+  3130: c
+  3131: Tß║¡p trung t╞░ bß║ún l├á:
+  3132: a) Qu├í tr├¼nh li├¬n kß║┐t, hß╗úp nhß║Ñt c├íc t╞░ bß║ún
+  3133: x├ú hß╗Öi trong x├ú hß╗Öi th├ánh mß╗Öt t╞░ bß║ún lß╗¢n
+  3134: h╞ín
+  3135: b) Qu├í tr├¼nh li├¬n kß║┐t, hß╗úp nhß║Ñt c├íc t╞░ bß║ún
+  3136: tiß╗ün tß╗ç trong x├ú hß╗Öi th├ánh mß╗Öt t╞░ bß║ún lß╗¢n
+  3137: h╞ín
+  3138: c) Qu├í tr├¼nh li├¬n kß║┐t, hß╗úp nhß║Ñt c├íc t╞░ bß║ún
+  3139: c├í biß╗çt trong x├ú hß╗Öi th├ánh mß╗Öt t╞░ bß║ún lß╗¢n
+  3140: h╞ín
+  3141: d) Qu├í tr├¼nh li├¬n kß║┐t, hß╗úp nhß║Ñt c├íc t╞░ bß║ún
+
+----------------------------------------
+JSON Question #283 (Options count: 3, Answer: B):
+Q: Chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún x├⌐t vß╗ü l╞░ß╗úng lu├┤n lu├┤n
+Options: {
+  A: 'Lß╗¢n h╞ín chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐',
+  B: 'Nhß╗Å h╞ín chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐',
+  C: 'Bß║▒ng chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐'
+}
+Raw text surrounding line 3844:
+  3842: ngo├ái
+  3843: A
+  3844: Chi ph├¡ sß║ún xuß║Ñt t╞░ bß║ún x├⌐t vß╗ü l╞░ß╗úng lu├┤n
+  3845: lu├┤n (NHUNG HO├ÇNG)
+  3846: a. Lß╗¢n h╞ín chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐
+  3847: b. Nhß╗Å h╞ín chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐
+  3848: c. Bß║▒ng chi ph├¡ sß║ún xuß║Ñt thß╗▒c tß║┐
+  3849: b
+  3850: (Kiß╗â
+  3851: u hß╗Å
+  3852: i kh├íc: Chß╗ë
+  3853: ph├¡ sß║ú
+  3854: n xuß║Ñ
+  3855: t t╞░
+  3856: bß║ú
+
+----------------------------------------
+JSON Question #284 (Options count: 3, Answer: C):
+Q: H├áng h├│a sß╗⌐c lao ─æß╗Öng ra ─æß╗¥i phß║úi dß╗▒a tr├¬n mß║Ñy ─æiß╗üu kiß╗çn
+Options: { A: 'Ba ─æiß╗üu kiß╗çn', B: 'Mß╗Öt ─æiß╗üu kiß╗çn', C: 'Hai ─æiß╗üu kiß╗çn' }
+Raw text surrounding line 3894:
+  3892: -- 81 of 142 --
+  3893: 
+  3894: H├áng h├│a sß╗⌐c lao ─æß╗Öng ra ─æß╗¥i phß║úi dß╗▒a
+  3895: tr├¬n mß║Ñy ─æiß╗üu kiß╗çn
+  3896: A. Ba ─æiß╗üu kiß╗çn
+  3897: B. Mß╗Öt ─æiß╗üu kiß╗çn
+  3898: C. Hai ─æiß╗üu kiß╗çn
+  3899: C
+  3900: Trong kinh tß║┐ ch├¡nh trß╗ï M├íc-L├¬nin, cung l├á
+  3901: phß║ím tr├╣ kinh tß║┐ d├╣ng ─æß╗â chß╗ë (073-356-
+  3902: 8678)
+  3903: a. Mß╗ìi h├áng ho├í c├│ khß║ú n─âng ─æ├íp ß╗⌐ng nhu
+  3904: cß║ºu thß╗ï tr╞░ß╗¥ng
+  3905: b. Mß╗ìi sß║ún phß║⌐m cß╗ºa lao ─æß╗Öng
+  3906: c. Mß╗Öt sß╗æ sß║ún phß║⌐m nhß║Ñt ─æß╗ïnh cß╗ºa thß╗ï
+
+----------------------------------------
+JSON Question #285 (Options count: 3, Answer: A):
+Q: Trong kinh tß║┐ ch├¡nh trß╗ï M├íc-L├¬nin, cung l├á phß║ím tr├╣ kinh tß║┐ d├╣ng ─æß╗â chß╗ë
+Options: {
+  A: 'Mß╗ìi h├áng ho├í c├│ khß║ú n─âng ─æ├íp ß╗⌐ng nhu cß║ºu thß╗ï tr╞░ß╗¥ng',
+  B: 'Mß╗ìi sß║ún phß║⌐m cß╗ºa lao ─æß╗Öng',
+  C: 'Mß╗Öt sß╗æ sß║ún phß║⌐m nhß║Ñt ─æß╗ïnh cß╗ºa thß╗ï tr╞░ß╗¥ng'
+}
+Raw text surrounding line 1699:
+  1697: A
+  1698: ─É├óu KH├öNG phß║úi l├á chß╗⌐c n─âng ch├¡nh cß╗ºa
+  1699: kinh tß║┐ ch├¡nh trß╗ï M├íc - L├¬nin?
+  1700: A. Chß╗⌐c n─âng ph╞░╞íng ph├íp luß║¡n
+  1701: B. Chß╗⌐c n─âng t╞░ t╞░ß╗ƒng
+  1702: C. Chß╗⌐c n─âng nhß║¡n thß╗⌐c
+  1703: D. Chß╗⌐c n─âng gi├ío dß╗Ñc
+  1704: D
+  1705: (Kiß╗â
+  1706: u trß║ú
+  1707: lß╗¥
+  1708: i kh├íc: Chß╗⌐
+  1709: c n─âng khoa hß╗ì
+  1710: c)
+  1711: Viß╗çc ─æß║⌐y mß║ính ß╗⌐ng dß╗Ñng khoa hß╗ìc - c├┤ng
+
+----------------------------------------
+JSON Question #287 (Options count: 3, Answer: A):
+Q: T├¡ch tß╗Ñ v├á tß║¡p trung t╞░ bß║ún giß╗æng nhau ß╗ƒ
+Options: {
+  A: '─Éß╗üu l├á t─âng quy m├┤ t╞░ bß║ún c├í biß╗çt',
+  B: 'C├│ nguß╗ôn gß╗æc trß╗▒c tiß║┐p giß╗æng nhau',
+  C: '─Éß╗üu l├á t─âng quy m├┤ t╞░ bß║ún x├ú hß╗Öi'
+}
+Raw text surrounding line 3917:
+  3915: D. N─âng suß║Ñt lao ─æß╗Öng; c╞░ß╗¥ng ─æß╗Ö lao ─æß╗Öng
+  3916: B
+  3917: T├¡ch tß╗Ñ v├á tß║¡p trung t╞░ bß║ún giß╗æng nhau ß╗ƒ
+  3918: A. ─Éß╗üu l├á t─âng quy m├┤ t╞░ bß║ún c├í biß╗çt
+  3919: B. C├│ nguß╗ôn gß╗æc trß╗▒c tiß║┐p giß╗æng nhau
+  3920: C. ─Éß╗üu l├á t─âng quy m├┤ t╞░ bß║ún x├ú hß╗Öi
+  3921: A
+  3922: Gi├í trß╗ï thß║╖ng d╞░ si├¬u ngß║ích l├á h├¼nh thß╗⌐c
+  3923: A. Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ cß╗æ ─æß╗ïnh
+  3924: B. Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ t╞░╞íng
+  3925: ─æß╗æi
+  3926: C. Biß║┐n t╞░ß╗ƒng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi
+  3927: B
+  3928: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3929: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	82/142
+
+----------------------------------------
+JSON Question #288 (Options count: 3, Answer: B):
+Q: Gi├í trß╗ï thß║╖ng d╞░ si├¬u ngß║ích l├á h├¼nh thß╗⌐c
+Options: {
+  A: 'Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ cß╗æ ─æß╗ïnh',
+  B: 'Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ t╞░╞íng ─æß╗æi',
+  C: 'Biß║┐n t╞░ß╗ƒng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi'
+}
+Raw text surrounding line 3922:
+  3920: C. ─Éß╗üu l├á t─âng quy m├┤ t╞░ bß║ún x├ú hß╗Öi
+  3921: A
+  3922: Gi├í trß╗ï thß║╖ng d╞░ si├¬u ngß║ích l├á h├¼nh thß╗⌐c
+  3923: A. Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ cß╗æ ─æß╗ïnh
+  3924: B. Biß║┐n t╞░ß╗¢ng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ t╞░╞íng
+  3925: ─æß╗æi
+  3926: C. Biß║┐n t╞░ß╗ƒng cß╗ºa gi├í trß╗ï thß║╖ng d╞░ tuyß╗çt ─æß╗æi
+  3927: B
+  3928: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  3929: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	82/142
+  3930: 
+  3931: -- 82 of 142 --
+  3932: 
+  3933: Ph╞░╞íng thß╗⌐c sß║ún xuß║Ñt t╞░ bß║ún chß╗º ngh─⌐a
+  3934: h├¼nh th├ánh v├á thay thß║┐ cho ph╞░╞íng thß╗⌐c
+
+----------------------------------------
+JSON Question #296 (Options count: 3, Answer: C):
+Q: Vai tr├▓ cß╗ºa c├íc bß╗Ö phß║¡n t╞░ bß║ún trong t├¡ch l┼⌐y t╞░ bß║ún ─æ╞░ß╗úc x├íc ─æß╗ïnh bß║▒ng phß║ím tr├╣:
+Options: {
+  A: 'Cß║Ñu tß║ío kß╗╣ thuß║¡t cß╗ºa t╞░ bß║ún',
+  B: 'Cß║Ñu tß║ío hß╗»u c╞í cß╗ºa t╞░ bß║ún',
+  C: 'Cß║Ñu tß║ío gi├í trß╗ï cß╗ºa t╞░ bß║ún'
+}
+Raw text surrounding line 4007:
+  4005: D. Quß║úng c├ío
+  4006: A
+  4007: Vai tr├▓ cß╗ºa c├íc bß╗Ö phß║¡n t╞░ bß║ún trong t├¡ch
+  4008: l┼⌐y t╞░ bß║ún ─æ╞░ß╗úc x├íc ─æß╗ïnh bß║▒ng phß║ím tr├╣:
+  4009: (NHUNG HO├ÇNG)
+  4010: A. Cß║Ñu tß║ío kß╗╣ thuß║¡t cß╗ºa t╞░ bß║ún
+  4011: B. Cß║Ñu tß║ío hß╗»u c╞í cß╗ºa t╞░ bß║ún
+  4012: C. Cß║Ñu tß║ío gi├í trß╗ï cß╗ºa t╞░ bß║ún
+  4013: C
+  4014: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  4015: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	84/142
+  4016: 
+  4017: -- 84 of 142 --
+  4018: 
+  4019: m'- Tß╗╖ suß║Ñt gi├í trß╗ï thß║╖ng d╞░ l├á
+
+----------------------------------------
+JSON Question #298 (Options count: 3, Answer: A):
+Q: Yß║┐u tß╗æ quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú h├áng ho├í l├á
+Options: {
+  A: 'Gi├í trß╗ï cß╗ºa h├áng ho├í',
+  B: 'Quan hß╗ç cung cß║ºu vß╗ü h├áng ho├í',
+  C: 'Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng ho├í'
+}
+Raw text surrounding line 1990:
+  1988: D. CH/ch
+  1989: A
+  1990: Yß║┐u tß╗æ quyß║┐t ─æß╗ïnh ─æß║┐n gi├í cß║ú h├áng ho├í
+  1991: l├á(NHUNG HO├ÇNG)
+  1992: A. Gi├í trß╗ï cß╗ºa h├áng ho├í
+  1993: B. Quan hß╗ç cung cß║ºu vß╗ü h├áng ho├í
+  1994: C. Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng ho├í
+  1995: A
+  1996: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  1997: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	41/142
+  1998: 
+  1999: -- 41 of 142 --
+  2000: 
+  2001: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, mß╗Ñc ti├¬u cuß╗æi
+  2002: c├╣ng cß╗ºa xuß║Ñt khß║⌐u t╞░ bß║ún l├á:
+
+----------------------------------------
+JSON Question #302 (Options count: 3, Answer: A):
+Q: V├¬ mß║╖t l╞░ß╗úng giß╗»a p' v├á m' th├¼:
+Options: { A: "p' lu├┤n nhß╗Å h╞ín m'", B: "p' lu├┤n lß╗¢n h╞ín m'", C: "p' bß║▒ng m'" }
+Raw text surrounding line 4065:
+  4063: -- 85 of 142 --
+  4064: 
+  4065: V├¬ mß║╖t l╞░ß╗úng giß╗»a p' v├á m' th├¼:
+  4066: A. p' lu├┤n nhß╗Å h╞ín m'
+  4067: B. p' lu├┤n lß╗¢n h╞ín m'
+  4068: C. p' bß║▒ng m'
+  4069: A
+  4070: C├íc h├¼nh thß╗⌐c ─æß╗Öc quyß╗ün n├áo thß║Ñp nhß║Ñt
+  4071: trong c├íc h├¼nh thß╗⌐c sau?
+  4072: A. Cartel
+  4073: B. Syndicate
+  4074: C. Trust
+  4075: D. Consortium
+  4076: A
+  4077: L─⌐nh vß╗▒c nghi├¬n cß╗⌐u trß╗ìng t├óm cß╗ºa chß╗º
+
+----------------------------------------
+JSON Question #306 (Options count: 3, Answer: C):
+Q: Kinh tß║┐ h├áng h├│a l├á sß╗▒ tiß║┐p nß╗ùi cß╗ºa:
+Options: {
+  A: 'N├¬n kinh tß║┐ x├ú hß╗Öi',
+  B: 'N├¬n kinh tß║┐ tß╗▒ do',
+  C: 'N├¬n kinh tß║┐ tß╗▒ nhi├¬n'
+}
+Raw text surrounding line 4095:
+  4093: D. Ng╞░ß╗¥i vß╗¢i h├áng h├│a
+  4094: A
+  4095: Kinh tß║┐ h├áng h├│a l├á sß╗▒ tiß║┐p nß╗ùi cß╗ºa:
+  4096: (NHUNG HO├ÇNG)
+  4097: A. N├¬n kinh tß║┐ x├ú hß╗Öi
+  4098: B. N├¬n kinh tß║┐ tß╗▒ do
+  4099: C. N├¬n kinh tß║┐ tß╗▒ nhi├¬n
+  4100: C
+  4101: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  4102: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	86/142
+  4103: 
+  4104: -- 86 of 142 --
+  4105: 
+  4106: Ti├¬n tß╗ç l├á b├ính xe v─⌐ ─æß║íi cß╗ºa l╞░u th├┤ng.
+  4107: C├óu n├│i n├áy l├á cß╗ºa ai v├á theo anh (chß╗ï) n├│
+
+----------------------------------------
+JSON Question #308 (Options count: 3, Answer: A):
+Q: Sß╗▒ kh├íc nhau giß╗»a ─æß╗ïa t├┤ tuyß╗çt ─æß╗æi v├á ─æß╗ïa t├┤ ch├¬nh lß╗çch ─æ├│ l├á:
+Options: {
+  A: '─Éß╗Öc quyß╗ün kinh doanh ruß╗Öng ─æ├ú theo kiß╗âu t╞░ bß║ún chß╗º ngh─⌐a l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ ch├¬nh lß╗çch, c├▓n ─æß╗Öc quyß╗ün t╞░ hß╗»u vß╗ü ruß╗Öng ─æß║Ñt l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ tuyß╗çt ─æß╗æi',
+  B: '─Éß╗Öc quyß╗ün sß╗ƒ hß╗»u ─æß║Ñt ─æ├ú theo kiß╗âu t╞░ bß║ún chß╗º ngh─⌐a l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ ch├¬nh lß╗çch, c├▓n ─æß╗Öc quyß╗ün t╞░ hß╗»u vß║╜ ruß╗Öng ─æß║Ñt l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ tuyß╗çt ─æß╗æi',
+  C: '─Éß╗Öc quyß╗ün kinh doanh ruß╗Öng ─æ├ú theo kiß╗âu t╞░ bß║ún chß╗º ngh─⌐a l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ ch├¬nh lß╗çch, c├▓n ─æß╗Öc quyß╗ün sß╗¡ dß╗Ñng vß╗ü ruß╗Öng ─æß║Ñt l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤ tuyß╗çt ─æß╗æi'
+}
+Raw text surrounding line 4114:
+  4112: D. ─É. Ricac─æ├┤ v├á l├á c├óu n├│i sai
+  4113: A
+  4114: Sß╗▒ kh├íc nhau giß╗»a ─æß╗ïa t├┤ tuyß╗çt ─æß╗æi v├á ─æß╗ïa
+  4115: t├┤ ch├¬nh lß╗çch ─æ├│ l├á:
+  4116: A. ─Éß╗Öc quyß╗ün kinh doanh ruß╗Öng ─æ├ú theo
+  4117: kiß╗âu t╞░ bß║ún chß╗º ngh─⌐a l├á nguy├¬n nh├ón sinh
+  4118: ra ─æß╗ïa t├┤ ch├¬nh lß╗çch, c├▓n ─æß╗Öc quyß╗ün t╞░ hß╗»u
+  4119: vß╗ü ruß╗Öng ─æß║Ñt l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤
+  4120: tuyß╗çt ─æß╗æi
+  4121: B. ─Éß╗Öc quyß╗ün sß╗ƒ hß╗»u ─æß║Ñt ─æ├ú theo kiß╗âu t╞░
+  4122: bß║ún chß╗º ngh─⌐a l├á nguy├¬n nh├ón sinh ra ─æß╗ïa
+  4123: t├┤ ch├¬nh lß╗çch, c├▓n ─æß╗Öc quyß╗ün t╞░ hß╗»u vß║╜
+  4124: ruß╗Öng ─æß║Ñt l├á nguy├¬n nh├ón sinh ra ─æß╗ïa t├┤
+  4125: tuyß╗çt ─æß╗æi
+  4126: C. ─Éß╗Öc quyß╗ün kinh doanh ruß╗Öng ─æ├ú theo
+
+----------------------------------------
+JSON Question #311 (Options count: 3, Answer: A):
+Q: *Nguy├¬n nh├ón cß╗ºa bß║ún chß║Ñt khß╗ºng hoß║úng kinh tß║┐ chß╗º ngh─⌐a t╞░ bß║ún l├á:
+Options: {
+  A: 'Bß║»t nguß╗ôn tß╗½ m├óu thuß║½n cß╗ºa bß║ún chß║Ñt cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún',
+  B: 'Do sß║ún xuß║Ñt kh├┤ng c├│ kß║┐ hoß║ích',
+  C: 'Do chß║íy theo lß╗úi nhuß║¡n'
+}
+Raw text surrounding line 4168:
+  4166: D. Khß╗ºng ho├áng kinh tß║┐ n─âm 2021
+  4167: A
+  4168: *Nguy├¬n nh├ón cß╗ºa bß║ún chß║Ñt khß╗ºng hoß║úng
+  4169: kinh tß║┐ chß╗º ngh─⌐a t╞░ bß║ún l├á:
+  4170: A. Bß║»t nguß╗ôn tß╗½ m├óu thuß║½n cß╗ºa bß║ún chß║Ñt
+  4171: cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún
+  4172: B. Do sß║ún xuß║Ñt kh├┤ng c├│ kß║┐ hoß║ích
+  4173: C. Do chß║íy theo lß╗úi nhuß║¡n
+  4174: A
+  4175: Khi v├áng trß╗ƒ th├ánh vß║¡t ngang gi├í chung ─æß╗â
+  4176: trao ─æß╗òi h├áng h├│a th├¼ h├¼nh th├íi n├áo xuß║Ñt
+  4177: hiß╗çn?
+  4178: A. H├¼nh th├íi tiß╗ün
+  4179: B. H├¼nh th├íi ─æ╞ín giß║ún hay ngß║½u nhi├¬n
+  4180: C. H├¼nh th├íi ─æ├óy ─æß╗º hay mß╗ƒ rß╗Öng
+
+----------------------------------------
+JSON Question #319 (Options count: 3, Answer: C):
+Q: Nß║┐u nh├á t╞░ bß║ún tr├á c├┤ng theo ─æ├║ng gi├í trß╗ï sß╗⌐c lao ─æß╗Öng th├¼ c├│ c├▓n b├│c lß╗Öt gi├í trß╗ï thß║╖ng d╞░ kh├┤ng?
+Options: { A: 'Kh├┤ng c├▓n', B: 'T├╣y tr╞░ß╗¥ng hß╗úp cß╗Ñ thß╗â', C: 'Vß║½n c├▓n' }
+Raw text surrounding line 4280:
+  4278: l╞░u th├┤ng tiß╗ün tß╗ç
+  4279: C
+  4280: Nß║┐u nh├á t╞░ bß║ún tr├á c├┤ng theo ─æ├║ng gi├í trß╗ï
+  4281: sß╗⌐c lao ─æß╗Öng th├¼ c├│ c├▓n b├│c lß╗Öt gi├í trß╗ï thß║╖ng
+  4282: d╞░ kh├┤ng?
+  4283: A. Kh├┤ng c├▓n
+  4284: B. T├╣y tr╞░ß╗¥ng hß╗úp cß╗Ñ thß╗â
+  4285: C. Vß║½n c├▓n
+  4286: C
+  4287: Thß╗¥i gian lao ─æß╗Öng x├ú hß╗Öi cß║ºn thiß║┐t c├│ thß║┐
+  4288: ─æ╞░ß╗úc ─æo bß║▒ng thß╗¥i gian lao ─æß╗Öng c├í biß╗çt
+  4289: cß╗ºa nh├á sß║ún xuß║Ñt:
+  4290: A. Cung ß╗⌐ng nhi├¬u loß║íi h├áng h├│a kh├íc
+  4291: nhau cho thß╗ï tr╞░ß╗¥ng quyß║┐t ─æß╗ïnh
+  4292: B. Cung ß╗⌐ng mß╗Öt loß║íi h├áng h├│a cho thß╗ï
+
+----------------------------------------
+JSON Question #327 (Options count: 3, Answer: A):
+Q: C├íc tß╗æ chß╗⌐c ─æß╗Öc quyß╗ün h├¼nh th├ánh tr├¬n c╞í sß╗ƒ:
+Options: {
+  A: 'Li├¬n kß║┐t dß╗ìc v├á li├¬n kß║┐t ngang',
+  B: 'Li├¬n kß║┐t tß╗▒ gi├íc v├á li├¬n kß║┐t tß╗▒ phß║Ñt',
+  C: 'Li├¬n kß║┐t b├¬n ngo├ái v├á li├¬n kß║┐t b├¬n trong'
+}
+Raw text surrounding line 4397:
+  4395: D. Kinh tß║┐ thß║┐ giß╗¢i
+  4396: A
+  4397: C├íc tß╗æ chß╗⌐c ─æß╗Öc quyß╗ün h├¼nh th├ánh tr├¬n c╞í
+  4398: sß╗ƒ:(NHUNG HO├ÇNG)
+  4399: A. Li├¬n kß║┐t dß╗ìc v├á li├¬n kß║┐t ngang
+  4400: B. Li├¬n kß║┐t tß╗▒ gi├íc v├á li├¬n kß║┐t tß╗▒ phß║Ñt
+  4401: C. Li├¬n kß║┐t b├¬n ngo├ái v├á li├¬n kß║┐t b├¬n trong
+  4402: A
+  4403: Tß╗╖ suß║Ñt lß╗úi nhuß║¡n ─æ╞░ß╗úc k├╜ hiß╗çu l├á p'
+  4404: ─æ╞░ß╗úc t├¡nh bß║▒ng c├┤ng thß╗⌐c:
+  4405: A. p'= m/(c+v)*100%
+  4406: B. p'= t/ (c+v)*100%
+  4407: C. p'= m/(c+v +m)*100%
+  4408: D. p'=p/(c+v)*100%
+  4409: D
+
+----------------------------------------
+JSON Question #330 (Options count: 3, Answer: A):
+Q: Vß╗ü kinh tß║┐, xuß║Ñt khß║Ñu t╞░ bß║ún nh├á n╞░ß╗¢c nhß║▒m mß╗Ñc ─æ├¡ch:
+Options: {
+  A: 'Tß║ío m├┤i tr╞░ß╗ƒng thuß║¡n lß╗úi cho xuß║Ñt khß║⌐u t╞░ bß║ún t╞░ nh├ón.',
+  B: 'Tß║ío ─æiß╗üu kiß╗çn cho c├íc n╞░ß╗¢c nhß║¡p khß║Ñu t╞░ bß║ún ph├ít triß╗ân',
+  C: 'Khß╗æng chß║┐ kinh tß║┐ c├íc n╞░ß╗¢c nhß║¡p khß║Ñu t╞░ bß║ún.'
+}
+Raw text surrounding line 4423:
+  4421: -- 92 of 142 --
+  4422: 
+  4423: Vß╗ü kinh tß║┐, xuß║Ñt khß║Ñu t╞░ bß║ún nh├á n╞░ß╗¢c
+  4424: nhß║▒m mß╗Ñc ─æ├¡ch:
+  4425: A. Tß║ío m├┤i tr╞░ß╗ƒng thuß║¡n lß╗úi cho xuß║Ñt khß║⌐u
+  4426: t╞░ bß║ún t╞░ nh├ón.
+  4427: B. Tß║ío ─æiß╗üu kiß╗çn cho c├íc n╞░ß╗¢c nhß║¡p khß║Ñu
+  4428: t╞░ bß║ún ph├ít triß╗ân
+  4429: C. Khß╗æng chß║┐ kinh tß║┐ c├íc n╞░ß╗¢c nhß║¡p khß║Ñu
+  4430: t╞░ bß║ún.
+  4431: A
+  4432: (Kiß╗â
+  4433: u hß╗Å
+  4434: i kh├íc: Vß╗ü
+  4435: kinh tß║┐
+
+----------------------------------------
+JSON Question #348 (Options count: 3, Answer: B):
+Q: Cß║ính tranh giß╗»a c├íc ng├ánh xß║úy ra khi c├│ sß╗▒ kh├íc nhau vß╗ü:
+Options: {
+  A: 'Gi├í trß╗ï thß║╖ng d╞░ si├¬u ngß║ích',
+  B: 'Tß╗╖ suß║Ñt lß╗úi nhuß║¡n',
+  C: 'Cung cß║ºu c├íc loß║íi h├áng h├│a'
+}
+Raw text surrounding line 4644:
+  4642: D. Trust
+  4643: D
+  4644: Cß║ính tranh giß╗»a c├íc ng├ánh xß║úy ra khi c├│
+  4645: sß╗▒ kh├íc nhau vß╗ü:
+  4646: A. Gi├í trß╗ï thß║╖ng d╞░ si├¬u ngß║ích
+  4647: B. Tß╗╖ suß║Ñt lß╗úi nhuß║¡n
+  4648: C. Cung cß║ºu c├íc loß║íi h├áng h├│a
+  4649: B
+  4650: Sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ l├á quy luß║¡t kinh tß║┐:
+  4651: A. Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún
+  4652: B. Tuyß╗çt ─æß╗æi cß╗ºa doanh nghiß╗çp t╞░ bß║ún
+  4653: C. Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a x├ú hß╗Öi
+  4654: A
+  4655: Nguy├¬n nh├ón trß╗▒c tiß║┐p g├óy ra nß║ín thß║Ñt
+  4656: nghiß╗çp trong chß╗º ngh─⌐a t╞░ bß║ún l├á?
+
+----------------------------------------
+JSON Question #349 (Options count: 3, Answer: A):
+Q: Sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ l├á quy luß║¡t kinh tß║┐:
+Options: {
+  A: 'Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún',
+  B: 'Tuyß╗çt ─æß╗æi cß╗ºa doanh nghiß╗çp t╞░ bß║ún',
+  C: 'Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a x├ú hß╗Öi'
+}
+Raw text surrounding line 4650:
+  4648: C. Cung cß║ºu c├íc loß║íi h├áng h├│a
+  4649: B
+  4650: Sß║ún xuß║Ñt gi├í trß╗ï thß║╖ng d╞░ l├á quy luß║¡t kinh tß║┐:
+  4651: A. Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún
+  4652: B. Tuyß╗çt ─æß╗æi cß╗ºa doanh nghiß╗çp t╞░ bß║ún
+  4653: C. Tuyß╗çt ─æß╗æi cß╗ºa chß╗º ngh─⌐a x├ú hß╗Öi
+  4654: A
+  4655: Nguy├¬n nh├ón trß╗▒c tiß║┐p g├óy ra nß║ín thß║Ñt
+  4656: nghiß╗çp trong chß╗º ngh─⌐a t╞░ bß║ún l├á?
+  4657: A. Lß╗úi nhuß║¡n cß╗ºa c├íc nh├á t╞░ bß║ún
+  4658: B. Khß╗ºng hoß║úng kinh tß║┐
+  4659: C. Quan hß╗ç sß║ún xuß║Ñt t╞░ bß║ún chß╗º ngh─⌐a
+  4660: D. Cß║Ñu tß║ío hß╗»u c╞í cß╗ºa t╞░ bß║ún t─âng l├¬n
+  4661: trong qu├í tr├¼nh t├¡ch l┼⌐y
+  4662: D
+
+----------------------------------------
+JSON Question #352 (Options count: 3, Answer: C):
+Q: T╞░ bß║ún cß╗æ ─æß╗ïnh c├│ vai tr├▓ g├¼?
+Options: {
+  A: 'L├á nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng d╞░',
+  B: 'L├á ─æiß╗üu kiß╗çn ─æß╗â t─âng n─âng suß║Ñt lao ─æß╗Öng',
+  C: 'C├íc ph╞░╞íng ├ín tr├á lß╗¥i ─æß╗üu ─æ├║ng'
+}
+Raw text surrounding line 4683:
+  4681: chuyß╗ân cß╗ºa t╞░ bß║ún
+  4682: A
+  4683: T╞░ bß║ún cß╗æ ─æß╗ïnh c├│ vai tr├▓ g├¼?
+  4684: A. L├á nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng d╞░
+  4685: B. L├á ─æiß╗üu kiß╗çn ─æß╗â t─âng n─âng suß║Ñt lao ─æß╗Öng
+  4686: C. C├íc ph╞░╞íng ├ín tr├á lß╗¥i ─æß╗üu ─æ├║ng
+  4687: C
+  4688: Kinh tß║┐ thß╗ï tr╞░ß╗¥ng xuß║Ñt hiß╗çn lß║ºn ─æß║ºu ti├¬n ß╗ƒ
+  4689: x├ú hß╗Öi n├áo?
+  4690: A. Phong kiß║┐n
+  4691: B. Chiß║┐m hß╗»u n├┤ lß╗ç
+  4692: C. T╞░ bß║ún chß╗º ngh─⌐a
+  4693: D. X├ú hß╗Öi chß╗º ngh─⌐a
+  4694: C
+  4695: (Giß║ú
+
+----------------------------------------
+JSON Question #354 (Options count: 3, Answer: B):
+Q: H├úy chß╗ìn ph╞░╞íng ├ín ─æ├║ng vß╗ü ─æß║╖c ─æiß╗âm cß╗ºa quy luß║¡t kinh tß║┐:
+Options: {
+  A: 'Ph├ít huy t├íc dß╗Ñng th├┤ng qua hoß║ít ─æß╗Öng kinh tß║┐ cß╗ºa con ng╞░ß╗¥i',
+  B: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æ├¬u ─æ├║ng',
+  C: 'Mang t├¡nh kh├ích quan'
+}
+Raw text surrounding line 4702:
+  4700: h├¼nh th├ánh ΓåÆ
+  4701: A)
+  4702: H├úy chß╗ìn ph╞░╞íng ├ín ─æ├║ng vß╗ü ─æß║╖c ─æiß╗âm
+  4703: cß╗ºa quy luß║¡t kinh tß║┐:
+  4704: A. Ph├ít huy t├íc dß╗Ñng th├┤ng qua hoß║ít ─æß╗Öng
+  4705: kinh tß║┐ cß╗ºa con ng╞░ß╗¥i
+  4706: B. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æ├¬u ─æ├║ng
+  4707: C. Mang t├¡nh kh├ích quan
+  4708: B
+  4709: Mß╗ìi h├¼nh thß╗⌐c lß║ím ph├ít ─æß╗üu l├ám t─âng:
+  4710: A. Gi├í cß║ú cß╗ºa h├áng h├│a
+  4711: B. Gi├í trß╗ï cß╗ºa h├áng h├│a
+  4712: C. Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a
+  4713: A
+  4714: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+
+----------------------------------------
+JSON Question #355 (Options count: 3, Answer: A):
+Q: Mß╗ìi h├¼nh thß╗⌐c lß║ím ph├ít ─æß╗üu l├ám t─âng:
+Options: {
+  A: 'Gi├í cß║ú cß╗ºa h├áng h├│a',
+  B: 'Gi├í trß╗ï cß╗ºa h├áng h├│a',
+  C: 'Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a'
+}
+Raw text surrounding line 4709:
+  4707: C. Mang t├¡nh kh├ích quan
+  4708: B
+  4709: Mß╗ìi h├¼nh thß╗⌐c lß║ím ph├ít ─æß╗üu l├ám t─âng:
+  4710: A. Gi├í cß║ú cß╗ºa h├áng h├│a
+  4711: B. Gi├í trß╗ï cß╗ºa h├áng h├│a
+  4712: C. Gi├í trß╗ï sß╗¡ dß╗Ñng cß╗ºa h├áng h├│a
+  4713: A
+  4714: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  4715: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	99/142
+  4716: 
+  4717: -- 99 of 142 --
+  4718: 
+  4719: M├┤ h├¼nh kinh tß║┐ thß╗ï tr╞░ß╗¥ng ─æß╗ïnh h╞░ß╗¢ng x├ú
+  4720: hß╗Öi chß╗º ngh─⌐a ß╗ƒ n╞░ß╗¢c ta lß║ºn ─æß║ºu ti├¬n ─æ╞░ß╗úc
+  4721: ─Éß║úng ─æ╞░a ra tß║íi ─Éß║íi hß╗Öi n├áo?
+
+----------------------------------------
+JSON Question #361 (Options count: 3, Answer: B):
+Q: H├áng h├│a sß╗⌐c lao ─æß╗Öng kh├íc h├áng h├│a th├┤ng th╞░ß╗¥ng ß╗ƒ chß╗ù:
+Options: {
+  A: 'Khi sß╗¡ dß╗Ñng n├│ sß║╜ tß║ío ra mß╗Öt l╞░ß╗úng gi├í trß╗ï nhß╗Å h╞ín gi├í trß╗ï cß╗ºa bß║ún th├ón n├│',
+  B: 'Khi sß╗¡ dß╗Ñng n├│ sß║╜ c├│ khß║ú n─âng tß║ío ra mß╗Öt l╞░ß╗úng gi├í trß╗ï mß╗¢i lß╗¢n h╞ín gi├í trß╗ï cß╗ºa bß║ún th├ón n├│',
+  C: 'C├íc ph╞░╞íng ├ín tr├á lß╗¥i ─æß╗üu sai'
+}
+Raw text surrounding line 4784:
+  4782: D. Chu chuyß╗àn sß╗⌐c lao ─æß╗Öng
+  4783: B
+  4784: H├áng h├│a sß╗⌐c lao ─æß╗Öng kh├íc h├áng h├│a
+  4785: th├┤ng th╞░ß╗¥ng ß╗ƒ chß╗ù:
+  4786: A. Khi sß╗¡ dß╗Ñng n├│ sß║╜ tß║ío ra mß╗Öt l╞░ß╗úng gi├í
+  4787: trß╗ï nhß╗Å h╞ín gi├í trß╗ï cß╗ºa bß║ún th├ón n├│
+  4788: B. Khi sß╗¡ dß╗Ñng n├│ sß║╜ c├│ khß║ú n─âng tß║ío ra
+  4789: mß╗Öt l╞░ß╗úng gi├í trß╗ï mß╗¢i lß╗¢n h╞ín gi├í trß╗ï cß╗ºa
+  4790: bß║ún th├ón n├│
+  4791: C. C├íc ph╞░╞íng ├ín tr├á lß╗¥i ─æß╗üu sai
+  4792: B
+  4793: Khß║│ng ─æß╗ïnh n├áo ─æ├║ng trong nhß╗»ng khß║│ng
+  4794: ─æß╗ïnh sau?
+  4795: A. Sß║ún xuß║Ñt h├áng h├│a chi l├á sß║ún phß║⌐m cß╗ºa
+  4796: chß╗º ngh─⌐a t╞░ bß║ún
+
+----------------------------------------
+JSON Question #362 (Options count: 3, Answer: C):
+Q: Khß║│ng ─æß╗ïnh n├áo ─æ├║ng trong nhß╗»ng khß║│ng ─æß╗ïnh sau?
+Options: {
+  A: 'Sß║ún xuß║Ñt h├áng h├│a chi l├á sß║ún phß║⌐m cß╗ºa chß╗º ngh─⌐a t╞░ bß║ún',
+  B: 'Sß║ún xuß║Ñt h├áng h├│a kh├┤ng c├│ trong chß╗º ngh─⌐a x├ú hß╗Öi',
+  C: 'Sß║ún xuß║Ñt h├áng h├│a ra ─æß╗¥i trong chß║┐ ─æß╗Ö chiß║┐m hß╗»u n├┤ lß╗ç'
+}
+Raw text surrounding line 4793:
+  4791: C. C├íc ph╞░╞íng ├ín tr├á lß╗¥i ─æß╗üu sai
+  4792: B
+  4793: Khß║│ng ─æß╗ïnh n├áo ─æ├║ng trong nhß╗»ng khß║│ng
+  4794: ─æß╗ïnh sau?
+  4795: A. Sß║ún xuß║Ñt h├áng h├│a chi l├á sß║ún phß║⌐m cß╗ºa
+  4796: chß╗º ngh─⌐a t╞░ bß║ún
+  4797: B. Sß║ún xuß║Ñt h├áng h├│a kh├┤ng c├│ trong chß╗º
+  4798: ngh─⌐a x├ú hß╗Öi
+  4799: C. Sß║ún xuß║Ñt h├áng h├│a ra ─æß╗¥i trong chß║┐ ─æß╗Ö
+  4800: chiß║┐m hß╗»u n├┤ lß╗ç
+  4801: C
+  4802: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  4803: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	101/142
+  4804: 
+  4805: -- 101 of 142 --
+
+----------------------------------------
+JSON Question #367 (Options count: 3, Answer: A):
+Q: Sß╗í hß╗»u ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c l├á sß╗▒ kß║┐t hß╗úp cß╗ºa:
+Options: {
+  A: 'Sß╗ƒ hß╗»u nh├á n╞░ß╗¢c v├á sß╗ƒ hß╗»u ─æß╗Öc quyß╗ün t╞░ nh├ón',
+  B: 'Sß╗ƒ hß╗»u cß╗ºa nh├á n╞░ß╗¢c t╞░ sß║ún',
+  C: 'Sß╗ƒ hß╗»u cß╗ºa nhiß╗üu n╞░ß╗¢c t╞░ bß║ún'
+}
+Raw text surrounding line 4860:
+  4858: ngoß║íi giao
+  4859: A
+  4860: Sß╗í hß╗»u ─æß╗Öc quyß╗ün nh├á n╞░ß╗¢c l├á sß╗▒ kß║┐t hß╗úp
+  4861: cß╗ºa:
+  4862: A. Sß╗ƒ hß╗»u nh├á n╞░ß╗¢c v├á sß╗ƒ hß╗»u ─æß╗Öc quyß╗ün
+  4863: t╞░ nh├ón
+  4864: B. Sß╗ƒ hß╗»u cß╗ºa nh├á n╞░ß╗¢c t╞░ sß║ún
+  4865: C. Sß╗ƒ hß╗»u cß╗ºa nhiß╗üu n╞░ß╗¢c t╞░ bß║ún
+  4866: A
+  4867: Thß║┐ n├áo l├á lao ─æß╗Öng trß╗½u t╞░ß╗úng?
+  4868: A. L├á hoß║ít ─æß╗Öng c├│ mß╗Ñc ─æ├¡ch, c├│ ├╜ thß╗⌐c cß╗ºa
+  4869: con ng╞░ß╗¥i
+  4870: B. L├á nhß╗»ng lao ─æß╗Öng ng├ánh ngh├¬ tß║ío ra
+  4871: cß╗ºa c├ái
+  4872: C. L├á sß╗▒ hao ph├¡ sß╗⌐c lao ─æß╗Öng n├│i chung
+
+----------------------------------------
+JSON Question #373 (Options count: 3, Answer: C):
+Q: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, cß║ºu ─æ╞░ß╗úc hiß╗âu l├á
+Options: {
+  A: 'Nhu cß║ºu cß╗ºa x├ú hß╗Öi vß╗ü dß╗ïch vß╗Ñ',
+  B: 'Nhu cß║ºu x├ú hß╗Öi vß╗ü h├áng h├│a',
+  C: 'Nhu cß║ºu c├│ khß║ú n─âng thanh to├ín cß╗ºa x├ú hß╗Öi'
+}
+Raw text surrounding line 4927:
+  4925: -- 104 of 142 --
+  4926: 
+  4927: Tr├¬n gi├íc ─æß╗Ö kinh tß║┐ ch├¡nh trß╗ï, cß║ºu ─æ╞░ß╗úc
+  4928: hiß╗âu l├á
+  4929: A. Nhu cß║ºu cß╗ºa x├ú hß╗Öi vß╗ü dß╗ïch vß╗Ñ
+  4930: B. Nhu cß║ºu x├ú hß╗Öi vß╗ü h├áng h├│a
+  4931: C. Nhu cß║ºu c├│ khß║ú n─âng thanh to├ín cß╗ºa x├ú
+  4932: hß╗Öi
+  4933: C
+  4934: Nguß╗ôn gß╗æc cß╗ºa gi├í trß╗ï thß║╖ng d╞░ c├│ ─æ╞░ß╗úc tß╗½
+  4935: ─æ├óu?
+  4936: A. Tß╗½ mß╗Öt loß║íi h├áng ho├í ─æß║╖c biß╗çt m├á gi├í trß╗ï
+  4937: cß╗ºa n├│ kh├┤ng nhß╗»ng ─æ╞░ß╗úc bß║úo tß╗ôn m├á c├▓n
+  4938: tß║ío ra gi├í trß╗ï lß╗¢n h╞ín ─æ├│ l├á h├áng ho├í sß╗⌐c
+  4939: lao ─æß╗Öng
+
+----------------------------------------
+JSON Question #376 (Options count: 3, Answer: C):
+Q: Sß╗⌐c lao ─æß╗Öng l├á:
+Options: {
+  A: 'To├án bß╗Ö thß╗â lß╗▒c v├á tr├¡ lß╗▒c trong mß╗Öt con ng╞░ß╗¥i ─æang sß╗æng v├á ─æ╞░ß╗úc vß║¡n dß╗Ñng ─æß╗â sß║ún xuß║Ñt ra gi├í trß╗ï sß╗¡ dß╗Ñng n├áo ─æ├│',
+  B: 'Khß║ú n─âng lao ─æß╗Öng, ─æ╞░ß╗úc ti├¬u d├╣ng trong qu├í tr├¼nh sß║ún xuß║Ñt',
+  C: 'C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æß╗üu ─æ├║ng'
+}
+Could not find question start in raw text.
+
+----------------------------------------
+JSON Question #391 (Options count: 3, Answer: A):
+Q: Tß╗½ y├¬u cß║ºu cß╗ºa quy luß║¡t quan hß╗ç sß║ún xuß║Ñt phß║úi ph├╣ hß╗úp vß╗¢i tr├¼nh ─æß╗Ö ph├ít triß╗ân cß╗ºa lß╗▒c l╞░ß╗úng sß║ún xuß║Ñt, l├╜ luß║¡n cß╗ºa chß╗º ngh─⌐a M├íc - L├¬nin khß║│ng ─æß╗ïnh:
+Options: {
+  A: 'Chß╗º ngh─⌐a t╞░ bß║ún kh├┤ng tß╗ôn tß║íi v─⌐nh viß╗àn',
+  B: 'Chß╗º ngh─⌐a t╞░ bß║ún tiß║┐p tß╗Ñc ph├ít triß╗ân ─æß║┐n ─æß╗ënh cao',
+  C: 'Chß╗º ngh─⌐a t╞░ bß║ún sß║╜ diß╗çt vong trong thß╗¥i gian ngß║»n'
+}
+Raw text surrounding line 5161:
+  5159: bß║ún
+  5160: A
+  5161: Tß╗½ y├¬u cß║ºu cß╗ºa quy luß║¡t quan hß╗ç sß║ún xuß║Ñt
+  5162: phß║úi ph├╣ hß╗úp vß╗¢i tr├¼nh ─æß╗Ö ph├ít triß╗ân cß╗ºa lß╗▒c
+  5163: l╞░ß╗úng sß║ún xuß║Ñt, l├╜ luß║¡n cß╗ºa chß╗º ngh─⌐a M├íc
+  5164: - L├¬nin khß║│ng ─æß╗ïnh:
+  5165: A. Chß╗º ngh─⌐a t╞░ bß║ún kh├┤ng tß╗ôn tß║íi v─⌐nh viß╗àn
+  5166: B. Chß╗º ngh─⌐a t╞░ bß║ún tiß║┐p tß╗Ñc ph├ít triß╗ân ─æß║┐n
+  5167: ─æß╗ënh cao
+  5168: C. Chß╗º ngh─⌐a t╞░ bß║ún sß║╜ diß╗çt vong trong thß╗¥i
+  5169: gian ngß║»n
+  5170: A
+  5171: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  5172: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	109/142
+  5173: 
+
+----------------------------------------
+JSON Question #394 (Options count: 3, Answer: A):
+Q: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â ph├ón chia th├ánh t├íi sß║ún xuß║Ñt c├í biß╗çt v├á t├íi sß║ún xuß║Ñt x├ú hß╗Öi?
+Options: {
+  A: 'C─ân cß╗⌐ v├áo phß║ím vi sß║ún xuß║Ñt',
+  B: 'C─ân cß╗⌐ v├áo tß╗æc ─æß╗Ö sß║ún xuß║Ñt',
+  C: 'C─ân cß╗⌐ v├áo t├¡nh chß║Ñt sß║ún xuß║Ñt'
+}
+Raw text surrounding line 5195:
+  5193: ph├║ v├á ─æa dß║íng vß╗¢i nhiß╗üu sß║ún phß║⌐m
+  5194: A
+  5195: C─ân cß╗⌐ v├áo ─æ├óu ─æß╗â ph├ón chia th├ánh t├íi sß║ún
+  5196: xuß║Ñt c├í biß╗çt v├á t├íi sß║ún xuß║Ñt x├ú hß╗Öi?
+  5197: (NHUNG HO├ÇNG)
+  5198: A. C─ân cß╗⌐ v├áo phß║ím vi sß║ún xuß║Ñt
+  5199: B. C─ân cß╗⌐ v├áo tß╗æc ─æß╗Ö sß║ún xuß║Ñt
+  5200: C. C─ân cß╗⌐ v├áo t├¡nh chß║Ñt sß║ún xuß║Ñt
+  5201: A
+  5202: Loß║íi t├íi sß║ún xuß║Ñt n├áo l├ám t─âng sß║ún phß║⌐m
+  5203: chß╗º yß║┐u do t─âng n─âng suß║Ñt lao ─æß╗Öng v├á
+  5204: hiß╗çu quß║ú sß╗¡ dß╗Ñng c├íc nguß╗ôn luc?(NHUNG
+  5205: HO├ÇNG)
+  5206: A. T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng theo chiß╗üu rß╗Öng
+  5207: B. T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng
+
+----------------------------------------
+JSON Question #395 (Options count: 3, Answer: C):
+Q: Loß║íi t├íi sß║ún xuß║Ñt n├áo l├ám t─âng sß║ún phß║⌐m chß╗º yß║┐u do t─âng n─âng suß║Ñt lao ─æß╗Öng v├á hiß╗çu quß║ú sß╗¡ dß╗Ñng c├íc nguß╗ôn luc?
+Options: {
+  A: 'T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng theo chiß╗üu rß╗Öng',
+  B: 'T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng',
+  C: 'T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng theo chiß╗üu s├óu'
+}
+Raw text surrounding line 5202:
+  5200: C. C─ân cß╗⌐ v├áo t├¡nh chß║Ñt sß║ún xuß║Ñt
+  5201: A
+  5202: Loß║íi t├íi sß║ún xuß║Ñt n├áo l├ám t─âng sß║ún phß║⌐m
+  5203: chß╗º yß║┐u do t─âng n─âng suß║Ñt lao ─æß╗Öng v├á
+  5204: hiß╗çu quß║ú sß╗¡ dß╗Ñng c├íc nguß╗ôn luc?(NHUNG
+  5205: HO├ÇNG)
+  5206: A. T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng theo chiß╗üu rß╗Öng
+  5207: B. T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng
+  5208: C. T├íi sß║ún xuß║Ñt mß╗ƒ rß╗Öng theo chiß╗üu s├óu
+  5209: C
+  5210: Cß╗ò phiß║┐u c├│ hai loß║íi ─æ├│ l├á(NHUNG
+  5211: HO├ÇNG)
+  5212: A. Cß╗ò phiß║┐u th╞░ß╗¥ng v├á cß╗ò phiß║┐u ╞░u ─æ├úi
+  5213: B. Cß╗ò phiß║┐u th╞░ß╗ƒng v├á cß╗ò phiß║┐u ╞░u ─æ├úi
+  5214: C. Cß╗ò tß╗⌐c v├á cß╗ò phiß║┐u th╞░ß╗¥ng
+
+----------------------------------------
+JSON Question #406 (Options count: 3, Answer: B):
+Q: Xu h╞░ß╗¢ng chung cß╗ºa sß║ún xuß║Ñt t╞░ b├án chß╗º ngh─⌐a l├á:
+Options: {
+  A: 'N├óng cao mß╗⌐c tiß╗ün c├┤ng',
+  B: 'Hß║í thß║Ñp mß╗⌐c tiß╗ün c├┤ng',
+  C: 'Giß╗» nguy├¬n mß╗⌐c tiß╗ün c├┤ng'
+}
+Raw text surrounding line 5354:
+  5352: mß╗Öt quß╗æc gia
+  5353: A
+  5354: Xu h╞░ß╗¢ng chung cß╗ºa sß║ún xuß║Ñt t╞░ b├án chß╗º
+  5355: ngh─⌐a l├á:(NHUNG HO├ÇNG)
+  5356: A. N├óng cao mß╗⌐c tiß╗ün c├┤ng
+  5357: B. Hß║í thß║Ñp mß╗⌐c tiß╗ün c├┤ng
+  5358: C. Giß╗» nguy├¬n mß╗⌐c tiß╗ün c├┤ng
+  5359: B
+  5360: ─Éiß╗üu g├¼ xß║úy ra nß║┐u cung thß║Ñp h╞ín cß║ºu?
+  5361: (NHUNG HO├ÇNG)
+  5362: A. Gi├í cß║ú cao h╞ín gi├í trß╗ï
+  5363: B. Gi├í cß║ú thß║Ñp h╞ín gi├í trß╗ï
+  5364: C. H├áng h├│a tß║ío ra ─æ╞░ß╗úc t─âng cao gi├í b├ín
+  5365: D. H├áng h├│a phong ph├║
+  5366: A
+
+----------------------------------------
+JSON Question #417 (Options count: 3, Answer: A):
+Q: Tr├¬n ph╞░╞íng diß╗çn kinh tß║┐ ch├¡nh trß╗ï, t├íi sß║ún xuß║Ñt l├á
+Options: {
+  A: 'L├á qu├í tr├¼nh sß║ún xuß║Ñt ─æ╞░ß╗úc lß║╖p ─æi lß║╖p lß║íi v├á phß╗Ñc hß╗ôi kh├┤ng ngß╗½ng',
+  B: 'L├á qu├í tr├¼nh sß║ún xuß║Ñt li├¬n tß╗Ñc',
+  C: 'L├á sß╗▒ kh├┤i phß╗Ñc lß║íi sß║ún xuß║Ñt'
+}
+Raw text surrounding line 5498:
+  5496: -- 117 of 142 --
+  5497: 
+  5498: Tr├¬n ph╞░╞íng diß╗çn kinh tß║┐ ch├¡nh trß╗ï, t├íi sß║ún
+  5499: xuß║Ñt l├á(NHUNG HO├ÇNG)
+  5500: A. L├á qu├í tr├¼nh sß║ún xuß║Ñt ─æ╞░ß╗úc lß║╖p ─æi lß║╖p lß║íi
+  5501: v├á phß╗Ñc hß╗ôi kh├┤ng ngß╗½ng
+  5502: B. L├á qu├í tr├¼nh sß║ún xuß║Ñt li├¬n tß╗Ñc
+  5503: C. L├á sß╗▒ kh├┤i phß╗Ñc lß║íi sß║ún xuß║Ñt
+  5504: A
+  5505: Theo ngh─⌐a trß╗¡u t╞░ß╗úng, thß╗ï tr╞░ß╗ƒng ─æ╞░ß╗úc
+  5506: hiß╗âu nh╞░ thß║┐ n├áo?
+  5507: A. L├á n╞íi diß╗àn ra h├ánh vi trao ─æß╗òi, mua b├ín
+  5508: h├áng h├│├í giß╗»a c├íc chß╗º thß║┐ kinh tß║┐ vß╗¢i nhau
+  5509: B. L├á tß╗òng thß╗â c├íc yß║┐u tß╗æ kinh tß║┐ vß║¡n ─æß╗Öng
+  5510: theo quy luß║¡t cß╗ºa thß╗ï tr╞░ß╗¥ng
+
+----------------------------------------
+JSON Question #422 (Options count: 3, Answer: A):
+Q: Trong chß╗º ngh─⌐a t╞░ bß║ún, ng╞░ß╗¥i c├┤ng nh├ón b├ín:
+Options: {
+  A: 'Sß╗⌐c lao ─æß╗Öng cho nh├á t╞░ bß║ún',
+  B: 'Lao ─æß╗Öng cho nh├á t╞░ bß║ún',
+  C: 'H├áng h├│a cho nh├á t╞░ bß║ún'
+}
+Raw text surrounding line 1963:
+  1961: mß║ính ß╗ƒ x├ú hß╗Öi phong kiß║┐n
+  1962: D. Kinh tß║┐ thß╗ï tr╞░ß╗¥ng ─æß║ít ─æß║┐n tr├¼nh ─æß╗Ö cao
+  1963: trong chß╗º ngh─⌐a t╞░ bß║ún
+  1964: C
+  1965: (Kiß╗â
+  1966: u hß╗Å
+  1967: i kh├íc: ─Éß║╖
+  1968: c ─æiß╗â
+  1969: m n├áo d╞░ß╗¢i ─æ├óy kh├┤ng phß║ú
+  1970: i cß╗º
+  1971: a kinh tß║┐
+  1972: thß╗ï
+  1973: tr╞░ß╗¥
+  1974: ng?)
+  1975: Chß╗ìn c├óu sai: Khuyß║┐t tß║¡t cß╗ºa kinh tß║┐ thß╗ï
+
+----------------------------------------
+JSON Question #429 (Options count: 3, Answer: A):
+Q: T├¡nh chß║Ñt cß╗ºa t╞░ bß║ún bß║Ñt biß║┐n (c) l├á:
+Options: {
+  A: 'Gi├í trß╗ï cß╗ºa n├│ kh├┤ng thay ─æß╗òi vß║╜ l╞░ß╗úng v├á ─æ╞░ß╗úc chuyß╗ân nguy├¬n vß║╣n sang sß║ún phß║⌐m',
+  B: 'Gi├í trß╗ï cß╗ºa n├│ kh├┤ng thay ─æß╗òi v├á ─æ╞░ß╗úc chuyß╗ân ngay sang sß║ún phß║⌐m sau mß╗Öt chu kß╗│ sß║ún xuß║Ñt',
+  C: 'Gi├í trß╗ï cß╗ºa n├│ chuyß╗ân d├ón v├áo sß║ún phß║⌐m qua khß║Ñu hao'
+}
+Raw text surrounding line 5628:
+  5626: D. C├íc ph╞░╞íng ├ín trß║ú lß╗¥i ─æ├¬u ─æ├║ng
+  5627: D
+  5628: T├¡nh chß║Ñt cß╗ºa t╞░ bß║ún bß║Ñt biß║┐n (c) l├á:
+  5629: (NHUNG HO├ÇNG)
+  5630: A. Gi├í trß╗ï cß╗ºa n├│ kh├┤ng thay ─æß╗òi vß║╜ l╞░ß╗úng
+  5631: v├á ─æ╞░ß╗úc chuyß╗ân nguy├¬n vß║╣n sang sß║ún
+  5632: phß║⌐m
+  5633: B. Gi├í trß╗ï cß╗ºa n├│ kh├┤ng thay ─æß╗òi v├á ─æ╞░ß╗úc
+  5634: chuyß╗ân ngay sang sß║ún phß║⌐m sau mß╗Öt chu
+  5635: kß╗│ sß║ún xuß║Ñt
+  5636: C. Gi├í trß╗ï cß╗ºa n├│ chuyß╗ân d├ón v├áo sß║ún phß║⌐m
+  5637: qua khß║Ñu hao
+  5638: A
+  5639: 08:16 29/6/26 	Thß║╗ ghi nhß╗¢: MLN122 - CHUß║¿N NHUNG HO├ÇNG | Quizlet
+  5640: https://quizlet.com/vn/1017880260/mln122-chuan-nhung-hoang-flash-cards/?new= 	121/142
+
+----------------------------------------
+JSON Question #441 (Options count: 3, Answer: A):
+Q: C├íc nh├ón tß╗æ n├áo sau ─æ├óy ß║únh h╞░ß╗ƒng ─æß║┐n n─âng suß║Ñt lao ─æß╗Öng?
+Options: {
+  A: 'Tr├¼nh ─æß╗Ö kh├⌐o l├⌐o trung b├¼nh cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng; Mß╗⌐c ─æß╗Ö ph├ít triß╗ân cß╗ºa khoa hß╗ìc v├á tr├¼nh ─æß╗Ö ├íp dß╗Ñng khoa hß╗ìc v├áo quy tr├¼nh c├┤ng nghß╗ç; Sß╗▒ kß║┐t hß╗úp x├ú hß╗Öi cß╗ºa qu├í tr├¼nh sß║ún xuß║Ñt; Quy m├┤ v├á hiß╗çu suß║Ñt cß╗ºa t╞░ liß╗çu sß║ún xuß║Ñt; C├íc ─æiß╗üu kiß╗çn tß╗▒ nhi├¬n',
+  B: 'C├íc ch├¡nh s├ích quy ─æß╗ïnh tß╗½ nh├á n╞░ß╗¢c; Ph╞░╞íng ph├íp v├á quy ─æß╗ïnh giß╗¥ l├ám viß╗çc v├á ─æ├úi ngß╗Ö; Sß╗▒ hß╗úp t├íc cß╗ºa qu├í tr├¼nh l├ám viß╗çc nh├│m hiß╗çu quß║ú; Sß╗▒ ph├ít triß╗ân v├á ─æ├áo tß║ío li├¬n tß╗Ñc; Khß║ú n─âng s├íng tß║ío v├á ─æß╗òi mß╗¢i v├á thay ─æß╗òi t╞░ duy',
+  C: 'Tr├¼nh ─æß╗Ö v├á kß╗╣ n─âng cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng ng├áy c├áng ─æ╞░ß╗úc n├óng cao; M├┤i tr╞░ß╗¥ng l├ám viß╗çc ph├╣ hß╗úp ph├ít huy hß║┐t khß║ú n─âng c├í nh├ón; Quß║ún l├╜ v├á tß╗ò chß╗⌐c c├┤ng viß╗çc c├│ sß╗▒ ph├ón c├┤ng r├╡ r├áng; Sß╗⌐c khß╗Åe v├á t├¼nh trß║íng thß╗â chß║Ñt cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng ─æ╞░ß╗úc ─æß║úm bß║úo; C├íc chuß║⌐n mß╗▒c quy tß║»c v├á th├íi ─æß╗Ö cß╗ºa ng╞░ß╗¥i lao ─æß╗Öng trong lao ─æß╗Öng sß║ún xuß║Ñt'
+}
+Raw text surrounding line 1829:
+  1827: Theo quan ─æiß╗âm cß╗ºa kinh tß║┐ ch├¡nh trß╗ï, trong
+  1828: t╞░ liß╗çu lao ─æß╗Öng bß╗Ö phß║¡n n├áo quyß║┐t ─æß╗ïnh
+  1829: ─æß║┐n n─âng suß║Ñt lao ─æß╗Öng
+  1830: A. C├íc vß║¡t chß╗⌐a ─æß╗▒ng, bß║úo quß║ún
+  1831: B. Nguy├¬n vß║¡t liß╗çu cho sß║ún xuß║Ñt
+  1832: C. C├┤ng cß╗Ñ lao ─æß╗Öng
+  1833: D. Kß║┐t cß║Ñu hß║í tß║ºng sß║ún xuß║Ñt
+  1834: C
+  1835: Trong nß╗ün kinh tß║┐ thß╗ï tr╞░ß╗¥ng ─æß╗ïnh h╞░ß╗¢ng x├ú
+  1836: hß╗Öi chß╗º ngh─⌐a, th├ánh phß║ºn kinh tß║┐ n├áo giß╗»
+  1837: vai tr├▓ (NHUNG HO├ÇNG)
+  1838: A. Th├ánh phß║ºn kinh tß║┐ nh├á n╞░ß╗¢c
+  1839: B. Th├ánh phß║ºn kinh tß║┐ t╞░ nh├ón
+  1840: C. Th├ánh phß║ºn kinh tß║┐ tß║¡p thß╗â
+  1841: D. Th├ánh phß║ºn kinh tß║┐ c├│ vß╗æn ─æß║ºu t╞░ n╞░ß╗¢c
+
+Total questions with < 4 options: 120

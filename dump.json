@@ -1,0 +1,335 @@
+[
+  {
+    "id": 1,
+    "question": "Xanh-ximông là đại biểu của trường phải nào?",
+    "options": {
+      "A": "Chủ nghĩa xã hội không tưởng Pháp",
+      "B": "Chủ nghĩa xã hội không tưởng Đức",
+      "C": "Triết học cổ điển Đức",
+      "D": "Kinh tế chính trị học Anh"
+    },
+    "answer": "A",
+    "note": "",
+    "explanation": "Xanh-ximông (Saint-Simon) là một trong các đại biểu tiêu biểu của chủ nghĩa xã hội không tưởng Pháp, một trong ba tiền đề lý luận trực tiếp của chủ nghĩa Mác.",
+    "keywords": "chủ nghĩa xã hội không tưởng Pháp"
+  },
+  {
+    "id": 3,
+    "question": "Một sinh viên tóm tắt nội dung quy luật về sự phủ hợp giữa quan hệ sản xuất với trình độ của như sau. Đáp án nào sau đây là đúng?",
+    "options": {
+      "A": "Quy luật này vạch rõ sự phụ thuộc khách quan của lực lượng sản xuất vào quan hệ sản xuất",
+      "B": "Sự hình thành, biến đổi và phát triển của quan hệ sản xuất được quyết định bởi lực lượng",
+      "C": "Lực lượng sản xuất và quan hệ sản xuất là hai mặt của phương thức sản xuất, chúng tồn tại",
+      "D": "Quy luật này chỉ tồn tại trong một vài xã hội"
+    },
+    "answer": "B",
+    "note": "",
+    "explanation": "Theo quy luật này, lực lượng sản xuất là yếu tố quyết định sự hình thành, biến đổi và phát triển của quan hệ sản xuất, chứ không phải ngược lại.",
+    "keywords": "quy luật quan hệ sản xuất phù hợp với lực lượng sản xuất"
+  },
+  {
+    "id": 8,
+    "question": "Đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chứ không phải trong mọi quan hệ là:",
+    "options": {
+      "A": "Thực tế",
+      "B": "Tuyệt đối",
+      "C": "Tương đối",
+      "D": "Thường xuyên"
+    },
+    "answer": "C",
+    "note": "(Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: (Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: (Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: (Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: (Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: (Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?) | Ghi chú cũ: *(Kiểu hỏi khác: Tính chất nào của đứng im khi nói đứng im, cân bằng chi xảy ra trong một số quan hệ nhất định chữ không phải trong mọi quan hệ?)*",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 20,
+    "question": "Nguyên nhân là phạm trù triết học chỉ",
+    "options": {
+      "A": "Tác động qua lại giữa các mặt, các yếu tố bên trong sự vật hay giữa sự vật này với sự vật khia tạo ra những biến đổi nhất định",
+      "B": "Quan hệ giữa các mặt, các yếu tố bên trong sự vật hay giữa sự vật này với sự vật kia tạo nhất định",
+      "C": "Sự chuyển hóa giữa các mặt, các yếu tố bên trong sự vật hay giữa sự vật này với sự vật k biến đổi nhất định"
+    },
+    "answer": "A",
+    "note": "",
+    "explanation": "Nguyên nhân là phạm trù chỉ sự tác động qua lại giữa các mặt, các yếu tố trong cùng một sự vật hoặc giữa các sự vật với nhau, gây ra những biến đổi nhất định.",
+    "keywords": "nguyên nhân (cặp phạm trù nguyên nhân - kết quả)"
+  },
+  {
+    "id": 23,
+    "question": "Ai là người khẳng định \"cái sự hiển nhiên là trước hết con người cần phải ăn, uống, ở và mặ động, trước khi có thể đấu tranh để giành quyền thống trị, trước khi có thể hoạt động chính tr học...\".",
+    "options": {
+      "A": "C.Mác",
+      "B": "Ph.Ăngghen",
+      "C": "Platon",
+      "D": "Immanuel Kant"
+    },
+    "answer": "B",
+    "note": "",
+    "explanation": "Đây là luận điểm nổi tiếng của Ph.Ăngghen nhấn mạnh con người phải ăn, uống, ở, mặc trước khi có thể làm chính trị, khoa học, nghệ thuật, tức là sản xuất vật chất quyết định các hoạt động khác của đời sống xã hội.",
+    "keywords": "sản xuất vật chất trước chính trị (Ph.Ăngghen)"
+  },
+  {
+    "id": 25,
+    "question": "Trên mạng xã hội hiện nay như Facebook, TikTok... đã xuất hiện nhiều nhân vật không có ch khi phát ngôn, lối sống của họ đã bị chi phối bởi những điều tiêu cực và trở nên lệch chuẩn, thuần phong mỹ tục, truyền thống văn hóa của dân tộc Việt Nam để câu View, câu like. Theo Anh/chị là hiện tượng gì đã đề cập trong nội dung môn triết học mà Anh/Chị đã học và nghiên cứu qua",
+    "options": {
+      "A": "Hiện tượng câu Like, câu View trên mạng xã hội",
+      "B": "Hiện tượng xem thường người khác",
+      "C": "Hiện tượng tha hóa con người",
+      "D": "Hiện tượng xã hội"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "Những biểu hiện lệch chuẩn về lối sống, phát ngôn trên mạng xã hội là một hiện tượng xã hội, phản ánh ý thức xã hội chịu tác động của điều kiện tồn tại xã hội đương thời.",
+    "keywords": "hiện tượng xã hội"
+  },
+  {
+    "id": 42,
+    "question": "Chức năng, nhiệm vụ của nhà nước xã hội chủ nghĩa biểu hiện tập trung ở việc quản lý xã hộ lĩnh vực bằng.",
+    "options": {
+      "A": "Khoa học",
+      "B": "Công cụ tiền",
+      "C": "Pháp luật",
+      "D": "Kế hoạch"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "Nhà nước xã hội chủ nghĩa thực hiện chức năng quản lý xã hội tập trung chủ yếu bằng công cụ pháp luật.",
+    "keywords": "quản lý xã hội bằng pháp luật"
+  },
+  {
+    "id": 48,
+    "question": "Nội dung trước tiên của cách mạng xã hội chủ nghĩa là phải giành chính quyền về tay giai cấp công nhân, nhân dân lao động, đưa những người lao động",
+    "options": {
+      "A": "Thành người lao động tập thể",
+      "B": "Làm chủ tư liệu sản xuất",
+      "C": "Thành người quản lý xã hội",
+      "D": "Lên địa vị làm chủ xã hội"
+    },
+    "answer": "D",
+    "note": "",
+    "explanation": "Nội dung trước tiên của cách mạng xã hội chủ nghĩa là giành chính quyền, xóa bỏ chế độ chiếm hữu tư nhân để đưa người lao động lên làm chủ tư liệu sản xuất.",
+    "keywords": "cách mạng xã hội chủ nghĩa giành chính quyền"
+  },
+  {
+    "id": 99,
+    "question": "Chân lý bao gồm các tính chất sau. (4 đáp án)",
+    "options": {
+      "A": "Tính phong phú, đa dạng Có nền khoa học tiên tiến",
+      "B": "Tính khách quan Có nhân tố chính trị tiến bộ",
+      "C": "Tính tương đối Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc",
+      "D": "Tính cụ thể E. Tính tuyệt đối BCDE Nhân tố đảm bảo cho sự thắng lợi cuối cùng của một chế độ xã hội là Có thể tạo ra năng suất lao động cao hơn"
+    },
+    "answer": "D",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 103,
+    "question": "Trong xã hội có giai cấp, tính chất kế thừa của ý thức xã hội có gắn với tính chất giai cấp của",
+    "options": {
+      "A": "Tùy trường hợp cụ thể",
+      "B": "Không kế thừa",
+      "C": "Có kế thừa"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "Trong xã hội có giai cấp, các giai cấp vẫn kế thừa những giá trị tư tưởng của thời đại trước, nhưng sự kế thừa đó luôn mang dấu ấn lập trường và lợi ích giai cấp của chủ thể kế thừa.",
+    "keywords": "Tính kế thừa của ý thức xã hội"
+  },
+  {
+    "id": 126,
+    "question": "Nguyên tác thống nhất giữa lý luận và thực tiễn là nguyên tắc được rút ra (trực tiếp) từ mối quan hệ nào?",
+    "options": {
+      "A": "Mối quan hệ giữa vật chất và ý thức.",
+      "B": "Lý luận và nhận thức.",
+      "C": "Quan hệ giữa khả năng và hiện thực",
+      "D": "Phán đoán suy luận"
+    },
+    "answer": "A",
+    "note": "",
+    "explanation": "Vì ý thức (bao gồm lý luận) là sự phản ánh vật chất và tác động trở lại vật chất thông qua thực tiễn, nên nguyên tắc thống nhất giữa lý luận và thực tiễn được rút ra trực tiếp từ mối quan hệ biện chứng giữa vật chất và ý thức.",
+    "keywords": "Thống nhất lý luận và thực tiễn"
+  },
+  {
+    "id": 144,
+    "question": "[Giải thích: Công xã nguyên thủy, Chiếm hữu nô lệ, Phong kiến,Tư bản chủ nghĩa, Cộng sản chủ nghĩa (giai đoạn đầu là chủ nghĩa xã hội)] (Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, loài người đã và đang trải qua bao nhiêu hình thái kinh tế - xã hội?) Hãy xác định luận điểm nào sai khi đề cập đến \"mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng\"?",
+    "options": {
+      "A": "Sự phát triển của lực lượng sản xuất trực tiếp làm thay đổi quan hệ sản xuất, và thông qua đó làm thay đổi kiến trúc thượng tầng",
+      "B": "Cơ sở hạ tầng thay đổi thì sớm muộn gì kiến trúc thượng tầng cũng thay đổi theo",
+      "C": "Trong xã hội có giai cấp, giai cấp nào thống trị về kinh tế thì sẽ thống trị về chính trị, tư tưởng",
+      "D": "Các mâu thuẫn trong chính trị, tư tưởng xét đến cùng quyết định các mâu thuẫn trong lĩnh vực kinh tế"
+    },
+    "answer": "D",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 171,
+    "question": "Một sinh viên chuẩn bị bài thuyết trình trong một tháng theo cách thức: Tuần đầu phác thảo đề cương và hàng ngày dành 30 phút sửa chữa bổ sung hoàn thiện.Vào buổi thuyết trình sinh viên đã có một bản thảo hoàn chỉnh. Công việc trên đã diễn ra theo quy luật, nguyên lý nào? Quy luật lượng chất Đặc trưng chủ yếu của cách mạng xã hội là gì?",
+    "options": {
+      "A": "Sự thay đổi về hệ tư tưởng nói riêng và toàn bộ đời sống tinh thần của xã hội nói chung",
+      "B": "Sự thay đổi về cơ cấu, tổ chức hoạt động sản xuất ra của cải vật chất trong xã hội",
+      "C": "Sự thay đổi chính quyền nhà nước từ tay giai cấp thống trị đã lỗi thời sang tay giai cấp cách mạng.",
+      "D": "Sự thay đổi về thế lực cầm quyền trong cùng một giai cấp"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 197,
+    "question": "Trong các cụm từ dưới đây, cụm từ nào được xem là \"hình thức\" trong cặp phạm trù \"nội dung - hình thức\" mà phép biện chứng duy vật nghiên cứu: \" truyện kiều là...\"",
+    "options": {
+      "A": "Tác phẩm của Nguyễn Du Tất yếu/ Ngẫu nhiên; Ngẫu nhiên/ Tất yếu.",
+      "B": "Tác phẩm thơ lục bát Ngẫu nhiên/ Tất yếu; Tất yếu/ Ngẫu nhiên",
+      "C": "Tác phẩm có bìa màu xanh Mác và Ph.Ăngghen cho rằng: Cái mà người ta quả quyết cho là...thì lại hoàn toàn do những cái...cấu thành và cái được coi là...lại là hình thức trong đó ẩn nấp... Tất yếu/ Ngẫu nhiên; Tất yếu/ Ngẫu nhiên.",
+      "D": "Tác phẩm ra đời vào thế kỷ XVIII Ngẫu nhiên/ Tất yếu; Ngẫu nhiên/ Tất yếu"
+    },
+    "answer": "A",
+    "note": "",
+    "explanation": "Thể thơ lục bát là cách thức tổ chức, biểu hiện của tác phẩm Truyện Kiều nên thuộc phạm trù hình thức, còn các yếu tố tạo nên tác phẩm mới là nội dung.",
+    "keywords": "Cặp phạm trù nội dung - hình thức"
+  },
+  {
+    "id": 202,
+    "question": "\"Tất cả cái gì đang vận động, đều vận động nhờ một cái khác nào đó\". Nhận định này gắn liền với hệ thống triết học nào? Hãy chọn phương án sai? a) Triết học duy vật. b) Triết học duy tâm. c) Triết học duy tâm khách quan. d) Triết học duy tâm chủ quan. A Phép biện chứng của triết học Hêghen là:",
+    "options": {
+      "A": "Phép biện chứng duy tâm chủ quan.",
+      "B": "Phép biện chứng duy vật hiện đại.",
+      "C": "Phép biện chứng ngây thơ, chất phác.",
+      "D": "Phép biện chứng duy tâm khách quan."
+    },
+    "answer": "D",
+    "note": "(Kiểu hỏi khác: Phép biện chứng của Hêghen là phép biện chứng gì?)",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 203,
+    "question": "Chọn luận điểm thể hiện lập trường triết học duy tâm lịch sử: a) Quan hệ sản xuất mang tính vật chất. b) Yếu tố kinh tế quyết định lịch sử. c) Sự vận động và phát triển của xã hội, suy cho cùng là do tư tưởng của con người quyết định. d) Kiến trúc thương tầng chỉ đóng vai trò thụ động trong lịch sử. C Triết học trong xã hội có giai cấp được hiếu như thế nào?",
+    "options": {
+      "A": "Cũng có tính giai cấp",
+      "B": "Không có tính giai cấp",
+      "C": "Chi triết học phương Tây mới có tính giai cấp",
+      "D": "Chỉ có triết học phương Đông mới có tính giai cấp"
+    },
+    "answer": "A",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 221,
+    "question": "Ph.Ăngghen cho rằng: đối với ai phủ nhận..thì mọi quy luật tự nhiên đều là giả thuyết.",
+    "options": {
+      "A": "Vấn đề nội dung hình thức",
+      "B": "Phạm trù khả năng - hiện thực",
+      "C": "Tính nhận quà",
+      "D": "Tính biện chứng"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "Ph.Ăngghen cho rằng nếu phủ nhận mối liên hệ nhân quả khách quan thì mọi quy luật tự nhiên được phát hiện chỉ còn là những giả thuyết, vì bản thân quy luật phản ánh mối liên hệ nhân quả tất yếu giữa các hiện tượng.",
+    "keywords": "Tính nhân quả và quy luật tự nhiên"
+  },
+  {
+    "id": 255,
+    "question": "Về cấu trúc, tư liệu sản xuất thuộc mặt nào trong lực lượng sản xuất?",
+    "options": {
+      "A": "Kinh tế - kỹ thuật",
+      "B": "Người lao động",
+      "C": "Nhà xưởng, máy móc",
+      "D": "Phương tiện thanh toán"
+    },
+    "answer": "B",
+    "note": "",
+    "explanation": "Trong cấu trúc lực lượng sản xuất, tư liệu sản xuất chỉ phát huy được vai trò khi gắn liền và được đặt trong mối quan hệ mật thiết với người lao động - chủ thể sử dụng và vận hành nó để tạo ra của cải vật chất.",
+    "keywords": "Cấu trúc lực lượng sản xuất"
+  },
+  {
+    "id": 299,
+    "question": "Luận điểm nào sau đây là đúng?",
+    "options": {
+      "A": "Nguyên nhân giống nhau tác động trong những điều kiện giống nhau cũng có thể đưa đến kết quả khác nhau",
+      "B": "Nguyên nhân khác nhau tác động trong những điều kiện như nhau luôn đưa đến kết quả như nhau",
+      "C": "Nguyên nhân tác động trong những điều kiện và hoàn cảnh càng ít khác nhau bao nhiêu thì kết quả do chúng gây ra càng giống nhau bấy nhiêu",
+      "D": "Nguyên nhân giống nhau tác động trong những điều kiện khác nhau có thể đưa đến kết quả như nhau"
+    },
+    "answer": "C",
+    "note": "",
+    "explanation": "Khi chất mới ra đời, nó tác động trở lại lượng, có thể làm thay đổi kết cấu, quy mô, trình độ, nhịp điệu của sự vận động và phát triển của sự vật, thể hiện mối quan hệ biện chứng hai chiều giữa lượng và chất.",
+    "keywords": "Tác động của chất mới đối với lượng"
+  },
+  {
+    "id": 328,
+    "question": "Yếu tố nào không thuộc lực lượng sản xuất?",
+    "options": {
+      "A": "Người lao động",
+      "B": "Nhà xưởng, công trường",
+      "C": "Đối tượng lao động",
+      "D": "Kinh tế thượng tầng"
+    },
+    "answer": "D",
+    "note": "",
+    "explanation": "Lực lượng sản xuất bao gồm người lao động và tư liệu sản xuất (đối tượng lao động, tư liệu lao động); còn kiến trúc thượng tầng (chính trị, pháp luật, tư tưởng...) thuộc phạm trù khác, không phải là yếu tố của lực lượng sản xuất.",
+    "keywords": "Cấu trúc lực lượng sản xuất"
+  },
+  {
+    "id": 343,
+    "question": "Bản thân cây Sầu riêng luôn tồn tại hai quá trình quang hợp và hô hấp. Quá trình quang hợp giúp cây Sầu riêng hấp thụ nước và khí Cacbonic cùng với ánh sáng mặt trời để tạo ra các hợp chất hữu cơ và thải ra Oxi. Còn quá trình hô hấp là quá trình hấp thụ Oxi, chuyển đổi các chất hữu cơ, và giải phóng năng lượng, thải ra khí Cacbonic. Với kiến thức về Triết học đã được học, Anh/Chị hãy cho biết quá trình quang hợp và hô hấp của cây Sâu riêng nằm trong quy luật nào trong các quy luật sau đây?",
+    "options": {
+      "A": "Quy luật từ những sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại",
+      "B": "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
+      "C": "Quy luật phủ định của phủ định",
+      "D": "Quy luật phát triển"
+    },
+    "answer": "B",
+    "note": "",
+    "explanation": "Hai quá trình quang hợp và hô hấp phản ánh sự tích lũy, chuyển hóa liên tục về vật chất và năng lượng bên trong cơ thể sống; sự biến đổi thường xuyên về lượng ấy diễn ra để duy trì trạng thái ổn định về chất của sự sống, phù hợp với nội dung quy luật từ những thay đổi về lượng dẫn đến thay đổi về chất và ngược lại.",
+    "keywords": "Quy luật lượng - chất trong quá trình sống"
+  },
+  {
+    "id": 421,
+    "question": "Ai là người khẳng định: \"lao động đã sáng tạo ra bản thân con người? A. Ph.Ăngghen B. L.Phoiobác C. Immanuel Kant D. Béccdren A Theo quan niệm duy vật biện chứng về lịch sử thì đề giải thích đúng đắn các vấn đề của đời sống xã hội thì phải tim nguyên nhân cuối cùng từ thực trạng phát triển của năm sản xuất vật chất của xã hội đô, mà căn bản là từ trình độ phát triển của",
+    "options": {
+      "A": "Phương thức sản xuất của nó",
+      "B": "Quan hệ sản xuất của nó",
+      "C": "Tư liệu sản xuất của nó",
+      "D": "Cơ sở vật chất"
+    },
+    "answer": "B",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 549,
+    "question": "Theo V.I.Lênin, đễ có quan niệm đúng, vũng chắc vẽ sự phát triên của các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên thì cần phải:",
+    "options": {
+      "A": "Quy những mối quan hệ xã hội vào những quan hệ sản xuất",
+      "B": "Quy những quan hệ sản xuất vào các quan hệ chính tri, pháp luật",
+      "C": "Quy những quan hệ xã hội vào những quan hệ sản xuất và quy những quan hệ sản xuất vào trình độ phát triển của kỹ thuật, công nghệ hiện thời D. Quy những quan hệ xã hội vào những quan hệ sản xuất và quy những quan hệ sản xuất vào trình độ phát triển của lực lượng sản xuất"
+    },
+    "answer": "D",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  },
+  {
+    "id": 552,
+    "question": "Vấn đề cơ bản của triết học trà lời câu hỏi lớn nào?",
+    "options": {
+      "A": "Mặt thứ nhất: giữa vật chất và ý thức cái nào có trước, cái nào có sau, cái nào quyết định cái nào?",
+      "B": "Mặt thứ hai: con người có khả năng nhận thức được thế giới hay không?",
+      "C": "Mặt thứ nhất: Khi tim ra nguyên nhãn cuối cùng củasự vận động vật chất là cái quyết định là đúng hay sai?",
+      "D": "Mặt thứ hai: Con người về cơ bản có thế nhận thức được toàn bộ các sự vật hiện tượng hay không?"
+    },
+    "answer": "AB",
+    "note": "",
+    "explanation": "",
+    "keywords": ""
+  }
+]
